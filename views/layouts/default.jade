@@ -1,0 +1,68 @@
+block variables
+
+doctype 5
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
+    title= title
+    != css('application')
+    != js('application')
+  body
+    .container
+      .header
+        a.logo(href='/') 首页
+        .user
+          a(href='/orders') 查询我的订单
+          &nbsp;|&nbsp;
+          a(href='/cart') 购物车
+      ul.nav
+        li
+          a.first.products(href='/') 红酒库
+        li
+          a.active(href='/') 首页
+        li
+          a(href='/') 超值组合
+        li
+          a(href='/') 送礼区
+        li
+          a(href='/') 波尔多列级名庄
+        li
+          a(href='/') 培训班
+        li
+          a(href='/') 公司简介
+        li
+          a(href='/') 联系我们
+        li.clearfix
+      block content
+      .footer
+        .footer-body
+          .nboxes
+            .nbox
+              .nbox_l 7
+              .nbox_r 天<br>退货保障
+            .nbox
+              .nbox_l 15
+              .nbox_r 天<br>换货承诺
+            .nbox
+              .nbox_l 100
+              .nbox_r 元起<br>全场免邮费
+            .nbox
+              .nbox_l 420
+              .nbox_r 余家<br>售后服务网点
+          .fc
+            .fl
+            .fr
+              .ftel
+                a.ftelink(href='/')
+                  span.ci.ci-tel
+                  | 400-830-4555
+                周一至周日8:00-18:00
+              .fco
+                a.fcolink(href='/')
+                  span.ci.ci-chat
+                  | 咨询在线客服
+      .copy
+        | &copy; 2013 红酒室
+        = ' '
+        a(href='/Sitemap.xml') Sitemap
