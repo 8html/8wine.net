@@ -4,26 +4,22 @@ block variables
 extends layouts/default
 
 block content
-  .row01
-    .row01_r
-      #main-slider.sliderkit
-        .sliderkit-panels
-          .sliderkit-btn.sliderkit-go-btn.sliderkit-go-prev
-            a(href='#', title='Previous')
-              span Previous
-          .sliderkit-btn.sliderkit-go-btn.sliderkit-go-next
-            a(href='#', title='Next')
-              span Next
-          .sliderkit-panel
-            a(href='/', title='')
-              img(src='/images/sizes/950x410.png', alt='')
-          .sliderkit-panel
-            a(href='/', title='')
-              img(src='/images/sizes/950x410_i.png', alt='')
-        .clearfix
-    .clearfix
+  #main-slider.sliderkit
+    .sliderkit-panels
+      .sliderkit-btn.sliderkit-go-btn.sliderkit-go-prev
+        a(href='#', title='Previous')
+          span Previous
+      .sliderkit-btn.sliderkit-go-btn.sliderkit-go-next
+        a(href='#', title='Next')
+          span Next
+      .sliderkit-panel
+        a(href='/', title='')
+          img(src='/images/sizes/1190x410.png', alt='')
+      .sliderkit-panel
+        a(href='/', title='')
+          img(src='/images/sizes/1190x410_i.png', alt='')
   .panel
-    .panel-heading 新品上架
+    .panel-heading 热销产品
     .panel-body
       .col.col2
         a(href='/')
@@ -37,20 +33,36 @@ block content
       .col.col1
         a(href='/')
           img.img-225-310(src='/images/home/ld.jpg')
-      .clearfix
-  .panel
-    .panel-heading 热销产品
-    .panel-body
-      .col.col1
-        a(href='/')
-          img.img-225-310(src='/images/home/mlgh.jpg')
-      .col.col1
-        a(href='/')
-          img.img-225-310(src='/images/home/bg.jpg')
-      .col.col1
-        a(href='/')
-          img.img-225-310(src='/images/home/08dyz.jpg')
+      .clearfix.panel-sep
       .col.col2
         a(href='/')
           img.img-460-310(src='/images/home/hwzs.jpg')
+      .col.col2
+        a(href='/')
+          img.img-460-310(src='/images/home/hwzs.jpg')
+      .col.col1
+        a(href='/')
+          img.img-225-310(src='/images/home/mlgh.jpg')
       .clearfix
+  .panel
+    .panel-3-1
+      .panel-heading 限时整箱特惠
+      .panel-body
+        .col.col2
+          a(href='/')
+            img.img-460-310(src='/images/home/mmqp.jpg')
+        .clearfix
+    .panel-3-2
+      .panel-heading 品酒精选推荐
+      .panel-body
+        .col.col1
+          a(href='/')
+            img.img-225-310(src='/images/home/yg.jpg')
+        .col.col1
+          a(href='/')
+            img.img-225-310(src='/images/home/bsl.jpg')
+        .col.col1
+          a(href='/')
+            img.img-225-310(src='/images/home/ld.jpg')
+        .clearfix
+    .clearfix
