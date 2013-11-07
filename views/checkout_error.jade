@@ -1,0 +1,17 @@
+block variables
+  title = "发生错误"
+  hide_header_cart = true
+
+extends layouts/default
+
+block content
+  .message
+    - if (errors instanceof Array)
+      | 抱歉，在结账前发生如下错误：
+      br
+      - each error in errors
+        = error
+        br
+      | 请返回上一页再试。如果问题持续，尝试删除购物车上的商品并重新购物。
+    - else
+      | 抱歉，在结账前发生错误。请返回上一页再试。如果问题持续，尝试删除购物车上的商品并重新购物。

@@ -13,9 +13,33 @@ html
       .header
         a.logo(href='/') 首页
         .user
-          a(href='/orders') 查询我的订单
-          &nbsp;|&nbsp;
-          a(href='/cart') 购物车
+          - if (current_user)
+            a(href='/my_account')= current_user.alias || current_user.username
+            &nbsp;|&nbsp;
+            a(href='/orders') 我的订单
+            &nbsp;|&nbsp;
+            a#logout(href='javascript:;') 退出登录
+          - else
+            a(href='/orders') 登录并查询我的订单
+          - if (!hide_header_cart)
+            &nbsp;|&nbsp;
+            #headerCart.cartInfo
+              | 购物车（
+              span.simpleCart_quantity 0
+              | ）
+            #cartPopover
+              #triangle
+              .simpleCart_items
+              #cartData.clearfix
+                .left
+                  strong 数量：
+                  span.simpleCart_quantity
+                .right
+                  strong 总价：
+                  span.simpleCart_total
+              #popoverButtons.clearfix
+                a.hudbtn.left(href='/cart') 查看详细
+                a.simpleCart_checkout.hudbtn.primary.right(href='javascript:;') 结账
       ul.nav
         li
           a.first.products(href='/') 红酒库
@@ -35,6 +59,15 @@ html
           a(href='/') 联系我们
         li.clearfix
       block content
+      - if (messages && messages.length > 0)
+        - var msgs = ''
+        - while (message = messages.pop())
+          - for (msg in message)
+            - if (message[msg])
+              - msgs += 'toastr["' + msg + '"](unescape("' + escape(message[msg]) + '"));'
+        - if (msgs)
+          != '<script>' + msgs + '</script>'
+      != '<script>window.csrf_token="' + csrf_token + '";</script>'
       .footer
         .footer-body
           .nboxes

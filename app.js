@@ -1,7 +1,11 @@
 var express = require('express');
+var mongoose = require('mongoose');
 var assets  = require('connect-assets');
 var fs      = require('fs');
+var passport = require('passport');
 var routes  = require('./routes');
+
+mongoose.connect('mongodb://localhost/8wine');
 
 var app     = express();
 
@@ -13,9 +17,17 @@ app.set('public_dir', __dirname + '/public');
 app.use(express.static(app.get('public_dir')));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
+app.use(express.cookieParser());
+app.use(express.session({ secret: '89pFuSC4bzgMrKJF' }));
+app.use(express.csrf());
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(assets({ buildDir: './public' }));
 
-routes(app);
+require('js-yaml');
+var products = require('./products');
+
+routes(app, products);
 
 app.use(function(req, res){
   res.status(404).render('404');

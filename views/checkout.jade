@@ -1,0 +1,89 @@
+block variables
+  title = "结账"
+  hide_header_cart = true
+
+extends layouts/default
+
+block content
+  form#checkout_form.checkout(action='/confirm_checkout', method='POST')
+    input(type='hidden', name='_csrf', value=csrf_token)
+    h2.title 购买的产品
+    #shopping_cart.checkout_cart.table_container
+      table
+        tbody
+          tr.headerRow
+            th.item-image
+            th.item-name 商品名称
+            th.item-quantity 数量
+            th.item-price 单价
+            th.item-total 合计
+          - grandTotal = 0
+          - each product in products
+            - total = product.price * product.quantity
+            - grandTotal += total
+            tr.itemRow
+              td.item-image
+                a(title=product.title, href=product.path)
+                  img(alt=product.title, src=product.image)
+              td.item-name
+                a(href=product.path, title=product.title)= product.name
+              td.item-quantity= product.quantity
+              td.item-price.toCurrency= product.price
+              td.item-total.toCurrency= total
+          tr
+            td
+            td
+            td
+            td.item-price 总计
+            td.item-total.toCurrency= grandTotal
+    .shopping_cart_buttons
+      a.hudbtn.left(href='/cart') 返回修改购物车
+      .clearfix
+    h2.title 收货信息
+    .form
+      .form-group
+        label(for='shipping_user_name')
+          | 收货人
+          span.important *
+        input.form-input#shipping_user_name(type='text', name='shipping_user_name', value=current_user ? current_user.defaults.name : '')
+        .labeldesc
+          | 由1至20个中文字、英文字母或空格组成。
+      .form-group
+        label(for='shipping_user_phone')
+          | 收货人联系电话
+          span.important *
+        input.form-input#shipping_user_phone(type='text', name='shipping_user_phone', value=current_user ? current_user.defaults.phone : '')
+        .labeldesc
+          | 由10至25个数字、加号或减号组成。
+          br
+          | 提交订单后系统会为您创建新账户，您可以使用这个电话号码登录查询您的订单。
+          br
+          | 请填写常用的手机号码或固定电话号码，并确保此电话能在发货期间正常使用。
+      .form-group
+        label(for='shipping_address')
+          | 收货地址
+          span.important *
+        #district_selector(data-districts=current_user ? current_user.defaults.districts.join() : '')
+        input.form-input#shipping_address(type='text', name='shipping_address', value=current_user ? current_user.defaults.address : '')
+        .labeldesc
+          | 由1至100个中文字、英文字母、数字、空格、括号、减号组成。
+      .form-group
+        label(for='shipping_user_email')
+          | 电邮地址
+        input.form-input#shipping_user_email(type='text', name='shipping_user_email', value=current_user ? current_user.defaults.email : '')
+        .labeldesc
+          | 用于接收网站优惠信息。示例：user@example.com
+    h2.title 支付
+    .form
+      .form-group
+        input#payment_cod(type='radio', name='payment', value='cod', checked)
+        label.option(for='payment_cod') 货到付款
+      .form-group
+        input#payment_alipay(type='radio', name='payment', value='alipay')
+        label.option(for='payment_alipay')
+          img(src='/images/alipay.gif', alt='支付宝', width=96, height=37)
+          | 使用支付宝支付
+    .shopping_cart_buttons
+      input(type='hidden', name='data', value=_data)
+      button.hudbtn.primary.right(type='submit') 继续
+      .clearfix

@@ -1,0 +1,14 @@
+block variables
+  title = "查看购物车"
+  hide_header_cart = true
+
+extends layouts/default
+
+block content
+  .hidden.message 您的购物车是空的。
+  .checkout
+    h2.title 我的购物车
+    #shopping_cart.simpleCart_items.table_container
+    .shopping_cart_buttons
+      a.simpleCart_checkout.hudbtn.primary.right(href='javascript:;') 结账
+      .clearfix
