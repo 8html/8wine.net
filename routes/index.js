@@ -417,7 +417,7 @@ module.exports = function(app, products) {
           res.send(output);
         },
         html: function(){
-          var markdown = require('markdown').markdown;
+          var markdown = require('marked');
           res.render('products/show', { category: category, model: model, markdown: markdown });
         }
       });

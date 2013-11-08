@@ -22,7 +22,7 @@
     "less": "1.4.x",
     "jade": "0.35.x",
     "connect-assets": "2.5.x",
-    "markdown": "0.5.0"
+    "marked": "0.2.10"
   },
   "devDependencies": {
     "nodemon": "*"

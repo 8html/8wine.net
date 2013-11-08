@@ -47,9 +47,9 @@ block content
         .clearfix
     .pdpages
       .pdpage
-        != markdown.toHTML(product['商品描述'])
+        != markdown(product['商品描述']).replace(/\n/g, '')
       .pdpage.hidden
-        != markdown.toHTML(product['酒庄介绍'])
+        != markdown(product['酒庄介绍']).replace(/\n/g, '')
       .pdpage.hidden
         p 物流配送
       .pdpage.hidden
