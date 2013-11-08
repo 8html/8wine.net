@@ -1,47 +1,26 @@
-新皇冠:
-  HG-2740:
-    name: 新皇冠HG-2740
+意大利:
+  魔帽气泡酒:
+    name: 意大利魔帽气泡酒
 
-    title: 保险柜十大品牌全能新皇冠HG-2740
-    subtitle: 保险柜十大品牌
+    title: 意大利魔帽气泡酒
+    subtitle: 意大利魔帽气泡酒
 
-    price: 1846
-    promo_price: 1799
-
-    size: (高)290x(宽)450x(深)270mm
-    thickness: 门10mm，箱4-6mm
-    weight: 33.8公斤
+    price: 99.9
 
     images:
-      - http://stores.qnnimg.com/products-small/hg-2740.jpg
+      - /photos/mmbqp.png
 
     slides:
-      - http://stores.qnnimg.com/products/hg-2740-01.jpg
-      - http://stores.qnnimg.com/products/hg-3342-01.jpg
-      - http://stores.qnnimg.com/products/hg-2740-01.jpg
+      - /photos/mmbqp.png
 
-    body: |
-      <img alt="保险柜十大品牌HG-2740功能特征" height="1142" src="http://stores.qnnimg.com/products/hg-gn.jpg" width="538">
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
 
-  HG-3342:
-    name: 新皇冠HG-3342
-
-    title: 保险柜十大品牌全能新皇冠HG-3342
-    subtitle: 保险柜十大品牌
-
-    price: 2010
-    promo_price: 1999
-
-    size: (高)290x(宽)450x(深)270mm
-    thickness: 门10mm，箱4-6mm
-    weight: 42.2公斤
-
-    images:
-      - http://stores.qnnimg.com/products-small/hg-3342.jpg
-
-    slides:
-      - http://stores.qnnimg.com/products/hg-3342-01.jpg
-      - http://stores.qnnimg.com/products/hg-2740-01.jpg
-
-    body: |
-      <img alt="保险柜十大品牌HG-3342功能特征" height="1142" src="http://stores.qnnimg.com/products/hg-gn.jpg" width="538">
+    酒庄介绍: |
+      酒庄介绍
