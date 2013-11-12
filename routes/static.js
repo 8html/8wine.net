@@ -4,4 +4,4 @@ module.exports = function(app, products, configs) {
     res.render('about');
   });
 
-});
+};
