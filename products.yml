@@ -5,7 +5,8 @@
     title: 意大利魔帽气泡酒
     subtitle: 意大利魔帽气泡酒
 
-    price: 99.9
+    original_price: 199.99
+    price: 99.99
 
     images:
       - /photos/mmbqp.png
