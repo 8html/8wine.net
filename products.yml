@@ -14,6 +14,19 @@
     slides:
       - /photos/mmbqp.png
 
+    side_html: |
+      <img style="border: 1px solid #CCC;" src="/photos/mmbqp.png" width="330" height="330">
+
+    recommendations:
+      - /wine/ph-gran-reserva
+      - /wine/ph-gran-reserva
+      - /wine/ph-gran-reserva
+      - /wine/ph-gran-reserva
+      - /wine/ph-gran-reserva
+      - /wine/ph-gran-reserva
+      - /wine/ph-gran-reserva
+      - /wine/ph-gran-reserva
+
     商品描述: |
       **名称：**
       
