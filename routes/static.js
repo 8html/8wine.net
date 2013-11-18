@@ -1,7 +1,7 @@
 module.exports = function(app, products, configs) {
 
-  app.get('/about', function(req, res){
-    res.render('about');
+  app.get('/:static(about|contact)', function(req, res){
+    res.render('static/' + req.params.static);
   });
 
 };
