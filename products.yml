@@ -1,12 +1,12 @@
-意大利:
-  魔帽气泡酒:
+wine:
+  el-brusco:
     name: 意大利魔帽气泡酒
 
     title: 意大利魔帽气泡酒
-    subtitle: 意大利魔帽气泡酒
-
-    original_price: 199.99
-    price: 99.99
+    subtitle: EL Brusco
+    shopid: IT0001
+    original_price: 130
+    price: 130
 
     images:
       - /photos/mmbqp.png
@@ -40,14 +40,14 @@
       酒庄介绍
       
       
-wine:
   ph-gran-reserva:
     name: 百高珍藏干红葡萄酒
 
     title: 百高珍藏干红葡萄酒
     subtitle: PH Gran Reserva
-
-    price: 99.9
+    shopid: SP0011
+    original_price: 580
+    price: 580
 
     images:
       - /photos/mmbqp.png
@@ -73,8 +73,9 @@ wine:
 
     title: 大丰收干红葡萄酒
     subtitle: Tierrallana
-
-    price: 99.9
+    shopid: SP0001
+    original_price: 75
+    price: 75
 
     images:
       - /photos/mmbqp.png
@@ -100,8 +101,9 @@ wine:
 
     title: 卢卡斯王子半干红葡萄酒
     subtitle: Principe Lucas
-
-    price: 99.9
+    shopid: SP0002
+    original_price: 118
+    price: 118
 
     images:
       - /photos/mmbqp.png
@@ -122,13 +124,14 @@ wine:
       酒庄介绍
 
 
-  diyizhuang-08:
+  antano-08:
     name: 第一庄08
 
     title: 第一庄08
-    subtitle: diyizhuang 08
-
-    price: 99.9
+    subtitle: Antano
+    shopid: SP0003
+    original_price: 200
+    price: 200
 
     images:
       - /photos/mmbqp.png
@@ -149,13 +152,14 @@ wine:
       酒庄介绍
       
       
-  diyizhuang-05:
+  antano-05:
     name: 第一庄05
 
     title: 第一庄05
-    subtitle: diyizhuang 05
-
-    price: 99.9
+    subtitle: Antano
+    shopid: SP0004
+    original_price: 320
+    price: 320
 
     images:
       - /photos/mmbqp.png
@@ -181,7 +185,8 @@ wine:
 
     title: 风神干红葡萄酒
     subtitle: Sierra de Viento
-
+    shopid: SP0001
+    original_price: 75
     price: 99.9
 
     images:
@@ -208,7 +213,8 @@ wine:
 
     title: 苏提乐干红葡萄酒
     subtitle: EL Sotillo
-
+    shopid: SP0001
+    original_price: 75
     price: 99.9
 
     images:
@@ -235,7 +241,8 @@ wine:
 
     title: 克鲁斯伯爵白气泡葡萄酒
     subtitle: Marques de la Gruh
-
+    shopid: SP0001
+    original_price: 75
     price: 99.9
 
     images:
@@ -262,7 +269,8 @@ wine:
 
     title: 佐米cava气泡酒
     subtitle: Jaume Serra
-
+    shopid: SP0001
+    original_price: 75
     price: 99.9
 
     images:
