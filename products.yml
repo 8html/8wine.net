@@ -292,14 +292,14 @@ wine:
       酒庄介绍
 
 
-  jaume-serra:
-    name: 佐米cava气泡酒
+  chateau-pied-d-argent:
+    name: 银基城堡干红葡萄酒
 
-    title: 佐米cava气泡酒
-    subtitle: Jaume Serra
-    shopid: SP0009
-    original_price: 160
-    price: 160
+    title: 银基城堡干红葡萄酒
+    subtitle: CHATEAU PIED D’ARGENT
+    shopid: FR0001
+    original_price: 128
+    price: 128
 
     images:
       - /photos/mmbqp.png
@@ -320,14 +320,14 @@ wine:
       酒庄介绍
 
 
-  jaume-serra:
-    name: 佐米cava气泡酒
+  chateau-lamothe-castera:
+    name: 拉蒙特城堡干红葡萄酒
 
-    title: 佐米cava气泡酒
-    subtitle: Jaume Serra
-    shopid: SP0009
-    original_price: 160
-    price: 160
+    title: 拉蒙特城堡干红葡萄酒
+    subtitle: CHATEAU LAMOTHE CASTERA
+    shopid: FR0002
+    original_price: 240
+    price: 240
 
     images:
       - /photos/mmbqp.png
