@@ -348,6 +348,34 @@ wine:
       酒庄介绍
       
 
+  chateau-moulin-du-peyrat:
+    name: 墨林城堡干红葡萄酒
+
+    title: 墨林城堡干红葡萄酒
+    subtitle: CHATEAU MOULIN DU PEYRAT
+    shopid: FR0003
+    original_price: 250
+    price: 250
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
   jaume-serra:
     name: 佐米cava气泡酒
 
@@ -376,6 +404,626 @@ wine:
       酒庄介绍
 
 
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
+
+
+  jaume-serra:
+    name: 佐米cava气泡酒
+
+    title: 佐米cava气泡酒
+    subtitle: Jaume Serra
+    shopid: SP0009
+    original_price: 160
+    price: 160
+
+    images:
+      - /photos/mmbqp.png
+
+    slides:
+      - /photos/mmbqp.png
+
+    商品描述: |
+      **名称：**
+      
+      ![图片](/photos/mmbqp.png)
+      
+      **描述：**
+      
+      气泡酒又名起泡酒或汽酒，因酒中含有一定数量的二氧化碳形成气泡。二氧化碳通过酒的发酵在瓶内或大型储酒缸中自然形成，或被注入酒中。气泡酒通常是白色或粉红色的，但如意大利和澳大利亚等国也分别用布拉凯托红葡萄和西拉红葡萄酿造红色的气泡酒。气泡酒可根据含糖量分为干型、甜型等不同等级。
+
+    酒庄介绍: |
+      酒庄介绍
   jaume-serra:
     name: 佐米cava气泡酒
 
