@@ -7,13 +7,14 @@ block content
   - var product = products[category][model];
   .pview
     #pslider.sliderkit
-      .sliderkit-nav
-        .sliderkit-nav-clip
-          ul
-            - each slide in product.slides
-              li
-                a(href='#', title=product.name)
-                  img(src=slide, alt=product.name)
+      //-
+        .sliderkit-nav
+          .sliderkit-nav-clip
+            ul
+              - each slide in product.slides
+                li
+                  a(href='#', title=product.name)
+                    img(src=slide, alt=product.name)
       .sliderkit-panels
         - each slide in product.slides
           .sliderkit-panel
