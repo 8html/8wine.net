@@ -54,6 +54,15 @@ block content
       - if (product.side_html)
         .psidecontent
           != product.side_html
+      - if (product['规格'])
+        ul.specs
+          - var count = 0;
+          - each spec, spec_k in product['规格']
+            - if (spec)
+              li(class='spec spec-'+count, title=spec_k+': '+spec)
+                strong=spec_k
+                =spec
+            - count++;
     .clearfix
   .pdetails
     .pdselector
