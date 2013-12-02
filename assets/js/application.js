@@ -6,6 +6,7 @@
 //= require vendor/toastr.min.js
 //= require vendor/jquery.jqpagination.min.js
 //= require vendor/typeahead.js
+//= require vendor/jquery.zoom.js
 //= require account.js
 //= require checkout.js
 //= require product_details.js
@@ -266,4 +267,5 @@ $(function(){
     $(this).parents('table.canceled').removeClass('canceled');
     $(this).parents('thead').remove();
   });
+  $('.pphoto').zoom({ magnify: 2 });
 });
