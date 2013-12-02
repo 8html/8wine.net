@@ -844,9 +844,6 @@ wine:
     original_price: 130
     price: 130
 
-    side_html: |
-      <img style="border: 1px solid #CCC;" src="/photos/mmbqp.png" width="330" height="330">
-
     recommendations:
       - /wine/ph-gran-reserva
       - /wine/ph-gran-reserva
