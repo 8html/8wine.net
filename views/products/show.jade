@@ -7,7 +7,7 @@ block content
   - var product = products[category][model];
   .pview
     .pphoto
-      img(src='/photos/'+model+'.jpg')
+      img(src=product.image)
     .pinfo
       .ptitle
         h2= product.title
@@ -80,7 +80,7 @@ block content
             - product = products[category][model]
             .recommendation
               a(href='/#{category}/#{model}')
-                img(src=product.images[0])
+                img(src=product.image)
                 br
                 =product.name
       .clearfix
