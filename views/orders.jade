@@ -77,14 +77,15 @@ block content
                 - PRODUCT = null
                 - if (products[product.category] && products[product.category][product.model])
                   - PRODUCT = products[product.category][product.model]
+                  - PRODUCT.model = product.model
                 - total = product.price * product.quantity
                 - grandTotal += total
                 - path = '/' + product.category + '/' + product.model
                 tr.itemRow
                   td.item-image
-                    - if (PRODUCT && PRODUCT.images)
+                    - if (PRODUCT)
                       a(title=PRODUCT.title, href=path)
-                        img(alt=PRODUCT.title, src=PRODUCT.images[0])
+                        img(alt=PRODUCT.title, src='/photos/'+PRODUCT.model+'.jpg')
                   td.item-name
                     - if (PRODUCT)
                       a(href=path, title=PRODUCT.title)= PRODUCT.name

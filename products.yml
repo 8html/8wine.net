@@ -8,12 +8,6 @@ wine:
     original_price: 130
     price: 130
 
-    images:
-      - /photos/douglass-hill.jpg
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -51,12 +45,6 @@ wine:
     shopid: AM0002
     original_price: 280
     price: 280
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -96,12 +84,6 @@ wine:
     original_price: 550
     price: 550
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -139,12 +121,6 @@ wine:
     shopid: AM0004
     original_price: 550
     price: 550
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -184,12 +160,6 @@ wine:
     original_price: 210
     price: 210
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -227,12 +197,6 @@ wine:
     shopid: AM0006
     original_price: 230
     price: 230
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -272,12 +236,6 @@ wine:
     original_price: 230
     price: 230
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -315,12 +273,6 @@ wine:
     shopid: AU0002
     original_price: 230
     price: 230
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -360,12 +312,6 @@ wine:
     original_price: 130
     price: 130
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -403,12 +349,6 @@ wine:
     shopid: CH0002
     original_price: 130
     price: 130
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -448,12 +388,6 @@ wine:
     original_price: 130
     price: 130
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -491,12 +425,6 @@ wine:
     shopid: CH0004
     original_price: 120
     price: 120
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -536,12 +464,6 @@ wine:
     original_price: 120
     price: 120
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -579,12 +501,6 @@ wine:
     shopid: CH0006
     original_price: 120
     price: 120
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -624,12 +540,6 @@ wine:
     original_price: 128
     price: 128
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -667,12 +577,6 @@ wine:
     shopid: FR0002
     original_price: 240
     price: 240
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -712,12 +616,6 @@ wine:
     original_price: 250
     price: 250
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -755,12 +653,6 @@ wine:
     shopid: FR0004
     original_price: 630
     price: 630
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -800,12 +692,6 @@ wine:
     original_price: 630
     price: 630
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -843,12 +729,6 @@ wine:
     shopid: FR0006
     original_price: 880
     price: 880
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -888,12 +768,6 @@ wine:
     original_price: 880
     price: 880
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -932,12 +806,6 @@ wine:
     original_price: 1080
     price: 1080
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -975,12 +843,6 @@ wine:
     shopid: IT0001
     original_price: 130
     price: 130
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     side_html: |
       <img style="border: 1px solid #CCC;" src="/photos/mmbqp.png" width="330" height="330">
@@ -1033,12 +895,6 @@ wine:
     original_price: 75
     price: 75
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -1076,12 +932,6 @@ wine:
     shopid: SP0002
     original_price: 118
     price: 118
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -1121,12 +971,6 @@ wine:
     original_price: 200
     price: 200
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -1164,12 +1008,6 @@ wine:
     shopid: SP0004
     original_price: 320
     price: 320
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -1209,12 +1047,6 @@ wine:
     original_price: 150
     price: 150
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -1252,12 +1084,6 @@ wine:
     shopid: SP0006
     original_price: 68
     price: 68
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -1297,12 +1123,6 @@ wine:
     original_price: 110
     price: 110
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -1340,12 +1160,6 @@ wine:
     shopid: SP0008
     original_price: 120
     price: 120
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
@@ -1385,12 +1199,6 @@ wine:
     original_price: 160
     price: 160
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -1429,12 +1237,6 @@ wine:
     original_price: 120
     price: 120
 
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
-
     商品描述: |
       **名称：**
       
@@ -1472,12 +1274,6 @@ wine:
     shopid: SP0011
     original_price: 580
     price: 580
-
-    images:
-      - /photos/mmbqp.png
-
-    slides:
-      - /photos/mmbqp.png
 
     商品描述: |
       **名称：**
