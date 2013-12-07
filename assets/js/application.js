@@ -1,3 +1,4 @@
+//= require vendor/fastclick.js
 //= require vendor/jquery-1.10.2.min.js
 //= require vendor/jquery.sliderkit.1.9.2.js
 //= require vendor/jquery.path.js
@@ -23,6 +24,7 @@ toastr.options = {
   timeOut: 4000
 };
 $(function(){
+  FastClick.attach(document.body);
   $('.lazy').lazyload();
   if ($('#main-slider').length == 1) {
     $('#main-slider').sliderkit({
