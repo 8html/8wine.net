@@ -1,0 +1,193 @@
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 98%;
+  }
+  .header {
+    height: 120px;
+    a.logo {
+      margin-top: 30px;
+    }
+  }
+  .user {
+    right: 10px;
+    top: 10px;
+  }
+  .show_only_if_mobile {
+    display: block !important;
+  }
+  .none_if_mobile {
+    display: none !important;
+  }
+  ul.nav li a.products {
+    width: auto;
+  }
+  h2.title {
+    width: 98%;
+  }
+  .form-group {
+    width: 90%;
+    .form-input, .form-text {
+      width: 85%;
+    }
+  }
+  .login_buttons {
+    padding: 20px 20px 30px;
+  }
+  .col2-1, .col2-2 {
+    float: none;
+    width: 100%;
+    margin: 0;
+    .form-group {
+      width: auto;
+      margin: 0 32px;
+      .form-input {
+        width: 100%;
+      }
+    }
+  }
+  .col2-2 button {
+    margin: 30px auto;
+  }
+  .typeahead, .tt-query, .tt-hint {
+    width: 285px;
+  }
+  #shopping_cart {
+    table, thead, tbody, th, td, tr { 
+  		display: block; 
+  	}
+  	thead tr, tr.headerRow { 
+  		position: absolute;
+  		top: -9999px;
+  		left: -9999px;
+  	}
+  	tr { border: 1px solid #ccc; }
+  	td { 
+  		border: none;
+  		border-bottom: 1px solid #eee; 
+  		position: relative;
+  		padding-left: 90px;
+      width: auto !important;
+      text-align: left; 
+  	}
+  	td:before { 
+  		position: absolute;
+      top: 10px;
+      left: 6px;
+      width: 70px;
+      padding-right: 10px;
+  		white-space: nowrap;
+  	}
+  	td:nth-of-type(1):before { content: ""; }
+  	td:nth-of-type(2):before { content: "商品名称"; }
+  	td:nth-of-type(3):before { content: "数量"; }
+  	td:nth-of-type(4):before { content: "单价"; }
+  	td:nth-of-type(5):before { content: "合计"; }
+  	td:nth-of-type(6):before { content: "删除"; }
+    .footerRow {
+      td:nth-of-type(5):before { content: "总计"; }
+    }
+  }
+  .table_container table {
+    width: 98%;
+  }
+  .shopping_cart_buttons {
+    padding: 0 5px 20px;
+  }
+  #cartPopover {
+    width: 290px;
+    .item-name {
+      width: 140px;
+    }
+  }
+  .cartInfo {
+    width: 42px;
+  }
+  .table_container {
+    .canceled tbody {
+      display: none !important;
+    }
+    table, thead, tfoot, tbody, tr, th {
+      display: block;
+    }
+    th.tinfo, thead th, tfoot th {
+      padding: 10px;
+      .left, .right {
+        float: none;
+        text-align: left;
+      }
+    }
+    tr.itemRow {
+      display: block;
+      td {
+        display: block;
+    		border: none;
+    		border-bottom: 1px solid #eee; 
+    		position: relative;
+    		padding-left: 90px;
+        width: auto !important;
+        text-align: left; 
+    	}
+    	td:before { 
+    		position: absolute;
+        top: 10px;
+        left: 6px;
+        width: 70px;
+        padding-right: 10px;
+    		white-space: nowrap;
+    	}
+    	td:nth-of-type(1):before { content: ""; }
+    	td:nth-of-type(2):before { content: "商品名称"; }
+    	td:nth-of-type(3):before { content: "数量"; }
+    	td:nth-of-type(4):before { content: "单价"; }
+    	td:nth-of-type(5):before { content: "合计"; }
+    	td:nth-of-type(6):before { content: "删除"; }
+    }
+  }
+  .pager {
+    width: auto;
+  }
+  .breadcrumb {
+    width: auto;
+  }
+  .productfilter {
+    .pfitem {
+      width: 133px;
+      height: 165px;
+      margin: 5px 5px 10px;
+      img {
+        width: 130px;
+        height: 130px;
+      }
+    }
+  }
+  .pphoto {
+    float: none;
+    width: 94%;
+    margin: 20px auto;
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .pinfo {
+    float: none;
+    width: 96%;
+    padding: 5px;
+  }
+  ul.specs {
+    width: auto;
+    height: auto;
+    li.spec {
+      width: 95%;
+    }
+  }
+  .pdselector {
+    .select {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  .pdetails .pdpages .pdpage {
+    padding: 30px 0;
+  }
+}

@@ -4,7 +4,34 @@ block variables
 extends layouts/default
 
 block content
-  #main-slider.sliderkit
+  .find.show_only_if_mobile
+    #typeselector
+      ul.navmenu.none_if_mobile
+        li.active
+          a(data-filter='*', href='#') 全部
+        - filters = {}
+        - each category, category_key in products
+          - each product, model in category
+            - if (product.filter)
+              - each filter in product.filter
+                - filters[filter] = ''
+        - each v, filter in filters
+          li
+            a(data-filter='.'+filter, href='#')=filter
+      select.navselect.show_only_if_mobile
+        option(value='*') 全部
+        - each v, filter in filters
+          option(value='.'+filter)=filter
+    #productfilter.productfilter
+      - each category, category_key in products
+        - each product, model in category
+          .pfitem(class=product.filter)
+            a(href=product.path)
+              img(data-original=product.image)
+              br
+              =product.name
+      .clearfix
+  #main-slider.sliderkit.none_if_mobile
     .sliderkit-panels
       .sliderkit-btn.sliderkit-go-btn.sliderkit-go-prev
         a(href='#', title='Previous')
@@ -14,55 +41,55 @@ block content
           span Next
       .sliderkit-panel
         a(href='/', title='')
-          img(src='/images/home/billboard-01.jpg', alt='')
+          img.lazy(data-original='/images/home/billboard-01.jpg', alt='')
       .sliderkit-panel
         a(href='/', title='')
-          img(src='/images/home/billboard-02.jpg', alt='')
-  .panel
+          img.lazy(data-original='/images/home/billboard-02.jpg', alt='')
+  .panel.none_if_mobile
     .panel-heading 热销产品
     .panel-body
       .col.col2
         a(href='/wine/el-brusco/')
-          img.img-460-310(src='/images/home/mmqp.jpg')
+          img.lazy.img-460-310(data-original='/images/home/mmqp.jpg')
       .col.col1
         a(href='/wine/chateau-pied-d-argent/')
-          img.img-225-310(src='/images/home/yg.jpg')
+          img.lazy.img-225-310(data-original='/images/home/yg.jpg')
       .col.col1
         a(href='/wine/eagle-ridge/')
-          img.img-225-310(src='/images/home/yg.jpg')
+          img.lazy.img-225-310(data-original='/images/home/yg.jpg')
       .col.col1
         a(href='/wine/ryder-shiraz/')
-          img.img-225-310(src='/images/home/ld.jpg')
+          img.lazy.img-225-310(data-original='/images/home/ld.jpg')
       .clearfix.panel-sep
       .col.col2
         a(href='/wine/el-brusco/')
-          img.img-460-310(src='/images/home/mmqp.jpg')
+          img.lazy.img-460-310(data-original='/images/home/mmqp.jpg')
       .col.col2
         a(href='/wine/l-aura/')
-          img.img-460-310(src='/images/home/hwzs.jpg')
+          img.lazy.img-460-310(data-original='/images/home/hwzs.jpg')
       .col.col1
         a(href='/wine/antano-08/')
-          img.img-225-310(src='/images/home/mlgh.jpg')
+          img.lazy.img-225-310(data-original='/images/home/mlgh.jpg')
       .clearfix
-  .panel
+  .panel.none_if_mobile
     .panel-3-1
       .panel-heading 限时整箱特惠
       .panel-body
         .col.col2
           a(href='/')
-            img.img-460-310(src='/images/home/mmqp.jpg')
+            img.lazy.img-460-310(data-original='/images/home/mmqp.jpg')
         .clearfix
     .panel-3-2
       .panel-heading 品酒精选推荐
       .panel-body
         .col.col1
           a(href='/wine/ph-gran-reserva/')
-            img.img-225-310(src='/images/home/bg.jpg')
+            img.lazy.img-225-310(data-original='/images/home/bg.jpg')
         .col.col1
           a(href='/wine/stone-hedge-reserve-a/')
-            img.img-225-310(src='/images/home/bsl.jpg')
+            img.lazy.img-225-310(data-original='/images/home/bsl.jpg')
         .col.col1
           a(href='/wine/chateau-moulin-du-peyrat/')
-            img.img-225-310(src='/images/home/ld.jpg')
+            img.lazy.img-225-310(data-original='/images/home/ld.jpg')
         .clearfix
     .clearfix

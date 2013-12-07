@@ -7,7 +7,7 @@ block content
   - var product = products[category][model];
   .pview
     .pphoto
-      img(src=product.image)
+      img.psimg(src=product.image)
     .pinfo
       .ptitle
         h2= product.title
@@ -48,12 +48,18 @@ block content
     .clearfix
   .pdetails
     .pdselector
-      .selects
+      .selects.none_if_mobile
         a.active(href='javascript:;') 商品描述
         a(href='javascript:;') 酒庄（产地）
         a(href='javascript:;') 购买须知
         a(href='javascript:;') 物流配送
         .clearfix
+      .show_only_if_mobile
+        select.select
+          option 查看：商品描述
+          option 查看：酒庄（产地）
+          option 查看：购买须知
+          option 查看：物流配送
     .pdpages
       .pdpage
         != markdown(product['商品描述']).replace(/\n/g, '')

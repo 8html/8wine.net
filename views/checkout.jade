@@ -30,11 +30,11 @@ block content
               td.item-quantity= product.quantity
               td.item-price.toCurrency= product.price
               td.item-total.toCurrency= total
-          tr
-            td
-            td
-            td
-            td.item-price 总计
+          tr.footerRow
+            td.none_if_mobile
+            td.none_if_mobile
+            td.none_if_mobile
+            td.none_if_mobile.item-price 总计
             td.item-total.toCurrency= grandTotal
     .shopping_cart_buttons
       a.hudbtn.left(href='/cart') 返回修改购物车

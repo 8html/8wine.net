@@ -4,6 +4,7 @@ doctype 5
 html
   head
     meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
     title= title
     != css('application')
     != js('application')
@@ -26,7 +27,8 @@ html
           - if (!hide_header_cart)
             &nbsp;|&nbsp;
             #headerCart.cartInfo
-              | 购物车（
+              span.none_if_mobile 购物车
+              | （
               span.simpleCart_quantity 0
               | ）
             #cartPopover
@@ -43,17 +45,17 @@ html
                 a.hudbtn.left(href='/cart') 查看详细
                 a.simpleCart_checkout.hudbtn.primary.right(href='javascript:;') 结账
       ul.nav
-        li
+        li.none_if_mobile
           a.first.products(href='/find') 酒库
         li
           a(href='/') 首页
-        li
+        li.none_if_mobile
           a(href='/') 超值组合
-        li
+        li.none_if_mobile
           a(href='/') 送礼区
-        li
+        li.none_if_mobile
           a(href='/') 波尔多列级名庄
-        li
+        li.none_if_mobile
           a(href='/') 培训班
         li
           a(href='/about') 公司简介
@@ -70,7 +72,7 @@ html
         - if (msgs)
           != '<script>' + msgs + '</script>'
       != '<script>window.csrf_token="' + csrf_token + '";</script>'
-      .footer
+      .footer.none_if_mobile
         .footer-body
           .nboxes
             .nbox

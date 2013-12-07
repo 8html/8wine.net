@@ -8,6 +8,7 @@
 //= require vendor/typeahead.js
 //= require vendor/jquery.zoom.js
 //= require vendor/jquery.isotope.min.js
+//= require vendor/jquery.lazyload.min.js
 //= require account.js
 //= require checkout.js
 //= require product_details.js
@@ -22,6 +23,7 @@ toastr.options = {
   timeOut: 4000
 };
 $(function(){
+  $('.lazy').lazyload();
   if ($('#main-slider').length == 1) {
     $('#main-slider').sliderkit({
       auto: true,
@@ -155,7 +157,7 @@ $(function(){
           window.location.href = that.attr('href');
           return;
         }
-        var active_image = $('#pslider .sliderkit-panel-active img');
+        var active_image = $('.pphoto img:first');
         var image = active_image.clone();
         image.width(active_image.width()).height(active_image.height());
         image.css({ position: 'absolute', 'z-index': 9999 });

@@ -6,4 +6,9 @@ $(function(){
     pages.addClass('hidden');
     pages.eq($(this).index()).removeClass('hidden');
   });
+  $('.pdetails .select').change(function(){
+    var pages = $(this).parents('.pdetails').find('.pdpages .pdpage');
+    pages.addClass('hidden');
+    pages.eq($(this).find('option:selected').index()).removeClass('hidden');
+  });
 });
