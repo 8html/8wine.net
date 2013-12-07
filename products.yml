@@ -7,6 +7,9 @@ wine:
     shopid: AM0001
     original_price: 130
     price: 130
+    filter:
+      - 红葡萄酒
+      - 半干红葡萄酒
 
     商品描述: |
       **名称：**
@@ -45,6 +48,9 @@ wine:
     shopid: AM0002
     original_price: 280
     price: 280
+    filter:
+      - 红葡萄酒
+      - 半干红葡萄酒
 
     商品描述: |
       **名称：**
@@ -83,6 +89,8 @@ wine:
     shopid: AM0003
     original_price: 550
     price: 550
+    filter:
+      - 珍藏
 
     商品描述: |
       **名称：**

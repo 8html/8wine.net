@@ -7,12 +7,14 @@
 //= require vendor/jquery.jqpagination.min.js
 //= require vendor/typeahead.js
 //= require vendor/jquery.zoom.js
+//= require vendor/jquery.isotope.min.js
 //= require account.js
 //= require checkout.js
 //= require product_details.js
 //= require login.js
 //= require orders_cancel.js
 //= require cart.js
+//= require find.js
 toastr.options = {
   closeButton: true,
   showDuration: 200,
