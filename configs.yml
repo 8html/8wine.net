@@ -1,3 +1,9 @@
+# 标题后缀
+title_suffix: 红酒室
+
+default_keywords: 红酒室
+default_description: 红酒室
+
 # 默认的订单状态
 statuses:
   - 等待买家付款

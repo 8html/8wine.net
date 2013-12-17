@@ -5,6 +5,8 @@ wine:
     title: 道格拉斯山半干红葡萄酒
     subtitle: Douglass Hill
     shopid: AM0001
+    keywords:
+    description: 道格拉斯山半干红葡萄酒
     original_price: 130
     price: 88
     filter: # 多个使用“、”分隔
@@ -48,6 +50,8 @@ wine:
     title: 琥珀山半干红葡萄酒
     subtitle: Amberhill
     shopid: AM0002
+    keywords:
+    description: 琥珀山半干红葡萄酒
     original_price: 280
     price: 280
     filter: # 多个使用“、”分隔
@@ -91,6 +95,8 @@ wine:
     title: 宝石篱赤霞珠珍藏
     subtitle: Stone Hedge Reserve
     shopid: AM0003
+    keywords:
+    description: 宝石篱赤霞珠珍藏
     original_price: 550
     price: 550
     filter: # 多个使用“、”分隔
@@ -134,6 +140,8 @@ wine:
     title: 宝石篱梅乐珍藏
     subtitle: Stone Hedge Reserve
     shopid: AM0004
+    keywords:
+    description: 宝石篱梅乐珍藏
     original_price: 550
     price: 550
 
@@ -172,6 +180,8 @@ wine:
     title: 鹰谷半干红葡萄酒
     subtitle: Eagle Ridge
     shopid: AM0005
+    keywords:
+    description: 鹰谷半干红葡萄酒
     original_price: 210
     price: 210
 
@@ -210,6 +220,8 @@ wine:
     title: 野兔干红葡萄酒
     subtitle: Wild Hare
     shopid: AM0006
+    keywords:
+    description: 野兔干红葡萄酒
     original_price: 230
     price: 230
 
@@ -248,6 +260,8 @@ wine:
     title: 多玛罗干红葡萄酒
     subtitle: Don Maueo
     shopid: AR0001
+    keywords:
+    description: 多玛罗干红葡萄酒
     original_price: 280
     price: 280
 
@@ -286,6 +300,8 @@ wine:
     title: 拉利精选干红葡萄酒
     subtitle: Reillys Shiraz
     shopid: AU0001
+    keywords:
+    description: 拉利精选干红葡萄酒
     original_price: 230
     price: 230
 
@@ -324,6 +340,8 @@ wine:
     title: 莱德西拉干红葡萄酒
     subtitle: Ryder Shiraz
     shopid: AU0002
+    keywords:
+    description: 莱德西拉干红葡萄酒
     original_price: 230
     price: 230
 
@@ -362,6 +380,8 @@ wine:
     title: 天使之爱半干红葡萄酒
     subtitle: Angel Love
     shopid: CH0001
+    keywords:
+    description: 天使之爱半干红葡萄酒
     original_price: 130
     price: 130
 
@@ -400,6 +420,8 @@ wine:
     title: 天使之爱半干白葡萄酒
     subtitle: Angel Love
     shopid: CH0002
+    keywords:
+    description: 天使之爱半干白葡萄酒
     original_price: 130
     price: 130
 
@@ -438,6 +460,8 @@ wine:
     title: 天使之爱桃红葡萄酒
     subtitle: Angel Love
     shopid: CH0003
+    keywords:
+    description: 天使之爱桃红葡萄酒
     original_price: 130
     price: 130
 
@@ -476,6 +500,8 @@ wine:
     title: 圣塔赤霞珠干红葡萄酒
     subtitle: Santa Alba Cabernet Sauvignon
     shopid: CH0004
+    keywords:
+    description: 圣塔赤霞珠干红葡萄酒
     original_price: 120
     price: 120
 
@@ -514,6 +540,8 @@ wine:
     title: 圣塔卡曼纳干红葡萄酒
     subtitle: Santa Alba Carmenere
     shopid: CH0005
+    keywords:
+    description: 圣塔卡曼纳干红葡萄酒
     original_price: 120
     price: 120
 
@@ -552,6 +580,8 @@ wine:
     title: 圣塔长相思干白葡萄酒
     subtitle: Santa Blan  Alba Sauvignon
     shopid: CH0006
+    keywords:
+    description: 圣塔长相思干白葡萄酒
     original_price: 120
     price: 120
 
@@ -590,6 +620,8 @@ wine:
     title: 银基城堡干红葡萄酒
     subtitle: CHATEAU PIED D’ARGENT
     shopid: FR0001
+    keywords:
+    description: 银基城堡干红葡萄酒
     original_price: 128
     price: 128
 
@@ -628,6 +660,8 @@ wine:
     title: 拉蒙特城堡干红葡萄酒
     subtitle: CHATEAU LAMOTHE CASTERA
     shopid: FR0002
+    keywords:
+    description: 拉蒙特城堡干红葡萄酒
     original_price: 240
     price: 240
 
@@ -666,6 +700,8 @@ wine:
     title: 墨林城堡干红葡萄酒
     subtitle: CHATEAU MOULIN DU PEYRAT
     shopid: FR0003
+    keywords:
+    description: 墨林城堡干红葡萄酒
     original_price: 250
     price: 250
 
@@ -704,6 +740,8 @@ wine:
     title: 靓茨摩斯
     subtitle: Chateau Lynch Moussas
     shopid: FR0004
+    keywords:
+    description: 靓茨摩斯
     original_price: 630
     price: 630
 
@@ -742,6 +780,8 @@ wine:
     title: 佳得美
     subtitle: Chateau Cantemerle
     shopid: FR0005
+    keywords:
+    description: 佳得美
     original_price: 630
     price: 630
 
@@ -780,6 +820,8 @@ wine:
     title: 宝马副牌
     subtitle: Alter Ego
     shopid: FR0006
+    keywords:
+    description: 宝马副牌
     original_price: 880
     price: 880
 
@@ -818,6 +860,8 @@ wine:
     title: 班尼杜克
     subtitle: Chateau Branaire Ducru
     shopid: FR0007
+    keywords:
+    description: 班尼杜克
     original_price: 880
     price: 880
 
@@ -856,6 +900,8 @@ wine:
     title: 比萨城堡
     subtitle: CHATEAU DE PRESSAC
     shopid: FR0008
+    keywords:
+    description: 比萨城堡
     original_price: 1080
     price: 1080
 
@@ -894,6 +940,8 @@ wine:
     title: 苏比昂城堡
     subtitle: Chateau Soubiran
     shopid: FR0009
+    keywords:
+    description: 苏比昂城堡
     original_price: 250
     price: 250
 
@@ -932,6 +980,8 @@ wine:
     title: 莱禧城堡
     subtitle: Chateau Les Conseillans
     shopid: FR0010
+    keywords:
+    description: 莱禧城堡
     original_price: 320
     price: 320
 
@@ -970,6 +1020,8 @@ wine:
     title: 奥贝城堡
     subtitle: Chateau L'Abbaye
     shopid: FR0011
+    keywords:
+    description: 奥贝城堡
     original_price: 480
     price: 480
 
@@ -1008,6 +1060,8 @@ wine:
     title: 意大利魔帽气泡酒
     subtitle: EL Brusco
     shopid: IT0001
+    keywords:
+    description: 意大利魔帽气泡酒
     original_price: 130
     price: 130
 
@@ -1056,6 +1110,8 @@ wine:
     title: 大丰收干红葡萄酒
     subtitle: Tierrallana
     shopid: SP0001
+    keywords:
+    description: 大丰收干红葡萄酒
     original_price: 75
     price: 75
 
@@ -1094,6 +1150,8 @@ wine:
     title: 卢卡斯王子半干红葡萄酒
     subtitle: Principe Lucas
     shopid: SP0002
+    keywords:
+    description: 卢卡斯王子半干红葡萄酒
     original_price: 118
     price: 118
 
@@ -1132,6 +1190,8 @@ wine:
     title: 第一庄08
     subtitle: Antano
     shopid: SP0003
+    keywords:
+    description: 第一庄08
     original_price: 200
     price: 200
 
@@ -1170,6 +1230,8 @@ wine:
     title: 第一庄05
     subtitle: Antano
     shopid: SP0004
+    keywords:
+    description: 第一庄05
     original_price: 320
     price: 128
 
@@ -1208,6 +1270,8 @@ wine:
     title: 风神干红葡萄酒
     subtitle: Sierra de Viento
     shopid: SP0005
+    keywords:
+    description: 风神干红葡萄酒
     original_price: 150
     price: 150
 
@@ -1246,6 +1310,8 @@ wine:
     title: 苏提乐干红葡萄酒
     subtitle: EL Sotillo
     shopid: SP0006
+    keywords:
+    description: 苏提乐干红葡萄酒
     original_price: 68
     price: 68
 
@@ -1284,6 +1350,8 @@ wine:
     title: 白鹭150干白葡萄酒
     subtitle: Vin A Buron Rueda 2010
     shopid: SP0007
+    keywords:
+    description: 白鹭150干白葡萄酒
     original_price: 110
     price: 110
 
@@ -1322,6 +1390,8 @@ wine:
     title: 克鲁斯伯爵白气泡葡萄酒
     subtitle: Marques de la Gruh
     shopid: SP0008
+    keywords:
+    description: 克鲁斯伯爵白气泡葡萄酒
     original_price: 120
     price: 120
 
@@ -1360,6 +1430,8 @@ wine:
     title: 佐米cava气泡酒
     subtitle: Jaume Serra
     shopid: SP0009
+    keywords:
+    description: 佐米cava气泡酒
     original_price: 160
     price: 160
 
@@ -1398,6 +1470,8 @@ wine:
     title: 海湾之树桃红葡萄酒
     subtitle: L'Aura
     shopid: SP0010
+    keywords:
+    description: 海湾之树桃红葡萄酒
     original_price: 120
     price: 73
 
@@ -1436,6 +1510,8 @@ wine:
     title: 百高珍藏干红葡萄酒
     subtitle: PH Gran Reserva
     shopid: SP0011
+    keywords:
+    description: 百高珍藏干红葡萄酒
     original_price: 580
     price: 580
 
@@ -1474,6 +1550,8 @@ wine:
     title: 海湾之树甜白葡萄酒
     subtitle: L'Aura
     shopid: SP0012
+    keywords:
+    description: 海湾之树甜白葡萄酒
     original_price: 120
     price: 120
 
@@ -1512,6 +1590,8 @@ wine:
     title: 圣地亚哥干红葡萄酒
     subtitle: Santiago
     shopid: SP0013
+    keywords:
+    description: 圣地亚哥干红葡萄酒
     original_price: 580
     price: 580
 

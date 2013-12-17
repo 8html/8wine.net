@@ -8,6 +8,7 @@ module.exports = function(app, products, configs) {
     res.locals.products = products;
     if (!req.session.messages) req.session.messages = [];
     res.locals.messages = req.session.messages;
+    res.locals.configs = configs;
     next();
   });
 
@@ -242,10 +243,10 @@ module.exports = function(app, products, configs) {
           if (!orders || orders.length != 1) return next();
           switch (action) {
           case 'cancel':
-            res.render('orders_cancel', { orders: orders, user: req.user, configs: configs, cancelable: cancelable });
+            res.render('orders_cancel', { orders: orders, user: req.user, cancelable: cancelable });
             break;
           default:
-            res.render('orders', { orders: orders, user: req.user, configs: configs, is_single: true, cancelable: cancelable });
+            res.render('orders', { orders: orders, user: req.user, is_single: true, cancelable: cancelable });
           }
         } else {
           var items_per_page = 5;
@@ -257,7 +258,7 @@ module.exports = function(app, products, configs) {
           }
           var start = (current_page - 1) * items_per_page;
           orders = orders.slice(start, start + items_per_page);
-          res.render('orders', { orders: orders, user: req.user, configs: configs, is_single: false,
+          res.render('orders', { orders: orders, user: req.user, is_single: false,
             current_page: current_page, total_pages: total_pages, total_items: total_items, cancelable: cancelable });
         }
       });
@@ -340,7 +341,7 @@ module.exports = function(app, products, configs) {
   app.post('/checkout', function(req, res, next){
     var user_logged_in_checkout = function(){
       verify_products(req, res, function(verified){
-        res.render('checkout', { products: verified, _data: req.body.data, configs: configs });
+        res.render('checkout', { products: verified, _data: req.body.data });
       });
     };
     var render_login_form = function(){
