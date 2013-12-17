@@ -22,4 +22,11 @@ $(function(){
       }
     }
   });
+  $('.need_confirm').change(function(){
+    var nc = $(this).find('option:selected:first');
+    if (nc.data('confirm') && !confirm(nc.data('confirm'))) {
+      $(this).find('option').prop('selected', false);
+      $(this).find('option:not([data-confirm]):first').prop('selected', true);
+    }
+  });
 });
