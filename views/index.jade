@@ -5,32 +5,7 @@ extends layouts/default
 
 block content
   .find.show_only_if_mobile
-    #typeselector
-      ul.navmenu.none_if_mobile
-        li.active
-          a(data-filter='*', href='#') 全部
-        - filters = {}
-        - each category, category_key in products
-          - each product, model in category
-            - if (product.filter)
-              - each filter in product.filter
-                - filters[filter] = ''
-        - each v, filter in filters
-          li
-            a(data-filter='.'+filter, href='#')=filter
-      select.navselect.show_only_if_mobile
-        option(value='*') 全部
-        - each v, filter in filters
-          option(value='.'+filter)=filter
-    #productfilter.productfilter
-      - each category, category_key in products
-        - each product, model in category
-          .pfitem(class=product.filter)
-            a(href=product.path)
-              img(data-original=product.image)
-              br
-              =product.name
-      .clearfix
+    include static/find_partial
   #main-slider.sliderkit.none_if_mobile
     .sliderkit-panels
       .sliderkit-btn.sliderkit-go-btn.sliderkit-go-prev

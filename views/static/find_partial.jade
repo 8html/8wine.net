@@ -1,0 +1,34 @@
+#typeselector
+  - filters = {}
+  - each category, category_key in products
+    - each product, model in category
+      - if (product.filter)
+        - each value, filter in product.filter
+          - filters[filter] = filters[filter] || []
+          - each item in value.split('、')
+            - if (filters[filter].indexOf(item) === -1)
+              - filters[filter].push(item)
+  table.filtertable
+    - firstrow = 1
+    - each values, item in filters
+      tr
+        td.itemtd=item
+        td.valtd
+          - if (firstrow)
+            .hint.none_if_mobile 点选项目进行筛选，再次点击取消。
+            - firstrow = 0
+          - each val in values
+            a(data-filter='.'+val, href='#')=val
+#productfilter.productfilter
+  - each category, category_key in products
+    - each product, model in category
+      - filter = ''
+      - if (product.filter)
+        - each value in product.filter
+          - filter+=value.replace(/、/g, ' ') + ' '
+      .pfitem(class=filter)
+        a(href=product.path)
+          img(data-original=product.image)
+          br
+          =product.name
+  .clearfix

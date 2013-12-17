@@ -3,21 +3,22 @@ $(function(){
     $('#productfilter').isotope({
       itemSelector: '.pfitem'
     });
-    $('#typeselector a').click(function(e) {
-      var li;
-      if ($(this).data('filter')) {
-        e.preventDefault();
-        li = $(this).parent();
-        li.siblings('li').removeClass('active');
-        li.addClass('active');
-        $('#productfilter').isotope({
-          filter: $(this).data('filter')
-        });
+    $('#typeselector a[data-filter]').click(function(e) {
+      e.preventDefault();
+      if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+      } else {
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
       }
-    });
-    $('#typeselector .navselect').change(function(e) {
+      var filter = '';
+      $('#typeselector a.active').each(function(){
+        var f=$(this).data('filter');
+        if (filter.indexOf(f)===-1) filter+=f;
+      });
+      if (!filter) filter = '*';
       $('#productfilter').isotope({
-        filter: $(this).val()
+        filter: filter
       });
     });
     $('#productfilter img').lazyload();
