@@ -6,7 +6,7 @@ wine:
     subtitle: Douglass Hill
     shopid: AM0001
     original_price: 130
-    price: 130
+    price: 88
     filter:
       - 红葡萄酒
       - 半干红葡萄酒
@@ -1164,7 +1164,7 @@ wine:
     subtitle: Antano
     shopid: SP0004
     original_price: 320
-    price: 320
+    price: 128
 
     商品描述: |
       **名称：**
@@ -1392,7 +1392,7 @@ wine:
     subtitle: L'Aura
     shopid: SP0010
     original_price: 120
-    price: 120
+    price: 73
 
     商品描述: |
       **名称：**
