@@ -29,4 +29,25 @@ $(function(){
       $(this).find('option:not([data-confirm]):first').prop('selected', true);
     }
   });
+  if ($('.form').length > 0) {
+    $('.form').each(function(){
+      $(this).submit(function(){
+        var err = [];
+        if ($('#final_price').length == 1) {
+          if ($('#final_price').val().length > 0 && !/^\d+(\.\d+|)$/.test($('#final_price').val())) {
+            err.push('合计总价');
+          }
+        }
+        if ($('#password').length == 1) {
+          if (!/^[A-Za-z0-9!@#$%^&*+\-]{6,16}$/.test($('#password').val())) {
+            err.push('密码');
+          }
+        }
+        if (err.length > 0) {
+          toastr.error(err.join('、') + '输入错误。');
+          return false;
+        }
+      });
+    });
+  }
 });
