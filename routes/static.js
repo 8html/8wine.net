@@ -4,8 +4,8 @@ module.exports = function(app, products, configs) {
     res.render('static/' + req.params.static);
   });
 
-  app.get('/find', function(req, res) {
-    res.render('static/find', { products: products });
+  app.get('/wine', function(req, res) {
+    res.render('static/find_wine', { products: products });
   });
 
 };
