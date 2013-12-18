@@ -39,7 +39,7 @@ $(function(){
           }
         }
         if ($('#password').length == 1) {
-          if (!/^[A-Za-z0-9!@#$%^&*+\-]{6,16}$/.test($('#password').val())) {
+          if (!/^[A-Za-z0-9!@#$%^&*+\-.]{6,16}$/.test($('#password').val())) {
             err.push('密码');
           }
         }
