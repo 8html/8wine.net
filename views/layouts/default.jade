@@ -65,14 +65,20 @@ html
           a(href='/contact', class=belongs_to=='contact'?'active':'') 联系我们
         li.clearfix
       block content
-      - if (messages && messages.length > 0)
+      - if (session && session.messages && session.messages.length > 0)
         - var msgs = ''
-        - while (message = messages.pop())
+        - while (message = session.messages.pop())
           - for (msg in message)
-            - if (message[msg])
+            - if (msg === 'options') 
+              - for (opt in message[msg])
+                - msgs = 'toastr.options.' + opt + '=' + (typeof(message[msg][opt]) === 'string' ? '"' + message[msg][opt] + '"' : message[msg][opt]) + ';' + msgs;
+            - else if (message[msg])
               - msgs += 'toastr["' + msg + '"](unescape("' + escape(message[msg]) + '"));'
         - if (msgs)
-          != '<script>' + msgs + '</script>'
+          != '<script>if(toastr){' + msgs + '}</script>'
+      - if (session && session.empty_cart)
+        != '<script>if(simpleCart)simpleCart.empty();</script>'
+        - session.empty_cart = null;
       != '<script>window.csrf_token="' + csrf_token + '";</script>'
       .footer.none_if_mobile
         .footer-body

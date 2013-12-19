@@ -4,6 +4,8 @@ title_suffix: 红酒室
 default_keywords: 红酒室
 default_description: 红酒室
 
+successfully_creating_order: 成功创建订单。我们会在48小时内发货。
+
 # 默认的订单状态
 statuses:
   - 等待买家付款
