@@ -465,7 +465,7 @@ module.exports = function(app, products, configs) {
             render_errors(res, ['创建订单时出错。']);
           } else {
             req.session.messages.push({ success: configs.successfully_creating_order,
-              options: { positionClass: "toast-top-full-width", timeOut: 10000 } });
+              options: { positionClass: "toast-top-full-width", timeOut: 60000 } });
             req.logIn(user, function(error){
               res.locals.current_user = (req.user && req.user._id) ? req.user : null;
               req.session.empty_cart = true;
