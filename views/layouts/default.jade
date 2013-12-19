@@ -48,21 +48,21 @@ html
                 a.simpleCart_checkout.hudbtn.primary.right(href='javascript:;') 结账
       ul.nav
         li.none_if_mobile
-          a.first.products(href='/wine') 酒库
+          a.first.products(href='/wine', class=belongs_to=='wine'?'active':'') 酒库
         li
-          a(href='/') 首页
+          a(href='/', class=belongs_to=='/'?'active':'') 首页
         li.none_if_mobile
           a(href='/') 超值组合
         li.none_if_mobile
           a(href='/') 送礼区
         li.none_if_mobile
-          a(href='/') 波尔多列级名庄
+          a(href='/grand-cru', class=belongs_to=='grand-cru'?'active':'') 波尔多列级名庄
         li.none_if_mobile
           a(href='/') 培训班
         li
-          a(href='/about') 公司简介
+          a(href='/about', class=belongs_to=='about'?'active':'') 公司简介
         li
-          a(href='/contact') 联系我们
+          a(href='/contact', class=belongs_to=='contact'?'active':'') 联系我们
         li.clearfix
       block content
       - if (messages && messages.length > 0)

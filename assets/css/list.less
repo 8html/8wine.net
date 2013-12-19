@@ -1,0 +1,61 @@
+.productlist {
+  min-height: 700px;
+  .plitem {
+    float: left;
+    position: relative;
+    width: 364px;
+    height: 185px;
+    border: 1px solid #CCC;
+    margin: 10px;
+    padding: 12px 5px;
+    text-align: left;
+    background: #FFF;
+    .plimg {
+      float: left;
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+    &:hover {
+      border: 1px solid #666;
+    }
+    .pltitle {
+      text-align: left;
+      padding: 8px 0;
+    }
+    .plsubtitle {
+      text-align: left;
+      font-size: 14px;
+      color: #aaa;
+    }
+    .plprices {
+      margin: 10px 0 0;
+      em.plprice {
+        font-size: 28px;
+        color: #C30F21;
+        display: block;
+        padding: 10px 0;
+      }
+      em.plorigprice {
+        font-size: 18px;
+        color: #888;
+        text-decoration: line-through;
+        display: block;
+        padding: 10px 0;
+      }
+    }
+    .plbuttons {
+      border-top: 1px dotted #CCC;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 5px 0;
+      text-align: right;
+      a {
+        margin: 0 5px;
+      }
+    }
+  }
+}

@@ -15,7 +15,9 @@
         td.itemtd=item
         td.valtd
           - if (firstrow)
-            .hint.none_if_mobile 点选项目进行筛选，再次点击取消。
+            .hint.none_if_mobile
+              | 点选项目进行筛选，再次点击取消。
+              a.showall.hidden(data-filter='*', href='#') 显示全部
             - firstrow = 0
           - each val in values.sort()
             a(data-filter='.'+val, href='#')=val

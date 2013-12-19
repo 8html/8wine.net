@@ -1,0 +1,24 @@
+block variables
+  title = lists.page.title
+  keywords = lists.page.keywords
+  description = lists.page.description
+
+extends ../layouts/default
+
+block content
+  .productlist
+    - each category, category_key in lists.list
+      - each model in category
+        - product = products[category_key][model]
+        .plitem
+          a.plimg(href=product.path)
+            img(src=product.image)
+          .pltitle=product.title
+          .plsubtitle=product.subtitle
+          .plprices
+            - if (product.original_price && product.original_price > product.price)
+              em.plorigprice.toCurrency= product.original_price
+            em.plprice.toCurrency= product.price
+          .plbuttons
+            a.hudbtn.primary(href=product.path) 查看详情
+    .clearfix

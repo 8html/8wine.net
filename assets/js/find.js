@@ -5,18 +5,27 @@ $(function(){
     });
     $('#typeselector a[data-filter]').click(function(e) {
       e.preventDefault();
-      if ($(this).hasClass('active')) {
-        $(this).removeClass('active');
+      if ($(this).data('filter') == '*') {
+        $('#typeselector a[data-filter]').removeClass('active');
       } else {
-        $(this).siblings().removeClass('active');
-        $(this).addClass('active');
+        if ($(this).hasClass('active')) {
+          $(this).removeClass('active');
+        } else {
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+        }
       }
       var filter = '';
       $('#typeselector a.active').each(function(){
         var f=$(this).data('filter');
         if (filter.indexOf(f)===-1) filter+=f;
       });
-      if (!filter) filter = '*';
+      if (!filter) {
+        filter = '*';
+        $('#typeselector a.showall').hide();
+      } else {
+        $('#typeselector a.showall').show();
+      }
       $('#productfilter').isotope({
         filter: filter
       });
