@@ -17,7 +17,7 @@
           - if (firstrow)
             .hint.none_if_mobile 点选项目进行筛选，再次点击取消。
             - firstrow = 0
-          - each val in values
+          - each val in values.sort()
             a(data-filter='.'+val, href='#')=val
 #productfilter.productfilter
   - each category, category_key in products
