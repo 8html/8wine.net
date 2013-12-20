@@ -51,10 +51,11 @@ $(function(){
           price: item.price()
         });
       });
+      var selected_delivery = $('input[name=delivery]:enabled:checked');
       return {
         action: '/checkout',
         method: 'POST',
-        data: { data: JSON.stringify(data), _csrf: window.csrf_token }
+        data: { data: JSON.stringify(data), delivery: selected_delivery.val(), _csrf: window.csrf_token }
       };
     }
   });
@@ -131,6 +132,16 @@ $(function(){
       return confirm('确定要从购物车上删除“' + item.get('name') + '”？')
     });
     simpleCart.bind('ready update', function(){
+      var total = simpleCart.grandTotal();
+      $('.delivery .delivery_method[data-min]').each(function(){
+        if (total >= +$(this).data('min')) {
+          $(this).removeClass('disabled');
+          $(this).find('input').prop('disabled', false)
+        } else {
+          $(this).addClass('disabled');
+          $(this).find('input').prop('disabled', true)
+        }
+      });
       if (simpleCart.quantity() == 0) {
         $('.cart').addClass('hidden');
         $('.empty_cart').removeClass('hidden');

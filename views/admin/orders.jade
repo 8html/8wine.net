@@ -84,8 +84,10 @@ block content
                   td(colspan=3)
                     - if (PRODUCT)
                       a(href=path, title=PRODUCT.title)= PRODUCT.name
+                    - else if (product.category && product.model)
+                      | #{product.title} (商品已不存在)
                     - else
-                      | #{product.category} #{product.model} (商品已不存在)
+                      | #{product.title}
                   td(colspan=2)
                     | 单价：
                     span.toCurrency= product.price

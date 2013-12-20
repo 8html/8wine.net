@@ -6,6 +6,19 @@ default_description: 红酒室
 
 successfully_creating_order: 成功创建订单。我们会在48小时内发货。
 
+# 配送方式
+delivery:
+  free_if_over:               # 唯一的配送名
+    name: 满200元免普通货运运费  # 显示名
+    fee: 0.00                 # 配送费用
+    min: 200.00               # 门槛，总金额超过这个数字才可以使用
+  normal:
+    name: 普通货运（¥6.00）
+    fee: 6.00
+  fastest:
+    name: 半日达（¥35.00）
+    fee: 35.00
+
 # 默认的订单状态
 statuses:
   - 等待买家付款

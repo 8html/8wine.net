@@ -117,10 +117,18 @@ module.exports = function(app, products, configs) {
           var product = order.products[j];
           var cat = product.category, model = product.model;
           var total = product.quantity * product.price;
+          var title;
+          if (products[cat] && products[cat][model]) {
+            title = products[cat][model].name;
+          } else if (cat && model) {
+            title = '(商品已下架)';
+          } else {
+            title = product.title;
+          }
           data.push([
             { value: j == 0 ? i + 1 : '' },
             { value: j == 0 ? order._id + '' : '' },
-            { value: products[cat] && products[cat][model] ? products[cat][model].name : '(商品已下架)' },
+            { value: title },
             { value: product.quantity },
             { value: product.price, formatCode: currency_format, hAlign: 'right' },
             { value: total, formatCode: currency_format, hAlign: 'right' },

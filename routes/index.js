@@ -315,6 +315,7 @@ module.exports = function(app, products, configs) {
       var data_length = data.length;
       if (data_length > 50) throw ['购物车商品种类不应超过50种。'];
 
+      var grandTotal = 0;
       for (var i = 0; i < data_length; i++) {
         var item = data[i];
         var quantity = item.quantity;
@@ -322,15 +323,31 @@ module.exports = function(app, products, configs) {
 
         var category = item.category, model = item.model;
         if (products[category] && products[category][model]) {
-          var output = products[category][model];
+          var output = JSON.parse(JSON.stringify(products[category][model]));
           if (item.price != output.price) continue;
           output['quantity'] = quantity;
+          grandTotal += output.price * quantity;
           verified.push(output);
         }
       }
 
       if (verified.length == 0) throw ['购物车上没有商品，无法结账。'];
       if (data_length != verified.length) throw ['购物车上至少有一种商品已过时或已发生改变。'];
+
+      var delivery = req.body.delivery;
+      if (!delivery || !configs.delivery.hasOwnProperty(delivery)) throw ['您尚未选择配送方式。'];
+      var selected_delivery = configs.delivery[delivery];
+      if (selected_delivery.min) {
+        if (grandTotal < selected_delivery.min)
+          throw ['您选择的配送方式需要购物满' + selected_delivery.min + '元方可使用。'];
+      }
+      var delivery_title = '配送：' + selected_delivery.name;
+      verified.push({
+        name: delivery_title,
+        title: delivery_title,
+        quantity: 1,
+        price: selected_delivery.fee
+      });
 
       done(verified);
     } catch (errors) {
@@ -341,11 +358,11 @@ module.exports = function(app, products, configs) {
   app.post('/checkout', function(req, res, next){
     var user_logged_in_checkout = function(){
       verify_products(req, res, function(verified){
-        res.render('checkout', { products: verified, _data: req.body.data });
+        res.render('checkout', { products: verified, _data: req.body.data, _delivery: req.body.delivery });
       });
     };
     var render_login_form = function(){
-      res.render('login_or_not', { _data: req.body.data });
+      res.render('login_or_not', { _data: req.body.data, _delivery: req.body.delivery });
     };
     var ignore_login = req.body.new == 'yes';
     if ((req.user && req.user._id) || ignore_login) {
@@ -367,7 +384,9 @@ module.exports = function(app, products, configs) {
           });
         })(req, res, next);
       } else {
-        render_login_form();
+        verify_products(req, res, function(verified){
+          render_login_form();
+        });
       }
     }
   });

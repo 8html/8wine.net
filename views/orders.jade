@@ -89,8 +89,10 @@ block content
                   td.item-name
                     - if (PRODUCT)
                       a(href=path, title=PRODUCT.title)= PRODUCT.name
+                    - else if (product.category && product.model)
+                      | #{product.title} (商品已不存在)
                     - else
-                      | #{product.category} #{product.model} (商品已不存在)
+                      | #{product.title}
                   td.item-quantity= product.quantity
                   td.item-price.toCurrency= product.price
                   td.item-total.toCurrency= total

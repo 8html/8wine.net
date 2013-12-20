@@ -1,5 +1,5 @@
 $(function(){
-  $('#cartac').typeahead({                                
+  $('#cartac').typeahead({
     name: 'products',
     prefetch: '/search',
     remote: '/search/%QUERY',
@@ -20,4 +20,13 @@ $(function(){
       toastr['success']('成功添加商品到购物车。');
     });
   });
+  $('.checkout_button').click(function(e){
+    e.preventDefault();
+    var selected_delivery = $('input[name=delivery]:enabled:checked');
+    if (selected_delivery.length === 1) {
+      simpleCart.checkout();
+    } else {
+      toastr['error']('请选择一种配送方式。');
+    }
+  })
 });
