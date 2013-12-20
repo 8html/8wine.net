@@ -80,6 +80,7 @@ html
         != '<script>if(simpleCart)simpleCart.empty();</script>'
         - session.empty_cart = null;
       != '<script>window.csrf_token="' + csrf_token + '";</script>'
+      != '<script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src=\'"+_bdhmProtocol+"hm.baidu.com/h.js%3Fa11a0b92f2eea4949b7c2bd808fa27b8\' type=\'text/javascript\'%3E%3C/script%3E"));</script>'
       .footer.none_if_mobile
         .footer-body
           .nboxes
