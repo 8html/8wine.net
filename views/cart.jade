@@ -15,8 +15,8 @@ block content
       h2.title 配送方式
       .form.delivery
         - each delivery, delivery_name in configs.delivery
-          .form-group.delivery_method(data-min=delivery.min, class=delivery.min?'disabled':null)
-            input(id=delivery_name, type='radio', name='delivery', value=delivery_name, disabled=delivery.min?'disabled':null)
+          .form-group.delivery_method(data-min=delivery.min, data-max=delivery.max, class=(delivery.min||delivery.max)?'disabled':null)
+            input(id=delivery_name, type='radio', name='delivery', value=delivery_name, disabled=(delivery.min||delivery.max)?'disabled':null)
             label.option(for=delivery_name)=delivery.name
       .shopping_cart_buttons.bottom_buttons
         a.checkout_button.hudbtn.primary(href='javascript:;') 结账

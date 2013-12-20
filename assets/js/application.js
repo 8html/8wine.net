@@ -133,13 +133,24 @@ $(function(){
     });
     simpleCart.bind('ready update', function(){
       var total = simpleCart.grandTotal();
-      $('.delivery .delivery_method[data-min]').each(function(){
-        if (total >= +$(this).data('min')) {
-          $(this).removeClass('disabled');
-          $(this).find('input').prop('disabled', false)
-        } else {
-          $(this).addClass('disabled');
-          $(this).find('input').prop('disabled', true)
+      $('.delivery .delivery_method').each(function(){
+        if ($(this).data('min')) {
+          if (total >= +$(this).data('min')) {
+            $(this).removeClass('disabled');
+            $(this).find('input').prop('disabled', false)
+          } else {
+            $(this).addClass('disabled');
+            $(this).find('input').prop('disabled', true)
+          }
+        }
+        if ($(this).data('max')) {
+          if (total < +$(this).data('max')) {
+            $(this).removeClass('disabled');
+            $(this).find('input').prop('disabled', false)
+          } else {
+            $(this).addClass('disabled');
+            $(this).find('input').prop('disabled', true)
+          }
         }
       });
       if (simpleCart.quantity() == 0) {

@@ -341,6 +341,10 @@ module.exports = function(app, products, configs) {
         if (grandTotal < selected_delivery.min)
           throw ['您选择的配送方式需要购物满' + selected_delivery.min + '元方可使用。'];
       }
+      if (selected_delivery.max) {
+        if (grandTotal >= selected_delivery.max)
+          throw ['您选择的配送方式需要购物低于' + selected_delivery.max + '元方可使用。'];
+      }
       var delivery_title = '配送：' + selected_delivery.name;
       verified.push({
         name: delivery_title,
