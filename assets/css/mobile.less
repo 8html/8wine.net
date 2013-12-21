@@ -151,12 +151,23 @@
   }
   .productfilter {
     .pfitem {
-      width: 133px;
-      height: 165px;
+      @width: 145px;
+      @height: 195px;
+      width: @width;
+      height: @height;
       margin: 5px 5px 10px;
-      img {
-        width: 130px;
-        height: 130px;
+      a {
+        width: @width;
+        height: @height;
+        .pfimg {
+          img {
+            width: 130px;
+            height: 130px;
+          }
+        }
+        .pfmask {
+          display: none;
+        }
       }
     }
   }
