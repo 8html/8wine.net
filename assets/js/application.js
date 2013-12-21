@@ -17,6 +17,7 @@
 //= require orders_cancel.js
 //= require cart.js
 //= require find.js
+//= require zxkf.js
 toastr.options = {
   closeButton: true,
   showDuration: 200,
