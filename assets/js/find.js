@@ -1,7 +1,7 @@
 $(function(){
   if ($('#typeselector').length === 1) {
-    $('#productfilter').isotope({
-      itemSelector: '.pfitem'
+    $('.filtered').isotope({
+      itemSelector: '.filtered_item'
     });
     $('#typeselector a[data-filter]').click(function(e) {
       e.preventDefault();
@@ -26,7 +26,7 @@ $(function(){
       } else {
         $('#typeselector a.showall').show();
       }
-      $('#productfilter').isotope({
+      $('.filtered').isotope({
         filter: filter
       });
     });

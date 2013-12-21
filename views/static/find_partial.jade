@@ -21,14 +21,14 @@
             - firstrow = 0
           - each val in values.sort()
             a(data-filter='.'+val, href='#')=val
-#productfilter.productfilter
+#productfilter.productfilter.filtered
   - each category, category_key in products
     - each product, model in category
       - filter = ''
       - if (product.filter)
         - each value in product.filter
           - filter+=value.replace(/、/g, ' ') + ' '
-      .pfitem(class=filter)
+      .pfitem.filtered_item(class=filter)
         a(href=product.path)
           .pfimg
             img(alt=product.name, data-original=product.image)

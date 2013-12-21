@@ -5,7 +5,12 @@ grand-cru:
     description: 波尔多列级名庄的描述
   list:
     wine:
-      - douglass-hill
-      - stone-hedge-reserve-a
-      - douglass-hill
-      - stone-hedge-reserve-a
+      douglass-hill:
+        filter:
+          类型: 类型1
+      eagle-ridge:
+        filter:
+          类型: 类型2
+      stone-hedge-reserve-a:
+        filter:
+          类型: 类型3

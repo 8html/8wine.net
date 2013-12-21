@@ -6,19 +6,48 @@ block variables
 extends ../layouts/default
 
 block content
-  .productlist
+  #typeselector
+    - filters = {}
     - each category, category_key in lists.list
-      - each model in category
+      - each product, model in category
+        - if (product.filter)
+          - each value, filter in product.filter
+            - filters[filter] = filters[filter] || []
+            - each item in value.split('、')
+              - if (filters[filter].indexOf(item) === -1)
+                - filters[filter].push(item)
+    table.filtertable
+      - firstrow = 1
+      - each values, item in filters
+        tr
+          td.itemtd=item
+          td.valtd
+            - if (firstrow)
+              .hint.none_if_mobile
+                | 点选项目进行筛选，再次点击取消。
+                a.showall.hidden(data-filter='*', href='#') 显示全部
+              - firstrow = 0
+            - each val in values.sort()
+              a(data-filter='.'+val, href='#')=val
+  .productlist.filtered
+    - each category, category_key in lists.list
+      - each product, model in category
         - product = products[category_key][model]
-        .plitem
-          a.plimg(href=product.path)
-            img(src=product.image)
-          .pltitle=product.title
-          .plsubtitle=product.subtitle
-          .plprices
-            - if (product.original_price && product.original_price > product.price)
-              em.plorigprice.toCurrency= product.original_price
-            em.plprice.toCurrency= product.price
-          .plbuttons
-            a.hudbtn.primary(href=product.path) 查看详情
+        - list_product = lists.list[category_key][model]
+        - if (product)
+          - filter = ''
+          - if (list_product.filter)
+            - each value in list_product.filter
+              - filter+=value.replace(/、/g, ' ') + ' '
+          .plitem.filtered_item(class=filter)
+            a.plimg(href=product.path)
+              img(src=product.image)
+            .pltitle=product.title
+            .plsubtitle=product.subtitle
+            .plprices
+              - if (product.original_price && product.original_price > product.price)
+                em.plorigprice.toCurrency= product.original_price
+              em.plprice.toCurrency= product.price
+            .plbuttons
+              a.hudbtn.primary(href=product.path) 查看详情
     .clearfix
