@@ -69,15 +69,23 @@
 
 .productfilter {
   .pfitem {
+    @width: 216px;
+    @height: 270px;
     float: left;
-    width: 206px;
-    height: 230px;
+    width: @width;
+    height: @height;
     border: 1px solid #CCC;
     margin: 5px 10px 10px;
-    padding: 12px 5px;
     text-align: center;
     background: #FFF;
+    &:hover {
+      border: 1px solid #666;
+    }
     a {
+      display: block;
+      position: relative;
+      width: @width;
+      height: @height;
       font-size: 13px;
       color: #7e7e7e;
       text-decoration: none;
@@ -85,14 +93,57 @@
       &:hover {
         color: #000;
         text-decoration: none;
+        .pfmask {
+          opacity: 0.7;
+        }
       }
-    }
-    img {
-      width: 200px;
-      height: 200px;
-    }
-    &:hover {
-      border: 1px solid #666;
+      .pfimg {
+        padding: 5px;
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+      .pfname {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 4px;
+        font-size: 14px;
+      }
+      .pfdesc {
+        padding: 10px 15px;
+        text-align: left;
+        line-height: 25px;
+      }
+      .pfmask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: @width;
+        height: @height;
+        background: #000;
+        color: #fff;
+        opacity: 0;
+        transition: opacity 0.25s;
+        -moz-transition: opacity 0.25s;
+        -webkit-transition: opacity 0.25s;
+      }
+      .pfprices {
+        padding: 2px 0;
+        .pforigprice {
+          text-decoration: line-through;
+          color: #757575;
+          margin-right: 8px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .pfprice {
+          font-weight: bold;
+          color: #C00000;
+          font-size: 16px;
+        }
+      }
     }
   }
 }

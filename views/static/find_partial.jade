@@ -30,7 +30,18 @@
           - filter+=value.replace(/、/g, ' ') + ' '
       .pfitem(class=filter)
         a(href=product.path)
-          img(data-original=product.image)
-          br
-          =product.name
+          .pfimg
+            img(alt=product.name, data-original=product.image)
+          .pfname=product.name
+          .pfprices
+            - if (product.original_price && product.original_price > product.price)
+              em.pforigprice.toCurrency= product.original_price
+            em.pfprice.toCurrency= product.price
+          .pfmask
+            .pfdesc
+              =product.title
+              br
+              =product.subtitle
+              br
+              =product.description
   .clearfix
