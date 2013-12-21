@@ -487,8 +487,7 @@ module.exports = function(app, products, configs) {
           if (error) {
             render_errors(res, ['创建订单时出错。']);
           } else {
-            req.session.messages.push({ success: configs.successfully_creating_order,
-              options: { positionClass: "toast-top-full-width", timeOut: 60000 } });
+            req.session.messages.push(configs.successfully_creating_order);
             req.logIn(user, function(error){
               res.locals.current_user = (req.user && req.user._id) ? req.user : null;
               req.session.empty_cart = true;

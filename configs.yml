@@ -4,7 +4,11 @@ title_suffix: 红酒室
 default_keywords: 红酒室
 default_description: 红酒室
 
-successfully_creating_order: 成功创建订单。我们会在48小时内发货。
+successfully_creating_order: 
+  success: 成功创建订单。我们会在48小时内发货。
+  options:
+    positionClass: "toast-top-full-width" # 样式，位于页顶
+    timeOut: 180000 # 时间，毫秒
 
 # 配送方式
 delivery:
