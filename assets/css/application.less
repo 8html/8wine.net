@@ -423,7 +423,7 @@ ul.nav {
     background: #F5F7FA;
   }
   .nboxes {
-    @height: 50px;
+    @height: 40px;
     height: (@height + 20);
     border-bottom: 1px solid #EDEDED;
     .nbox {
@@ -437,8 +437,8 @@ ul.nav {
         width: 100%;
         height: @height;
         text-align: center;
-        font-size: 30px;
-        padding: 10px 0 0 0;
+        font-size: 24px;
+        line-height: 40px;
         color: #656D78;
       }
       .nbox_r {
@@ -454,56 +454,33 @@ ul.nav {
       }
     }
   }
-  .fc {
-    @height: 105px;
-    height: @height;
-    padding: 10px;
-    .fl {
-      float: left;
-      width: 75%;
-      height: @height;
+  .n3 {
+    .nbox {
+      width: 388px;
     }
-    .fr {
-      float: left;
-      width: 25%;
-      height: @height;
-      .ftel {
-        font-size: 14px;
-        text-align: center;
-        .ftelink {
-          display: block;
-          margin: 0 auto;
-          width: 210px;
-          height: 36px;
-          line-height: 36px;
-          font-size: 24px;
-          text-decoration: none;
-          color: #656D78;
-        }
-        .ci {
-          margin: 4px;
-        }
-      }
-      .fco {
-        padding: 5px;
-        .fcolink {
-          margin: 5px auto;
-          padding: 3px;
-          width: 150px;
-          height: 30px;
-          display: block;
-          background: #85C143;
-          color: #FFF;
-          text-decoration: none;
-          line-height: 30px;
-          border-radius: 5px;
-          font-size: 16px;
-        }
-        .ci {
-          margin: 0 8px;
-        }
-      }
-    }
+  }
+  .fcolink {
+    margin: 0 auto;
+    padding: 3px;
+    width: 150px;
+    height: 30px;
+    display: block;
+    background: #85C143;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .ftelink {
+    display: block;
+    margin: 0 auto;
+    width: 210px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #656D78;
   }
 }
 
