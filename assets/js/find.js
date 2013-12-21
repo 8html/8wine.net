@@ -1,7 +1,10 @@
 $(function(){
   if ($('#typeselector').length === 1) {
     $('.filtered').isotope({
-      itemSelector: '.filtered_item'
+      itemSelector: '.filtered_item',
+      onLayout: function() {
+        $(window).trigger('scroll');
+      }
     });
     $('#typeselector a[data-filter]').click(function(e) {
       e.preventDefault();
@@ -30,6 +33,6 @@ $(function(){
         filter: filter
       });
     });
-    $('#productfilter img').lazyload();
+    $('#productfilter img').unveil();
   }
 });

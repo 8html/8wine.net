@@ -31,7 +31,7 @@
       .pfitem.filtered_item(class=filter)
         a(href=product.path)
           .pfimg
-            img(alt=product.name, data-original=product.image)
+            img(alt=product.name, data-src=product.image)
           .pfname=product.name
           .pfprices
             - if (product.original_price && product.original_price > product.price)

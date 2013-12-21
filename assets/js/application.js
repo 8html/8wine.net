@@ -9,7 +9,7 @@
 //= require vendor/typeahead.js
 //= require vendor/jquery.zoom.js
 //= require vendor/jquery.isotope.min.js
-//= require vendor/jquery.lazyload.min.js
+//= require vendor/jquery.unveil.min.js
 //= require account.js
 //= require checkout.js
 //= require product_details.js
@@ -26,7 +26,7 @@ toastr.options = {
 };
 $(function(){
   FastClick.attach(document.body);
-  $('.lazy').lazyload();
+  $('.lazy').unveil();
   if ($('#main-slider').length == 1) {
     $('#main-slider').sliderkit({
       auto: true,
