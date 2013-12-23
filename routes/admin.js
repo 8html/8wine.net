@@ -335,7 +335,7 @@ module.exports = function(app, products, configs) {
             } else {
               req.session.messages.push({ error: '无法更改用户密码。' });
             }
-            return;
+            break;
           case 'allow_user':
             user.banned = false;
             user.save();

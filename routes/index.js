@@ -113,7 +113,7 @@ module.exports = function(app, products, configs) {
   passport.deserializeUser(function(username, done) {
     var User = require('../models/user');
     User.findOne({ username: username }, function(err, user) {
-      if (user.force_log_out) {
+      if (!err && user && user.force_log_out) {
         done(err, null);
       } else {
         done(err, user);
