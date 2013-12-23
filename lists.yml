@@ -5,12 +5,21 @@ grand-cru:
     description: 波尔多列级名庄的描述
   list:
     wine:
-      douglass-hill:
+      chateau-lynch-moussas:
         filter:
-          类型: 类型1
-      eagle-ridge:
+          波尔多列级庄: 1855年梅多克列级
+      chateau-cantemerle:
         filter:
-          类型: 类型2
-      stone-hedge-reserve-a:
+          波尔多列级庄: 1855年梅多克列级
+      alter-ego:
         filter:
-          类型: 类型3
+          波尔多列级庄: 1855年梅多克列级
+      chateau-branaire-ducru:
+        filter:
+          波尔多列级庄: 1855年梅多克列级
+      chateau-de-pressac:
+        filter:
+          波尔多列级庄:  圣爱美隆列级
+      chateau-l-abbaye:
+        filter:
+          波尔多列级庄:  圣爱美隆列级
