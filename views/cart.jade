@@ -18,5 +18,7 @@ block content
           .form-group.delivery_method(data-min=delivery.min, data-max=delivery.max, class=(delivery.min||delivery.max)?'disabled':null)
             input(id=delivery_name, type='radio', name='delivery', value=delivery_name, disabled=(delivery.min||delivery.max)?'disabled':null)
             label.option(for=delivery_name)=delivery.name
+            - if (delivery.desc)
+              .labeldesc=delivery.desc
       .shopping_cart_buttons.bottom_buttons
         a.checkout_button.hudbtn.primary(href='javascript:;') 结账
