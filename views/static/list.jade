@@ -17,18 +17,27 @@ block content
               - if (filters[filter].indexOf(item) === -1)
                 - filters[filter].push(item)
     table.filtertable
-      - firstrow = 1
+      - count = 0
       - each values, item in filters
         tr
           td.itemtd=item
           td.valtd
-            - if (firstrow)
+            - if (count === Object.keys(filters).length - 1)
               .hint.none_if_mobile
-                | 点选项目进行筛选，再次点击取消。
-                a.showall.hidden(data-filter='*', href='#') 显示全部
-              - firstrow = 0
+                .all_listed
+                  | 已列出酒库中全部
+                  span.total_items 0
+                  | 支酒。
+                .not_all_listed.hidden
+                  | 已显示酒库中
+                  span.total_items 0
+                  | 支酒中的
+                  span.visible_items 0
+                  | 支。
+            a.active(data-filter='.'+item+'不限', href='#') 不限
             - each val in values.sort()
               a(data-filter='.'+val, href='#')=val
+        - count++
   .productlist.filtered
     - each category, category_key in lists.list
       - each product, model in category
@@ -37,8 +46,8 @@ block content
         - if (product)
           - filter = ''
           - if (list_product.filter)
-            - each value in list_product.filter
-              - filter+=value.replace(/、/g, ' ') + ' '
+            - each value, item in list_product.filter
+              - filter+=item + '不限 ' + value.replace(/、/g, ' ') + ' '
           .plitem.filtered_item(class=filter)
             a.plimg(href=product.path)
               img(src=product.image)
