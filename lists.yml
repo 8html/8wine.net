@@ -8,18 +8,42 @@ grand-cru:
       chateau-lynch-moussas:
         filter:
           波尔多列级庄: 1855年梅多克列级
+        rp: 88
+        ws: 88
+        jr: 15.5
+        info: 2004年五级庄
       chateau-cantemerle:
         filter:
           波尔多列级庄: 1855年梅多克列级
+        rp: 88
+        ws: 88
+        jr: 15.5
+        info: 2004年五级庄
       alter-ego:
         filter:
           波尔多列级庄: 1855年梅多克列级
+        rp: 88
+        ws: 88
+        jr: 15.5
+        info: 2004年五级庄
       chateau-branaire-ducru:
         filter:
           波尔多列级庄: 1855年梅多克列级
+        rp: 88
+        ws: 88
+        jr: 15.5
+        info: 2004年五级庄
       chateau-de-pressac:
         filter:
-          波尔多列级庄:  圣爱美隆列级
+          波尔多列级庄: 圣爱美隆列级
+        rp: 88
+        ws: 88
+        jr: 15.5
+        info: 2004年五级庄
       chateau-l-abbaye:
         filter:
-          波尔多列级庄:  圣爱美隆列级
+          波尔多列级庄: 圣爱美隆列级
+        rp: 88
+        ws: 88
+        jr: 15.5
+        info: 2004年五级庄
