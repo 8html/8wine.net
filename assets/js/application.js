@@ -24,7 +24,16 @@ toastr.options = {
   hideDuration: 200,
   timeOut: 4000
 };
+function getCSRFToken() {
+  return $('meta[name="cgh-csrf-token"]').attr('content');
+}
 $(function(){
+  $.ajaxPrefilter(function(options, originalOptions, xhr) {
+    if (!options.crossDomain && options.type !== 'get') {
+      var token = getCSRFToken();
+      if (token) xhr.setRequestHeader('X-CSRF-Token', token);
+    }
+  });
   FastClick.attach(document.body);
   $('.lazy').unveil();
   if ($('#main-slider').length == 1) {
@@ -56,7 +65,7 @@ $(function(){
       return {
         action: '/checkout',
         method: 'POST',
-        data: { data: JSON.stringify(data), delivery: selected_delivery.val(), _csrf: window.csrf_token }
+        data: { data: JSON.stringify(data), delivery: selected_delivery.val(), _csrf: getCSRFToken() }
       };
     }
   });
@@ -280,7 +289,7 @@ $(function(){
   }
   $('abbr.timeago').timeago();
   $('#logout').click(function(){
-    $.post('/logout', { _csrf: window.csrf_token }).done(function(){
+    $.post('/logout').done(function(){
       window.location.reload();
     }).error(function(){
       window.location.href = '/';
