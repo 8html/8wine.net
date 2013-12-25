@@ -7,7 +7,7 @@ wine:
     shopid: AM0001
     keywords:
     description: 道格拉斯山半干红葡萄酒
-    original_price: 130
+    original_price: 160
     price: 88
     filter: # 多个使用“、”分隔
       国家: 美国
@@ -53,7 +53,7 @@ wine:
     keywords:
     description: 琥珀山半干红葡萄酒
     original_price: 280
-    price: 280
+    price: 160
     filter: # 多个使用“、”分隔
       国家: 美国
       含糖量: 半干型
@@ -98,7 +98,7 @@ wine:
     keywords:
     description: 宝石篱赤霞珠珍藏
     original_price: 550
-    price: 550
+    price: 358
     filter: # 多个使用“、”分隔
       国家: 美国
       含糖量: 干型
@@ -145,7 +145,7 @@ wine:
     keywords:
     description: 宝石篱梅乐珍藏
     original_price: 550
-    price: 550
+    price: 358
     filter: # 多个使用“、”分隔
       国家: 美国
       含糖量: 干型
@@ -191,7 +191,7 @@ wine:
     keywords:
     description: 鹰谷半干红葡萄酒
     original_price: 210
-    price: 210
+    price: 120
     filter: # 多个使用“、”分隔
       国家: 美国
       含糖量: 半干型
@@ -234,7 +234,7 @@ wine:
     keywords:
     description: 野兔干红葡萄酒
     original_price: 230
-    price: 230
+    price: 130
     filter: # 多个使用“、”分隔
       国家: 美国
       含糖量: 干型
@@ -279,7 +279,7 @@ wine:
     keywords:
     description: 多玛罗干红葡萄酒
     original_price: 280
-    price: 280
+    price: 138
     filter: # 多个使用“、”分隔
       国家: 阿根廷
       含糖量: 干型
@@ -323,7 +323,7 @@ wine:
     keywords:
     description: 拉利精选干红葡萄酒
     original_price: 230
-    price: 230
+    price: 99
     filter: # 多个使用“、”分隔
       国家: 澳大利亚
       含糖量: 干型
@@ -413,7 +413,7 @@ wine:
     keywords:
     description: 天使之爱半干红葡萄酒
     original_price: 130
-    price: 130
+    price: 80
     filter: # 多个使用“、”分隔
       国家: 智利
       含糖量: 半干型
@@ -458,7 +458,7 @@ wine:
     keywords:
     description: 天使之爱半干白葡萄酒
     original_price: 130
-    price: 130
+    price: 80
     filter: # 多个使用“、”分隔
       国家: 智利
       含糖量: 半干型
@@ -503,7 +503,7 @@ wine:
     keywords:
     description: 天使之爱桃红葡萄酒
     original_price: 130
-    price: 130
+    price: 80
     filter: # 多个使用“、”分隔
       国家: 智利
       含糖量: 半干型
@@ -540,13 +540,13 @@ wine:
       
 
   santa-alba-cabernet-sauvignon:
-    name: 圣塔赤霞珠半干红葡萄酒
+    name: 圣达艾贝赤霞珠干红葡萄酒
 
-    title: 圣塔赤霞珠半干红葡萄酒
+    title: 圣达艾贝赤霞珠干红葡萄酒
     subtitle: Santa Alba Cabernet Sauvignon
     shopid: CH0004
     keywords:
-    description: 圣塔赤霞珠干红葡萄酒
+    description: 圣达艾贝赤霞珠干红葡萄酒
     original_price: 120
     price: 120
     filter: # 多个使用“、”分隔
@@ -585,13 +585,13 @@ wine:
 
 
   santa-alba-carmenere:
-    name: 圣塔卡曼纳半干红葡萄酒
+    name: 圣达艾贝曼纳干红葡萄酒
 
-    title: 圣塔卡曼纳半干红葡萄酒
+    title: 圣达艾贝曼纳干红葡萄酒
     subtitle: Santa Alba Carmenere
     shopid: CH0005
     keywords:
-    description: 圣塔卡曼纳干红葡萄酒
+    description: 圣达艾贝曼纳干红葡萄酒
     original_price: 120
     price: 120
     filter: # 多个使用“、”分隔
@@ -630,13 +630,13 @@ wine:
 
 
   santa-blan-alba-sauvignon:
-    name: 圣塔长相思干白葡萄酒
+    name: 圣达艾贝长思干白葡萄酒
 
-    title: 圣塔长相思半干白葡萄酒
+    title: 圣达艾贝长思干白葡萄酒
     subtitle: Santa Blan  Alba Sauvignon
     shopid: CH0006
     keywords:
-    description: 圣塔长相思半干白葡萄酒
+    description: 圣达艾贝长思干白葡萄酒
     original_price: 120
     price: 120
     filter: # 多个使用“、”分隔
@@ -683,7 +683,7 @@ wine:
     keywords:
     description: 银基城堡干红葡萄酒
     original_price: 128
-    price: 128
+    price: 69
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -728,7 +728,7 @@ wine:
     keywords:
     description: 拉蒙特城堡干红葡萄酒
     original_price: 240
-    price: 240
+    price: 138
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -773,7 +773,7 @@ wine:
     keywords:
     description: 墨林城堡干红葡萄酒
     original_price: 250
-    price: 250
+    price: 148
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -811,7 +811,7 @@ wine:
     keywords:
     description: 靓茨摩斯
     original_price: 630
-    price: 630
+    price: 480
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -849,7 +849,7 @@ wine:
     keywords:
     description: 佳得美
     original_price: 630
-    price: 630
+    price: 480
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -887,7 +887,7 @@ wine:
     keywords:
     description: 宝马副牌
     original_price: 880
-    price: 880
+    price: 670
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -925,7 +925,7 @@ wine:
     keywords:
     description: 班尼杜克
     original_price: 880
-    price: 880
+    price: 670
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -962,8 +962,8 @@ wine:
     shopid: FR0008
     keywords:
     description: 比萨城堡
-    original_price: 1080
-    price: 1080
+    original_price: 900
+    price: 680
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -1001,7 +1001,7 @@ wine:
     keywords:
     description: 苏比昂城堡
     original_price: 250
-    price: 250
+    price: 138
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -1033,13 +1033,13 @@ wine:
   chateau-les-conseillans:
     name: 莱禧城堡
 
-    title: 莱禧城堡
+    title: 乐斯城堡
     subtitle: Chateau Les Conseillans
     shopid: FR0010
     keywords:
     description: 莱禧城堡
     original_price: 320
-    price: 320
+    price: 168
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -1077,7 +1077,7 @@ wine:
     keywords:
     description: 奥贝城堡
     original_price: 480
-    price: 480
+    price: 299
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
@@ -1115,7 +1115,7 @@ wine:
     keywords:
     description: 意大利魔帽气泡酒
     original_price: 130
-    price: 130
+    price: 78
     filter: # 多个使用“、”分隔
       国家: 意大利
       含糖量: 半甜型
@@ -1235,7 +1235,7 @@ wine:
     keywords:
     description: 第一庄08
     original_price: 200
-    price: 200
+    price: 128
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
@@ -1273,11 +1273,11 @@ wine:
     keywords:
     description: 第一庄05
     original_price: 320
-    price: 128
+    price: 320
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
-      价格: 101～200
+      价格: 201～500
       用途: 送礼、品酒
 
     商品描述: |
@@ -1417,15 +1417,15 @@ wine:
       
       
   marques-de-la-gruh:
-    name: 克鲁斯伯爵白气泡葡萄酒
+    name: 马鲁克斯白起泡酒
 
-    title: 克鲁斯伯爵白气泡葡萄酒
+    title: 马鲁克斯白起泡酒
     subtitle: Marques de la Gruh
     shopid: SP0008
     keywords:
     description: 克鲁斯伯爵白气泡葡萄酒
     original_price: 120
-    price: 120
+    price: 80
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
@@ -1463,7 +1463,7 @@ wine:
     keywords:
     description: 佐米cava气泡酒
     original_price: 160
-    price: 160
+    price: 120
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
@@ -1539,7 +1539,7 @@ wine:
     keywords:
     description: 百高珍藏干红葡萄酒
     original_price: 580
-    price: 580
+    price: 388
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
@@ -1577,7 +1577,7 @@ wine:
     keywords:
     description: 海湾之树甜白葡萄酒
     original_price: 120
-    price: 120
+    price: 73
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 甜型
@@ -1614,8 +1614,8 @@ wine:
     shopid: SP0013
     keywords:
     description: 圣地亚哥干红葡萄酒
-    original_price: 580
-    price: 580
+    original_price: 85
+    price: 85
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
