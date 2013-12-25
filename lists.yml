@@ -9,41 +9,41 @@ grand-cru:
         filter:
           波尔多列级庄: 1855年梅多克列级
         rp: 88
-        ws: 88
+        ws: 85
         jr: 15.5
         info: 2004年五级庄
       chateau-cantemerle:
         filter:
           波尔多列级庄: 1855年梅多克列级
-        rp: 88
+        rp: 90
         ws: 88
         jr: 15.5
-        info: 2004年五级庄
+        info: 2007年五级庄
       alter-ego:
         filter:
           波尔多列级庄: 1855年梅多克列级
-        rp: 88
-        ws: 88
-        jr: 15.5
-        info: 2004年五级庄
+        rp: 89
+        ws: 89.5
+        jr: 17
+        info: 2007年三级庄副牌
       chateau-branaire-ducru:
         filter:
           波尔多列级庄: 1855年梅多克列级
-        rp: 88
-        ws: 88
-        jr: 15.5
-        info: 2004年五级庄
+        rp: 90+
+        ws: 90+
+        jr: 16.5+
+        info: 2006年份 四级庄（国泰航空头等舱指定用酒）
       chateau-de-pressac:
         filter:
           波尔多列级庄: 圣爱美隆列级
-        rp: 88
-        ws: 88
-        jr: 15.5
-        info: 2004年五级庄
+        rp: 90
+        ws: 90
+        jr: 16.5
+        info: 2008年
       chateau-l-abbaye:
         filter:
           波尔多列级庄: 圣爱美隆列级
-        rp: 88
-        ws: 88
-        jr: 15.5
-        info: 2004年五级庄
+        rp: 
+        ws: 
+        jr: 
+        info: 2008年副牌
