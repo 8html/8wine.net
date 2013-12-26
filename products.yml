@@ -781,10 +781,10 @@ wine:
       用途: 聚会、送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-lamothe-castera
+      - /wine/antano-08
+      - /wine/wild-hare
 
     商品描述: |
 
@@ -825,10 +825,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -869,10 +869,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -913,10 +913,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -957,10 +957,10 @@ wine:
       用途: 送礼、品酒
 	 
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -1001,10 +1001,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
