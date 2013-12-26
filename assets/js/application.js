@@ -10,6 +10,7 @@
 //= require vendor/jquery.zoom.js
 //= require vendor/jquery.isotope.min.js
 //= require vendor/jquery.unveil.min.js
+//= require vendor/magnific-popup.min.js
 //= require account.js
 //= require checkout.js
 //= require product_details.js
@@ -36,6 +37,16 @@ $(function(){
   });
   FastClick.attach(document.body);
   $('.lazy').unveil();
+  $('.social-media').magnificPopup({
+    type: "image",
+    zoom: {
+      enabled: true,
+      duration: 300,
+      opener: function(element) {
+        return element;
+      }
+    }
+  });
   if ($('#main-slider').length == 1) {
     $('#main-slider').sliderkit({
       auto: true,
