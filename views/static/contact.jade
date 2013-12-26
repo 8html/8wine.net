@@ -6,6 +6,15 @@ extends ../layouts/default
 block content
   .about.content.whtbg
     h2.title 联系我们
-    p 地图
+    #allmap(style='width: 95%; height: 500px; margin: 0 auto;')
+      #map(style='height: 100%;')
+    script(src='http://api.map.baidu.com/api?v=1.4', type='text/javascript')
+    script(src='http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.js', type='text/javascript')
+    link(href='http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css', rel='stylesheet')
+    script.
+      var map=new BMap.Map("map"),poi=new BMap.Point(113.331316, 22.792346);map.centerAndZoom(poi,17);map.enableScrollWheelZoom();
+      var content='<div style="margin:0;line-height:20px;padding:2px;">地址：广东省佛山市顺德区容桂街道东逸湾倚湖居10座702</div>',searchInfoWindow=new BMapLib.SearchInfoWindow(map,content,{title:"红酒室",width:200,height:40,panel:"panel",enableAutoPan:!0,searchTypes:[BMAPLIB_TAB_SEARCH,BMAPLIB_TAB_TO_HERE,BMAPLIB_TAB_FROM_HERE]}),marker=new BMap.Marker(poi);marker.enableDragging();marker.addEventListener("click",function(a){searchInfoWindow.open(marker)});
+      map.addOverlay(marker);searchInfoWindow.open(marker);
+
     p 电话：0757-22148300
-    p 工作室地址：广东省佛山市顺德区容桂街道东逸湾倚湖居10座702
+    p 地址：广东省佛山市顺德区容桂街道东逸湾倚湖居10座702

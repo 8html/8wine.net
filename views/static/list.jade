@@ -53,11 +53,13 @@ block content
               img(src=product.image)
             .pltitle=product.title
             .plsubtitle=product.subtitle
-            .plparams
-              - each val, key in list_product.param
-                span.pltip
-                  span.plkey=key
-                  span.plval=val
+            - if (list_product.param && typeof(list_product.param) === 'object' && Object.keys(list_product.param).length > 0)
+              .plparams
+                - each val, key in list_product.param
+                  - if (val !== null)
+                    span.pltip
+                      span.plkey=key
+                      span.plval=val
             .plprices
               - if (product.original_price && product.original_price > product.price)
                 .plorigprice
