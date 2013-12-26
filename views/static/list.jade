@@ -53,10 +53,20 @@ block content
               img(src=product.image)
             .pltitle=product.title
             .plsubtitle=product.subtitle
+            .plparams
+              - each val, key in list_product.param
+                span.pltip
+                  span.plkey=key
+                  span.plval=val
             .plprices
               - if (product.original_price && product.original_price > product.price)
-                em.plorigprice.toCurrency= product.original_price
-              em.plprice.toCurrency= product.price
+                .plorigprice
+                  | 市场价：
+                  em.toCurrency= product.original_price
+              .plprice
+                | 优惠价：
+                em.toCurrency= product.price
+            .plinfo=list_product.info
             .plbuttons
               a.hudbtn.primary(href=product.path) 查看详情
     .clearfix
