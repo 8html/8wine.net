@@ -61,10 +61,10 @@ wine:
       用途: 聚会、送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/chateau-lamothe-castera
+      - /wine/douglass-hill
+      - /wine/l-aura-a
+      - /wine/el-brusco
 
     商品描述: |
       浓郁的冰樱桃以及草莓的果香无缝地融合，带给鼻子沁人心脾的冲击，同事还可以辨析到清幽的雪松，青椒以及特浓咖啡豆的怡人香气。口感如天鹅绒般顺滑。非常合适搭配烤肉，完全地释放出这款葡萄酒应有的魅力。
@@ -106,10 +106,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
+      - /wine/stone-hedge-reserve-b
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/chateau-l-abbaye
+      - /wine/chateau-les-conseillans
 
     商品描述: |
       生长在高海拔、荒凉的岩石土壤上，严峻的自然环境把葡萄藤的产量限制在一个低水平，从而赋予了葡萄的高浓缩度。口感优雅，柔顺，馥郁的香气中可以分辨出成熟的樱桃，浆果以及李子的香气，余味持久悠长。这款酒现在适合饮用，同时也适合窖藏，让酒的口感更复杂，酒质更出色。
@@ -153,10 +153,10 @@ wine:
       用途: 送礼、品酒
 
     recommendations:
+      - /wine/stone-hedge-reserve-a
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/chateau-l-abbaye
+      - /wine/chateau-les-conseillans
 
     商品描述: |
       生长在高海拔、荒凉的岩石土壤上，严峻的自然环境把葡萄藤的产量限制在一个低水平，从而赋予了葡萄的高浓缩度。口感优雅，柔顺，馥郁的香气中可以分辨出成熟的樱桃，浆果以及李子的香气，余味持久悠长。这款酒现在适合饮用，同时也适合窖藏，让酒的口感更复杂，酒质更出色。
@@ -199,10 +199,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/wild-hare
+      - /wine/reillys-shiraz
+      - /wine/chateau-soubiran
 
     商品描述: |
 
@@ -242,10 +242,10 @@ wine:
       用途: 聚会、品酒
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/eagle-ridge
+      - /wine/reillys-shiraz
 
     商品描述: |
       野兔赤霞珠展现出浆果，黑胡椒以及巧克力的迷人气息。入口后，感受到青椒，辛辣以及橡木桶的口味，余味舒服自然。这款酒适合与牛肉，牛肋骨，铁板猪排以及黑巧克力甜点搭配。
@@ -287,10 +287,10 @@ wine:
       用途: 聚会、婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva	  
+      - /wine/douglass-hill
+      - /wine/antano-08
+      - /wine/santiago
+      - /wine/chateau-soubiran	  
 	  
     商品描述: |
 
@@ -331,10 +331,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/eagle-ridge
+      - /wine/amberhill
 
     商品描述: |
       呈黑加仑和樱桃红色，入口西拉特点明显，成熟的果香和胡椒味道，单宁充足平衡，有余韵。
@@ -376,10 +376,10 @@ wine:
       用途: 聚会、品酒
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/reillys-shiraz
+      - /wine/chateau-soubiran
+      - /wine/amberhill
 
     商品描述: |
       呈黑加仑和樱桃红色，入口西拉特点明显，成熟的果香和胡椒味道，单宁充足平衡，有余韵。
@@ -421,10 +421,10 @@ wine:
       用途: 婚庆
     
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
+      - /wine/chateau-pied-d-argent
 
     商品描述: |
       色泽为明亮的宝石红，带有强烈的草莓和覆盘子清香略带可可的香气；入口怡人，活力十足；酒体中等，单宁平衡。
@@ -466,10 +466,10 @@ wine:
       用途: 婚庆
 	  
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-a
 
     商品描述: |
       明亮的淡黄色带点绿色的光泽；带有强烈的柑橘和青苹果，还略带点青草的清新宜人香气，入口清爽，酒体轻盈，回感清新。
@@ -511,10 +511,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-a
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-b
 
     商品描述: |
       采用高品质的西拉葡萄，低温控制浸皮发酵，得到分红且透彻的好酒。香气优雅，有覆盘子、玫瑰、樱桃的香味，还有一点薄荷味。口感充满活力，酸度适宜，回味充满水果香气。
@@ -556,10 +556,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
+      - /wine/chateau-pied-d-argent
 
     商品描述: |
       鲜宝石红色，强烈的草莓，覆盘子的香气，还有由橡木桶带来的可可的气味。中等酒体，单宁柔和。
@@ -601,10 +601,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/don-maueo
+      - /wine/santiago
+      - /wine/chateau-pied-d-argent
 
     商品描述: |
       鲜宝石红，强烈的黑莓香气，略带微辣的感觉。入口柔顺，中等酒体，有这非常好的平衡感。单宁柔和。
@@ -646,10 +646,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-a
 
     商品描述: |
       明亮的柠檬黄色泽，有强烈的桔子，青苹果的香气。又略带一些微微的青草的味道。入口清爽，酒体轻盈，解围干脆。
@@ -691,10 +691,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/santiago
+      - /wine/tierrallana
+      - /wine/chateau-lamothe-castera
 	
     商品描述: |
       深宝石红色，口感丝滑柔顺，轻度单宁，结构和谐，具有热带水果李子、红樱桃等香气。
@@ -736,10 +736,10 @@ wine:
       用途: 聚会、送礼、品酒
 
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/chateau-moulin-du-peyrat
+      - /wine/wild-hare
 	
     商品描述: |
       深石榴色酒体，香草和香料的芳香，中等单宁，结构复杂和谐，口腔中有红色水果香味。
