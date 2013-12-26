@@ -1080,12 +1080,12 @@ wine:
     shopid: FR0010
     keywords: 乐斯城堡
     description: 法国权威荐酒指南法国哈切特(Hachette Guide)指南评为一星级美酒
-    original_price: 320
-    price: 168
+    original_price: 350
+    price: 318
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
-      价格: 500以上
+      价格: 201～500
       用途: 送礼、品酒
 	  
     recommendations:
@@ -1129,7 +1129,7 @@ wine:
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
-      价格: 500以上
+      价格: 201～500
       用途: 送礼、品酒
 
     recommendations:
