@@ -189,6 +189,10 @@ $(function(){
     var that = $(this);
     if (category && model) {
       $.getJSON('/'+category+'/'+model, function(product){
+        if (product.sold_out) {
+          alert('抱歉，商品已售罄，无法选购。');
+          return;
+        }
         simpleCart.add({ 
           name: product.name,
           category: product.category,

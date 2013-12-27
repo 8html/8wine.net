@@ -1,6 +1,7 @@
 wine:
   douglass-hill:
     name: 道格拉斯山半干红葡萄酒
+    sold_out: true
 
     title: 道格拉斯山半干红葡萄酒
     subtitle: Douglass Hill
@@ -46,6 +47,7 @@ wine:
  
   amberhill:
     name: 琥珀山半干红葡萄酒
+    sold_out: false
 
     title: 琥珀山半干红葡萄酒
     subtitle: Amberhill
@@ -91,6 +93,7 @@ wine:
 
   stone-hedge-reserve-a:
     name: 宝石篱赤霞珠珍藏
+    sold_out: false
 
     title: 宝石篱赤霞珠珍藏
     subtitle: Stone Hedge Reserve
@@ -137,6 +140,7 @@ wine:
 
   stone-hedge-reserve-b:
     name: 宝石篱梅乐珍藏
+    sold_out: false
 
     title: 宝石篱梅乐珍藏
 	
@@ -184,6 +188,7 @@ wine:
       
   eagle-ridge:
     name: 鹰谷半干红葡萄酒
+    sold_out: false
 
     title: 鹰谷半干红葡萄酒
     subtitle: Eagle Ridge
@@ -227,6 +232,7 @@ wine:
 
   wild-hare:
     name: 野兔干红葡萄酒
+    sold_out: false
 
     title: 野兔干红葡萄酒
     subtitle: Wild Hare
@@ -272,6 +278,7 @@ wine:
 	  
   don-maueo:
     name: 多玛罗干红葡萄酒
+    sold_out: false
 
     title: 多玛罗干红葡萄酒
     subtitle: Don Maueo
@@ -316,6 +323,7 @@ wine:
 
   reillys-shiraz:
     name: 拉利精选干红葡萄酒
+    sold_out: false
 
     title: 拉利精选干红葡萄酒
     subtitle: Reillys Shiraz
@@ -361,6 +369,7 @@ wine:
 
   ryder-shiraz:
     name: 莱德西拉干红葡萄酒
+    sold_out: false
 
     title: 莱德西拉干红葡萄酒
     subtitle: Ryder Shiraz
@@ -406,6 +415,7 @@ wine:
 
   angel-love-a:
     name: 天使之爱半干红葡萄酒
+    sold_out: false
 
     title: 天使之爱半干红葡萄酒
     subtitle: Angel Love
@@ -451,6 +461,7 @@ wine:
 
   angel-love-b:
     name: 天使之爱半干白葡萄酒
+    sold_out: false
 
     title: 天使之爱半干白葡萄酒
     subtitle: Angel Love
@@ -496,6 +507,7 @@ wine:
 
   angel-love-c:
     name: 天使之爱桃红葡萄酒
+    sold_out: false
 
     title: 天使之爱桃红葡萄酒
     subtitle: Angel Love
@@ -541,6 +553,7 @@ wine:
 
   santa-alba-cabernet-sauvignon:
     name: 圣达艾贝赤霞珠干红葡萄酒
+    sold_out: false
 
     title: 圣达艾贝赤霞珠干红葡萄酒
     subtitle: Santa Alba Cabernet Sauvignon
@@ -586,6 +599,7 @@ wine:
 
   santa-alba-carmenere:
     name: 圣达艾贝曼纳干红葡萄酒
+    sold_out: false
 
     title: 圣达艾贝曼纳干红葡萄酒
     subtitle: Santa Alba Carmenere
@@ -631,6 +645,7 @@ wine:
 
   santa-blan-alba-sauvignon:
     name: 圣达艾贝长思干白葡萄酒
+    sold_out: false
 
     title: 圣达艾贝长思干白葡萄酒
     subtitle: Santa Blan  Alba Sauvignon
@@ -676,6 +691,7 @@ wine:
 
   chateau-pied-d-argent:
     name: 银基城堡干红葡萄酒
+    sold_out: false
 
     title: 银基城堡干红葡萄酒
     subtitle: CHATEAU PIED D’ARGENT
@@ -721,6 +737,7 @@ wine:
 
   chateau-lamothe-castera:
     name: 拉蒙特城堡干红葡萄酒
+    sold_out: false
 
     title: 拉蒙特城堡干红葡萄酒
     subtitle: CHATEAU LAMOTHE CASTERA
@@ -766,6 +783,7 @@ wine:
 
   chateau-moulin-du-peyrat:
     name: 墨林城堡干红葡萄酒
+    sold_out: false
 
     title: 墨林城堡干红葡萄酒
     subtitle: CHATEAU MOULIN DU PEYRAT
@@ -810,6 +828,7 @@ wine:
 
   chateau-lynch-moussas:
     name: 靓茨摩斯城堡干红葡萄酒2004(五级庄)
+    sold_out: false
 
     title: 靓茨摩斯城堡干红葡萄酒2004(五级庄)
     subtitle: Chateau Lynch Moussas
@@ -854,6 +873,7 @@ wine:
 
   chateau-cantemerle:
     name: 佳得美2007（五级庄）
+    sold_out: false
 
     title: 佳得美2007（五级庄）
     subtitle: Chateau Cantemerle
@@ -898,6 +918,7 @@ wine:
       
   alter-ego:
     name: 宝马副牌
+    sold_out: false
 
     title: 宝马副牌
     subtitle: Alter Ego
@@ -942,6 +963,7 @@ wine:
 
   chateau-branaire-ducru:
     name: 班尼杜克
+    sold_out: false
 
     title: 班尼杜克
     subtitle: Chateau Branaire Ducru
@@ -986,6 +1008,7 @@ wine:
       
   chateau-de-pressac:
     name: 比萨城堡
+    sold_out: false
 
     title: 比萨城堡
     subtitle: CHATEAU DE PRESSAC
@@ -1030,6 +1053,7 @@ wine:
 	  
   chateau-soubiran:
     name: 苏比昂城堡
+    sold_out: false
 
     title: 苏比昂城堡
     subtitle: Chateau Soubiran
@@ -1074,6 +1098,7 @@ wine:
       
   chateau-les-conseillans:
     name: 乐斯城堡
+    sold_out: false
 
     title: 乐斯城堡
     subtitle: Chateau Les Conseillans
@@ -1118,6 +1143,7 @@ wine:
 
   chateau-l-abbaye:
     name: 奥贝城堡
+    sold_out: false
 
     title: 奥贝城堡
     subtitle: Chateau L'Abbaye
@@ -1162,6 +1188,7 @@ wine:
 
   el-brusco:
     name: 意大利魔帽气泡酒
+    sold_out: false
 
     title: 意大利魔帽气泡酒
     subtitle: EL Brusco
@@ -1206,6 +1233,7 @@ wine:
       
   tierrallana:
     name: 大丰收干红葡萄酒
+    sold_out: false
 
     title: 大丰收干红葡萄酒
     subtitle: Tierrallana
@@ -1250,6 +1278,7 @@ wine:
 
   principe-lucas:
     name: 卢卡斯王子半干红葡萄酒
+    sold_out: false
 
     title: 卢卡斯王子半干红葡萄酒
     subtitle: Principe Lucas
@@ -1294,6 +1323,7 @@ wine:
 
   antano-08:
     name: 第一庄08
+    sold_out: false
 
     title: 第一庄08
     subtitle: Antano
@@ -1338,6 +1368,7 @@ wine:
       
   antano-05:
     name: 第一庄05
+    sold_out: false
 
     title: 第一庄05
     subtitle: Antano
@@ -1382,6 +1413,7 @@ wine:
       
   sierra-de-viento:
     name: 风神干红葡萄酒
+    sold_out: false
 
     title: 风神干红葡萄酒
     subtitle: Sierra de Viento
@@ -1426,6 +1458,7 @@ wine:
       
   el-sotillo:
     name: 苏提乐干红葡萄酒
+    sold_out: false
 
     title: 苏提乐干红葡萄酒
     subtitle: EL Sotillo
@@ -1470,6 +1503,7 @@ wine:
       
   vin-a-buron-rueda-2010:
     name: 白鹭150干白葡萄酒
+    sold_out: false
 
     title: 白鹭150干白葡萄酒
     subtitle: Vin A Buron Rueda 2010
@@ -1514,6 +1548,7 @@ wine:
       
   marques-de-la-gruh:
     name: 马鲁克斯白起泡酒
+    sold_out: false
 
     title: 马鲁克斯白起泡酒
     subtitle: Marques de la Gruh
@@ -1558,6 +1593,7 @@ wine:
       
   jaume-serra:
     name: 佐米cava气泡酒
+    sold_out: false
 
     title: 佐米cava气泡酒
     subtitle: Jaume Serra
@@ -1602,6 +1638,7 @@ wine:
       
   l-aura-a:
     name: 海湾之树桃红葡萄酒
+    sold_out: false
 
     title: 海湾之树桃红葡萄酒
     subtitle: L'Aura
@@ -1646,6 +1683,7 @@ wine:
       
   ph-gran-reserva:
     name: 百高珍藏干红葡萄酒
+    sold_out: false
 
     title: 百高珍藏干红葡萄酒
     subtitle: PH Gran Reserva
@@ -1690,6 +1728,7 @@ wine:
 	  
   l-aura-b:
     name: 海湾之树甜白葡萄酒
+    sold_out: false
 
     title: 海湾之树甜白葡萄酒
     subtitle: L'Aura
@@ -1734,6 +1773,7 @@ wine:
 	  
   santiago:
     name: 圣地亚哥干红葡萄酒
+    sold_out: false
 
     title: 圣地亚哥干红葡萄酒
     subtitle: Santiago
@@ -1778,6 +1818,7 @@ wine:
       
   saludas:
     name: 沙露达干红葡萄酒
+    sold_out: false
 
     title: 沙露达干红葡萄酒
     subtitle: Saludas

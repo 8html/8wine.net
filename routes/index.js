@@ -329,14 +329,15 @@ module.exports = function(app, products, configs) {
         if (products[category] && products[category][model]) {
           var output = JSON.parse(JSON.stringify(products[category][model]));
           if (item.price != output.price) continue;
+          if (output.sold_out) continue;
           output['quantity'] = quantity;
           grandTotal += output.price * quantity;
           verified.push(output);
         }
       }
 
-      if (verified.length == 0) throw ['购物车上没有商品，无法结账。'];
-      if (data_length != verified.length) throw ['购物车上至少有一种商品已过时或已发生改变。'];
+      if (verified.length == 0) throw ['抱歉，购物车上没有商品，无法结账。请重新选购商品。'];
+      if (data_length != verified.length) throw ['购物车上至少有一种商品已过时或已发生改变。请查看各商品详细页以获取最新信息。'];
 
       var delivery = req.body.delivery;
       if (!delivery || !configs.delivery.hasOwnProperty(delivery)) throw ['您尚未选择配送方式。'];
