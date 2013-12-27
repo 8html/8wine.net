@@ -88,6 +88,10 @@ module.exports = function(app, products, configs) {
   });
 
   app.get('/SysAdmin/orders/export.xlsx', function(req, res, next){
+    if (!req.user || !req.user.is_admin) {
+      res.redirect('/SysAdmin/login');
+      return;
+    }
     var currency_format = "&quot;￥&quot;#,##0.00;&quot;￥&quot;\\-#,##0.00";
     var Order = require('../models/order');
     Order.find({}).sort('-created_at').exec(function(error, orders){
@@ -180,6 +184,176 @@ module.exports = function(app, products, configs) {
       });
       res.set('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
       res.set('Content-Disposition', 'attachment; filename=' + encodeURIComponent('发货数据表') + '.xlsx');
+      res.send(buffer);
+    });
+  });
+
+  app.get('/SysAdmin/orders/:order_id.xlsx', function(req, res, next){
+    var order_id = req.params.order_id;
+
+    // http://blog.csdn.net/redraiment/article/details/6548199
+    function digit_uppercase(n) {
+      var fraction = ['角', '分'];
+      var digit = [
+        '零', '壹', '贰', '叁', '肆',
+        '伍', '陆', '柒', '捌', '玖'
+      ];
+      var unit = [
+        ['元', '万', '亿'],
+        ['', '拾', '佰', '仟']
+      ];
+      var head = n < 0 ? '欠' : '';
+      n = Math.abs(n);
+      var s = '';
+      for (var i = 0; i < fraction.length; i++) {
+        s += (digit[Math.floor(n * 10 * Math.pow(10, i)) % 10] + fraction[i]).replace(/零./, '');
+      }
+      s = s || '整';
+      n = Math.floor(n);
+      for (var i = 0; i < unit[0].length && n > 0; i++) {
+        var p = '';
+        for (var j = 0; j < unit[1].length && n > 0; j++) {
+          p = digit[n % 10] + unit[1][j] + p;
+          n = Math.floor(n / 10);
+        }
+        s = p.replace(/(零.)*零$/, '')
+          .replace(/^$/, '零') + unit[0][i] + s;
+      }
+      return head + s.replace(/(零.)*零元/, '元')
+        .replace(/(零.)+/g, '零')
+        .replace(/^整$/, '零元整');
+    }
+
+    if (!req.user || !req.user.is_admin) {
+      req.session.returnTo = '/SysAdmin/orders' + (order_id ? '/' + order_id : '');
+      res.redirect('/SysAdmin/login');
+      return;
+    }
+    var Order = require('../models/order');
+    var User = require('../models/user');
+    Order.find({ _id: order_id }).populate({ path: '_user', select: 'username alias' }).sort('-created_at').exec(function(error, orders){
+      var currency_format = "&quot;￥&quot;#,##0.00;\\-&quot;￥&quot;#,##0.00";
+      var order = orders[0];
+      var grandTotal = 0;
+      var date = order.created_at.toJSON().replace(/\..*$/, '').replace('T', ' ');
+      var forcedRowHeight = [];
+
+      var data = [[
+        { value: "红酒室", colSpan: 2, vAlign: 'bottom', hAlign: 'center', fontSize: 17, fontName: '黑体', bold: true, fontColor: '601B00', borders: { } },
+        { value: "销售单", colSpan: 4, rowSpan: 2, hAlign: 'center', fontSize: 18, bold: true, borders: { } },
+        { value: "NO.：" + order._id, colSpan: 3, colWidth: 13, vAlign: 'bottom', hAlign: 'center', fontSize: 10, borders: { } }
+      ], [
+        { value: "8wine.net", colSpan: 2, vAlign: 'top', hAlign: 'center', fontSize: 16, fontName: 'Arial', bold: true, fontColor: '601B00', borders: { } },
+        { value: "日期：" + date, colSpan: 3, colWidth: 13, vAlign: 'top', hAlign: 'center', fontSize: 10, borders: { } }
+      ], [
+        { hAlign: 'center', value: "序号" },
+        { hAlign: 'center', colSpan: 2, value: "产品名称", colWidth: 10 },
+        { hAlign: 'center', value: "商品ID" },
+        { hAlign: 'center', value: "单位" },
+        { hAlign: 'center', value: "数量" },
+        { hAlign: 'center', value: "单价" },
+        { hAlign: 'center', value: "金额（元）" },
+        { hAlign: 'center', value: "备注" }
+      ]];
+      forcedRowHeight.push(30, 30, 20);
+
+      for (var i = 0; i < order.products.length; i++) {
+        var product = order.products[i];
+        var cat = product.category, model = product.model;
+        var total = product.quantity * product.price;
+        var title;
+        var unit = '---';
+        var shopid = '---';
+        if (products[cat] && products[cat][model]) {
+          var pro = products[cat][model];
+          title = pro.name;
+          if (pro.shopid) {
+            shopid = '　　　' + pro.shopid + '　　　';
+          }
+          unit = pro.unit || '支';
+        } else if (cat && model) {
+          title = '(商品已下架)';
+        } else {
+          title = product.title;
+        }
+        data.push([
+          { value: i + 1, hAlign: 'center' },
+          { value: title, colSpan: 2 },
+          { value: shopid, hAlign: 'center' },
+          { value: unit, hAlign: 'center' },
+          { value: product.quantity, hAlign: 'center' },
+          { value: product.price, formatCode: currency_format, hAlign: 'center' },
+          { value: total, formatCode: currency_format, hAlign: 'center' },
+          { value: '' }
+        ]);
+        grandTotal += total;
+        forcedRowHeight.push(20);
+      }
+
+      var diff = 0;
+      if (order.final_price >= 0) {
+        diff = order.final_price - grandTotal
+        grandTotal = order.final_price
+      }
+      data.push([
+        { value: '　　配送区域', colSpan: 2 },
+        { value: order.districts ? order.districts[order.districts.length-1] : '---', hAlign: 'center' },
+        { value: '价格调整', hAlign: 'center', colSpan: 4 },
+        { value: diff, formatCode: currency_format, hAlign: 'center' },
+        { value: '' }
+      ],[
+        { value: '　　总金额（大写）', colSpan: 2 },
+        { value: '　' + digit_uppercase(grandTotal), hAlign: 'left', colSpan: 5 },
+        { value: grandTotal, formatCode: currency_format, hAlign: 'center' },
+        { value: '' }
+      ],[
+        { value: '　　客户姓名', colSpan: 2 },
+        { value: '　' + order.username, hAlign: 'left', colSpan: 3 },
+        { value: '联系电话', hAlign: 'center', colSpan: 2 },
+        { value: order.phone, hAlign: 'center', colSpan: 2 }
+      ],[
+        { value: '　　地址', colSpan: 2 },
+        { value: '　' + order.address, hAlign: 'left', colSpan: 5 },
+        { value: '付款方式', hAlign: 'center' },
+        { value: order.payment, hAlign: 'center' }
+      ],[
+        { value: '备注', rowSpan: 4, hAlign: 'center' },
+        { value: '①本商城暂提供货到付款支付方式，货物现钞签收前请当面点清。', colSpan: 5 },
+        { value: '签收日期', rowSpan: 4, hAlign: 'center' },
+        { value: '', rowSpan: 4, colSpan: 2, hAlign: 'center' }
+      ],[
+        { value: '②在未付清货款前，以上货物仍属红酒室所有。', colSpan: 5 }
+      ],[
+        { value: '③自签收日起支持“7天包退，15天包换”政策（最终解释权归红酒室所有）', colSpan: 5 }
+      ],[
+        { value: '更多服务详情请浏览官方商城：www.8wine.net', colSpan: 5 }
+      ],[
+        { value: '经手人：黄俊彬　　　　　客服：　　　　　　　　客户签收：　　　　　　　　', colSpan: 9, hAlign: 'center' }
+      ],[
+        { value: '红酒室——专属顺德人的葡萄酒商城', colSpan: 9, hAlign: 'center', bold: true }
+      ]);
+      forcedRowHeight.push(20, 20, 20, 20, 14, 14, 14, 14);
+
+      var xlsx = require('node-xlsx');
+      var buffer = xlsx.build({ worksheets: [{
+        name: "销售单", 
+        data: data
+      }] }, {
+        defaultFontName: '宋体',
+        defaultFontSize: 10,
+        defaultVAlign: 'center',
+        defaultRowHeight: 20,
+        defaultCellBorders: { left: '000', right: '000', top: '000', bottom: '000' },
+        page: {
+          margins: { left: 0.4, right: 0.4, top: 0.5, bottom: 0.5, header: 0.2, footer: 0.2 },
+          paper_size: 9, // A4
+          orientation: 'portrait'
+        },
+        forcedRowHeight: forcedRowHeight,
+        forcedColWidth: [ 5, 24, 22, 11, 5, 5, 10, 14, 10 ]
+      });
+      res.set('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+      res.set('Content-Disposition', 'attachment; filename=' + encodeURIComponent('销售单-') + order_id + '.xlsx');
       res.send(buffer);
     });
   });

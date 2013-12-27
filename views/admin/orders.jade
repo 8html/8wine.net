@@ -62,6 +62,7 @@ block content
                     span.fw #{order.id}
                   - else
                     a.fw(href='/SysAdmin/orders/'+order._id)=order._id
+                  a.xlsx(href='/SysAdmin/orders/'+order._id+'.xlsx') XLSX
                 td
                   a(href='/SysAdmin/orders?user='+order._user._id, title=order._user.alias)=order._user.username
                 td #{order.payment || '未指定'}
