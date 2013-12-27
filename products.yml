@@ -1045,10 +1045,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/amberhill
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-lamothe-castera
 
     商品描述: |
 
@@ -1089,10 +1089,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/wild-hare
+      - /wine/chateau-lamothe-castera
 	
     商品描述: |
 
@@ -1133,10 +1133,10 @@ wine:
       用途: 送礼、品酒
 
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/antano-05
+      - /wine/jaume-serra
+      - /wine/stone-hedge-reserve-b
 	  
     商品描述: |
 
@@ -1177,10 +1177,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/marques-de-la-gruh
+      - /wine/douglass-hill
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1221,10 +1221,10 @@ wine:
       用途: 聚会、婚庆、送礼
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/l-aura-a
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1265,10 +1265,10 @@ wine:
       用途: 聚会、婚庆
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/el-brusco
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1309,10 +1309,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/el-brusco
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1353,10 +1353,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/wild-hare
+      - /wine/chateau-lamothe-castera
 
     商品描述: |
 
@@ -1397,10 +1397,10 @@ wine:
       用途: 婚庆
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/el-brusco
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1441,10 +1441,10 @@ wine:
       用途: 婚庆
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/santiago
+      - /wine/douglass-hill
 
     商品描述: |
 
@@ -1485,10 +1485,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1529,10 +1529,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1573,10 +1573,10 @@ wine:
       用途: 聚会、婚庆、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1617,10 +1617,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/marques-de-la-gruh
 
     商品描述: |
 
@@ -1659,6 +1659,12 @@ wine:
       含糖量: 干型
       价格: 201～500
       用途: 聚会、送礼、品酒
+	  
+    recommendations:
+      - /wine/stone-hedge-reserve-a
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -1697,6 +1703,12 @@ wine:
       含糖量: 甜型
       价格: 100以下
       用途: 聚会、送礼
+	  
+    recommendations:
+      - /wine/l-aura-a
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/marques-de-la-gruh
 
     商品描述: |
 
@@ -1735,6 +1747,12 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
+	  
+    recommendations:
+      - /wine/douglass-hill
+      - /wine/santa-alba-carmenere
+      - /wine/chateau-pied-d-argent
+      - /wine/don-maueo
 
     商品描述: |
 
@@ -1773,6 +1791,11 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
+	  
+    recommendations:
+      - /wine/douglass-hill
+      - /wine/santiago
+      - /wine/l-aura-a
 
     商品描述: |
 
