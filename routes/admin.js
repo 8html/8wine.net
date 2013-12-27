@@ -78,15 +78,6 @@ module.exports = function(app, products, configs) {
     res.send(200);
   });
 
-  app.get('/SysAdmin/orders/export', function(req, res, next){
-    if (req.user && req.user.is_admin) {
-      res.render('admin/orders_export');
-    } else {
-      req.session.returnTo = '/SysAdmin/orders/export';
-      res.redirect('/SysAdmin/login');
-    }
-  });
-
   app.get('/SysAdmin/orders/export.xlsx', function(req, res, next){
     if (!req.user || !req.user.is_admin) {
       res.redirect('/SysAdmin/login');

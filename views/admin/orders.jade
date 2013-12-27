@@ -188,7 +188,9 @@ block content
                       }
                     });
 
-                td(colspan=6) 可直接打印此页
+                td(colspan=6)
+                  | 可直接打印此页；导出所有订单:
+                  a.xlsx(href='/SysAdmin/orders/export.xlsx') XLSX
     - if (is_single)
       form.form.hide_when_print(action='/SysAdmin/orders/'+orders[0]._id, method='POST')
         h2.title 编辑订单
