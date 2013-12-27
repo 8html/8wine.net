@@ -16,10 +16,10 @@ wine:
       用途: 聚会、婚庆、送礼
 	  
     recommendations:
-      - /wine/antano-08/
-      - /wine/chateau-pied-d-argent/
-      - /wine/santiago/
-      - /wine/wild-hare/
+      - /wine/antano-08
+      - /wine/chateau-pied-d-argent
+      - /wine/santiago
+      - /wine/wild-hare
 
     商品描述: |
       这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
@@ -61,10 +61,10 @@ wine:
       用途: 聚会、送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/chateau-lamothe-castera
+      - /wine/douglass-hill
+      - /wine/l-aura-a
+      - /wine/el-brusco
 
     商品描述: |
       浓郁的冰樱桃以及草莓的果香无缝地融合，带给鼻子沁人心脾的冲击，同事还可以辨析到清幽的雪松，青椒以及特浓咖啡豆的怡人香气。口感如天鹅绒般顺滑。非常合适搭配烤肉，完全地释放出这款葡萄酒应有的魅力。
@@ -106,10 +106,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
+      - /wine/stone-hedge-reserve-b
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/chateau-l-abbaye
+      - /wine/chateau-les-conseillans
 
     商品描述: |
       生长在高海拔、荒凉的岩石土壤上，严峻的自然环境把葡萄藤的产量限制在一个低水平，从而赋予了葡萄的高浓缩度。口感优雅，柔顺，馥郁的香气中可以分辨出成熟的樱桃，浆果以及李子的香气，余味持久悠长。这款酒现在适合饮用，同时也适合窖藏，让酒的口感更复杂，酒质更出色。
@@ -153,10 +153,10 @@ wine:
       用途: 送礼、品酒
 
     recommendations:
+      - /wine/stone-hedge-reserve-a
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/chateau-l-abbaye
+      - /wine/chateau-les-conseillans
 
     商品描述: |
       生长在高海拔、荒凉的岩石土壤上，严峻的自然环境把葡萄藤的产量限制在一个低水平，从而赋予了葡萄的高浓缩度。口感优雅，柔顺，馥郁的香气中可以分辨出成熟的樱桃，浆果以及李子的香气，余味持久悠长。这款酒现在适合饮用，同时也适合窖藏，让酒的口感更复杂，酒质更出色。
@@ -199,10 +199,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/wild-hare
+      - /wine/reillys-shiraz
+      - /wine/chateau-soubiran
 
     商品描述: |
 
@@ -242,10 +242,10 @@ wine:
       用途: 聚会、品酒
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/eagle-ridge
+      - /wine/reillys-shiraz
 
     商品描述: |
       野兔赤霞珠展现出浆果，黑胡椒以及巧克力的迷人气息。入口后，感受到青椒，辛辣以及橡木桶的口味，余味舒服自然。这款酒适合与牛肉，牛肋骨，铁板猪排以及黑巧克力甜点搭配。
@@ -287,10 +287,10 @@ wine:
       用途: 聚会、婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva	  
+      - /wine/douglass-hill
+      - /wine/antano-08
+      - /wine/santiago
+      - /wine/chateau-soubiran	  
 	  
     商品描述: |
 
@@ -331,10 +331,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/eagle-ridge
+      - /wine/amberhill
 
     商品描述: |
       呈黑加仑和樱桃红色，入口西拉特点明显，成熟的果香和胡椒味道，单宁充足平衡，有余韵。
@@ -376,10 +376,10 @@ wine:
       用途: 聚会、品酒
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/reillys-shiraz
+      - /wine/chateau-soubiran
+      - /wine/amberhill
 
     商品描述: |
       呈黑加仑和樱桃红色，入口西拉特点明显，成熟的果香和胡椒味道，单宁充足平衡，有余韵。
@@ -421,10 +421,10 @@ wine:
       用途: 婚庆
     
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
+      - /wine/chateau-pied-d-argent
 
     商品描述: |
       色泽为明亮的宝石红，带有强烈的草莓和覆盘子清香略带可可的香气；入口怡人，活力十足；酒体中等，单宁平衡。
@@ -466,10 +466,10 @@ wine:
       用途: 婚庆
 	  
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-a
 
     商品描述: |
       明亮的淡黄色带点绿色的光泽；带有强烈的柑橘和青苹果，还略带点青草的清新宜人香气，入口清爽，酒体轻盈，回感清新。
@@ -511,10 +511,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-a
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-b
 
     商品描述: |
       采用高品质的西拉葡萄，低温控制浸皮发酵，得到分红且透彻的好酒。香气优雅，有覆盘子、玫瑰、樱桃的香味，还有一点薄荷味。口感充满活力，酸度适宜，回味充满水果香气。
@@ -556,10 +556,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
+      - /wine/chateau-pied-d-argent
 
     商品描述: |
       鲜宝石红色，强烈的草莓，覆盘子的香气，还有由橡木桶带来的可可的气味。中等酒体，单宁柔和。
@@ -601,10 +601,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/don-maueo
+      - /wine/santiago
+      - /wine/chateau-pied-d-argent
 
     商品描述: |
       鲜宝石红，强烈的黑莓香气，略带微辣的感觉。入口柔顺，中等酒体，有这非常好的平衡感。单宁柔和。
@@ -646,10 +646,10 @@ wine:
       用途: 婚庆
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-a
 
     商品描述: |
       明亮的柠檬黄色泽，有强烈的桔子，青苹果的香气。又略带一些微微的青草的味道。入口清爽，酒体轻盈，解围干脆。
@@ -691,10 +691,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/santiago
+      - /wine/tierrallana
+      - /wine/chateau-lamothe-castera
 	
     商品描述: |
       深宝石红色，口感丝滑柔顺，轻度单宁，结构和谐，具有热带水果李子、红樱桃等香气。
@@ -736,10 +736,10 @@ wine:
       用途: 聚会、送礼、品酒
 
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/chateau-moulin-du-peyrat
+      - /wine/wild-hare
 	
     商品描述: |
       深石榴色酒体，香草和香料的芳香，中等单宁，结构复杂和谐，口腔中有红色水果香味。
@@ -781,10 +781,10 @@ wine:
       用途: 聚会、送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-lamothe-castera
+      - /wine/antano-08
+      - /wine/wild-hare
 
     商品描述: |
 
@@ -825,10 +825,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -869,10 +869,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -892,7 +892,7 @@ wine:
       口感: 单宁适中、结构复杂
       香味: 香料、红色水果气味
       重量: 1.32
-      最佳享用期: 2012-2020
+      最佳享用期: 2015-2020
       最佳品尝温度: 16-18℃
       
       
@@ -913,10 +913,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -925,19 +925,19 @@ wine:
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
+      葡萄品种:  6%小维度 47%赤霞珠 47%美乐
       国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
-      参考年份: 2010
+      产地: 波尔多-梅多克-玛歌
+      含糖量: < 4g/L(干型)
+      酒精度: 13%
+      参考年份: 2007
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      色泽: 宝石红
+      口感: 单宁细腻柔滑、结构复杂
+      香味: 橡木、烟熏、野果
+      重量: 1.33
+      最佳享用期: 2015-2020
+      最佳品尝温度: 16-18℃
 
 
   chateau-branaire-ducru:
@@ -957,10 +957,10 @@ wine:
       用途: 送礼、品酒
 	 
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -969,19 +969,19 @@ wine:
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
+      葡萄品种: 70%赤霞珠 4%品丽珠 4%小维度 22%美乐
       国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
-      参考年份: 2010
+      产地: 波尔多-梅多克-圣祖利安
+      含糖量: < 4g/L(干型)
+      酒精度: 13%
+      参考年份: 2006
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
-      香味: 果香浓郁
-      重量: 1.30
+      色泽: 石榴红
+      口感: 口感细滑、单宁平衡、回味持久
+      香味: 橡木、烟熏、红色水果、香料
+      重量: 1.33
       最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      最佳品尝温度: 16-18℃
       
       
   chateau-de-pressac:
@@ -1001,10 +1001,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/ph-gran-reserva/
       - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -1013,19 +1013,19 @@ wine:
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
+      葡萄品种: 70%梅洛 20%品丽珠 7%赤霞珠 2%卡门妮雅 1%马尔贝克
       国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
-      参考年份: 2010
+      产地: 波尔多-圣爱美隆
+      含糖量: < 4g/L(干型)
+      酒精度: 13.5%
+      参考年份: 2008
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      色泽: 宝石红
+      口感: 酒体丰满，甜酸和谐，单宁幼滑，果味细致，收结平衡，回味悠长优雅
+      香味: 橡木，烟熏，黑色水果，皮革
+      重量: 1.33
+      最佳享用期: 2015-2020
+      最佳品尝温度: 16-18℃
 
 	  
   chateau-soubiran:
@@ -1045,10 +1045,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/amberhill
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-lamothe-castera
 
     商品描述: |
 
@@ -1057,19 +1057,19 @@ wine:
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
+      葡萄品种: 80%梅洛 20%马尔贝克种
       国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
+      产地: 法国-玛芒德
+      含糖量: < 4g/L(干型)
+      酒精度: 14%
       参考年份: 2010
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      色泽: 石榴红
+      口感: 入口柔和，单宁平衡柔顺，收尾带有明显的烤面包的香气
+      香味: 橡木，烤面包，果浆
+      重量: 1.33
+      最佳享用期: 2015-2020
+      最佳品尝温度: 16-18℃
       
       
   chateau-les-conseillans:
@@ -1079,20 +1079,20 @@ wine:
     subtitle: Chateau Les Conseillans
     shopid: FR0010
     keywords: 乐斯城堡
-    description: 法国权威荐酒指南法国哈切特(Hachette Guide)指南评为一星级美酒
-    original_price: 320
-    price: 168
+    description: 原装木箱，法国权威荐酒指南法国哈切特(Hachette Guide)指南评为一星级美酒
+    original_price: 498
+    price: 450
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
-      价格: 500以上
+      价格: 201～500
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/wild-hare
+      - /wine/chateau-lamothe-castera
 	
     商品描述: |
 
@@ -1101,19 +1101,19 @@ wine:
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
+      葡萄品种: 65%梅乐 25%赤霞珠 10%品丽珠和马尔贝克
       国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
-      参考年份: 2010
+      产地: 波尔多-波尔多首丘
+      含糖量: < 4g/L(干型)
+      酒精度: 13%
+      参考年份: 2009
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      色泽: 宝石红
+      口感: 口感复杂、有层次，单宁细腻，酒体平衡，回味持久优雅
+      香味: 橡木，烟熏，皮革，香草，果浆
+      重量: 1.33
+      最佳享用期: 2015-2020
+      最佳品尝温度: 16-18℃
 
 
   chateau-l-abbaye:
@@ -1129,14 +1129,14 @@ wine:
     filter: # 多个使用“、”分隔
       国家: 法国
       含糖量: 干型
-      价格: 500以上
+      价格: 201～500
       用途: 送礼、品酒
 
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/antano-05
+      - /wine/jaume-serra
+      - /wine/stone-hedge-reserve-b
 	  
     商品描述: |
 
@@ -1145,19 +1145,19 @@ wine:
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
+      葡萄品种: 85%梅乐 7%赤霞珠 8%品丽珠
       国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
+      产地: 波尔多-圣爱美隆
+      含糖量: < 4g/L(干型)
+      酒精度: 14%
       参考年份: 2010
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      色泽: 宝石红
+      口感: 入口感觉到成熟的单宁，香气丰富，带出烧烤甘草，咖啡等香气
+      香味: 橡木，烟熏，皮革，香草，果浆
+      重量: 1.33
+      最佳享用期: 2015-2020
+      最佳品尝温度: 16-18℃
 	  
 
   el-brusco:
@@ -1177,10 +1177,10 @@ wine:
       用途: 聚会、送礼
 
     recommendations:
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/marques-de-la-gruh
+      - /wine/douglass-hill
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1188,20 +1188,20 @@ wine:
 
 
     规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
-      国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
-      参考年份: 2010
+      葡萄酒类型: 气泡葡萄酒
+      葡萄品种: 马尔瓦西亚
+      国家: 意大利
+      产地: 皮亚琴察
+      含糖量: > 12g/L(甜型)
+      酒精度: 7.5%
+      参考年份: NA
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      色泽: 浅黄色
+      口感: 入口带有清新的香甜水果气息，甜味中带有适当的酸度
+      香味: 果香清新
+      重量: 1.33
+      最佳享用期: 2012-2015
+      最佳品尝温度: 7-10℃
       
       
   tierrallana:
@@ -1221,10 +1221,10 @@ wine:
       用途: 聚会、婚庆、送礼
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/l-aura-a
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1233,19 +1233,19 @@ wine:
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 品种
-      国家: 法国
-      产地:
-      含糖量: < 4g
-      酒精度: 14.5%
-      参考年份: 2010
+      葡萄品种: 添帕尼优
+      国家: 西班牙
+      产地: 拉曼查
+      含糖量: < 4g/L(干型)
+      酒精度: 13%
+      参考年份: NA
       规格: 750ml
       色泽: 深紫红
       口感: 入口圆滑
       香味: 果香浓郁
       重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      最佳享用期: 2012-2015
+      最佳品尝温度: 16-18℃
 
 
   principe-lucas:
@@ -1265,10 +1265,10 @@ wine:
       用途: 聚会、婚庆
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/el-brusco
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1309,10 +1309,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/el-brusco
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1353,10 +1353,10 @@ wine:
       用途: 送礼、品酒
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/wild-hare
+      - /wine/chateau-lamothe-castera
 
     商品描述: |
 
@@ -1397,10 +1397,10 @@ wine:
       用途: 婚庆
 	  
     recommendations:
-      - /wine/douglass-hill/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/douglass-hill
+      - /wine/el-brusco
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
 
     商品描述: |
 
@@ -1441,10 +1441,10 @@ wine:
       用途: 婚庆
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/santiago
+      - /wine/douglass-hill
 
     商品描述: |
 
@@ -1485,10 +1485,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/marques-de-la-gruh
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1529,10 +1529,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1573,10 +1573,10 @@ wine:
       用途: 聚会、婚庆、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1617,10 +1617,10 @@ wine:
       用途: 聚会、送礼
 	  
     recommendations:
-      - /wine/l-aura-b/
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
-      - /wine/ph-gran-reserva
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/marques-de-la-gruh
 
     商品描述: |
 
@@ -1659,6 +1659,12 @@ wine:
       含糖量: 干型
       价格: 201～500
       用途: 聚会、送礼、品酒
+	  
+    recommendations:
+      - /wine/stone-hedge-reserve-a
+      - /wine/stone-hedge-reserve-b
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-l-abbaye
 
     商品描述: |
 
@@ -1697,6 +1703,12 @@ wine:
       含糖量: 甜型
       价格: 100以下
       用途: 聚会、送礼
+	  
+    recommendations:
+      - /wine/l-aura-a
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/marques-de-la-gruh
 
     商品描述: |
 
@@ -1735,6 +1747,12 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
+	  
+    recommendations:
+      - /wine/douglass-hill
+      - /wine/santa-alba-carmenere
+      - /wine/chateau-pied-d-argent
+      - /wine/don-maueo
 
     商品描述: |
 
@@ -1773,6 +1791,11 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
+	  
+    recommendations:
+      - /wine/douglass-hill
+      - /wine/santiago
+      - /wine/l-aura-a
 
     商品描述: |
 
@@ -1788,9 +1811,9 @@ wine:
       酒精度: 12.5%
       参考年份: 2011
       规格: 750ml
-      色泽: 深紫红
-      口感: 入口圆滑
+      色泽: 深紫红色
+      口感: 入口轻盈，酒体中等
       香味: 果香浓郁
       重量: 1.30
-      最佳享用期: 2012-2020
-      最佳品尝温度: 16-18
+      最佳享用期: 2012-2015
+      最佳品尝温度: 12-16℃
