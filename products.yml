@@ -1,7 +1,7 @@
 wine:
   douglass-hill:
     name: 道格拉斯山半干红葡萄酒
-    sold_out: true
+    sold_out: false
 
     title: 道格拉斯山半干红葡萄酒
     subtitle: Douglass Hill
@@ -369,7 +369,7 @@ wine:
 
   ryder-shiraz:
     name: 莱德西拉干红葡萄酒
-    sold_out: false
+    sold_out: true
 
     title: 莱德西拉干红葡萄酒
     subtitle: Ryder Shiraz
@@ -783,7 +783,7 @@ wine:
 
   chateau-moulin-du-peyrat:
     name: 墨林城堡干红葡萄酒
-    sold_out: false
+    sold_out: true
 
     title: 墨林城堡干红葡萄酒
     subtitle: CHATEAU MOULIN DU PEYRAT
@@ -1278,7 +1278,7 @@ wine:
 
   principe-lucas:
     name: 卢卡斯王子半干红葡萄酒
-    sold_out: false
+    sold_out: true
 
     title: 卢卡斯王子半干红葡萄酒
     subtitle: Principe Lucas
@@ -1368,7 +1368,7 @@ wine:
       
   antano-05:
     name: 第一庄05
-    sold_out: false
+    sold_out: true
 
     title: 第一庄05
     subtitle: Antano
@@ -1413,7 +1413,7 @@ wine:
       
   sierra-de-viento:
     name: 风神干红葡萄酒
-    sold_out: false
+    sold_out: true
 
     title: 风神干红葡萄酒
     subtitle: Sierra de Viento
@@ -1458,7 +1458,7 @@ wine:
       
   el-sotillo:
     name: 苏提乐干红葡萄酒
-    sold_out: false
+    sold_out: true
 
     title: 苏提乐干红葡萄酒
     subtitle: EL Sotillo
@@ -1503,7 +1503,7 @@ wine:
       
   vin-a-buron-rueda-2010:
     name: 白鹭150干白葡萄酒
-    sold_out: false
+    sold_out: true
 
     title: 白鹭150干白葡萄酒
     subtitle: Vin A Buron Rueda 2010
