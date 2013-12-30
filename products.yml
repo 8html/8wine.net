@@ -1858,3 +1858,112 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2015
       最佳品尝温度: 12-16℃
+
+
+  gift-box-01:
+    name: 时尚单支木盒
+    sold_out: false
+
+    title: 时尚单支木盒
+    subtitle: gift-box-01
+    shopid: GB01
+    keywords: 时尚单支木盒
+    description: 时尚单支木盒
+    original_price: 18
+    price: 18
+    filter: # 多个使用“、”分隔
+      国家: 
+      含糖量: 
+      价格: 
+      用途: 
+	  
+    recommendations:
+      - /wine/gift-box-02
+      - /wine/gift-box-03
+      - /wine/gift-box-04
+
+    商品描述: |
+
+    酒庄介绍: |
+    
+
+  gift-box-02:
+    name: 时尚单支木盒
+    sold_out: false
+
+    title: 时尚双支木盒
+    subtitle: gift-box-02
+    shopid: GB02
+    keywords: 时尚双支木盒
+    description: 时尚双支木盒
+    original_price: 28
+    price: 28
+    filter: # 多个使用“、”分隔
+      国家: 
+      含糖量: 
+      价格: 
+      用途: 
+	  
+    recommendations:
+      - /wine/gift-box-01
+      - /wine/gift-box-03
+      - /wine/gift-box-04
+
+    商品描述: |
+
+    酒庄介绍: |
+    
+
+  gift-box-03:
+    name: 复古双支木盒
+    sold_out: false
+
+    title: 复古双支木盒
+    subtitle: gift-box-03
+    shopid: GB03
+    keywords: 复古双支木盒
+    description: 复古双支木盒
+    original_price: 35
+    price: 35
+    filter: # 多个使用“、”分隔
+      国家: 
+      含糖量: 
+      价格: 
+      用途: 
+	  
+    recommendations:
+      - /wine/gift-box-01
+      - /wine/gift-box-02
+      - /wine/gift-box-04
+
+    商品描述: |
+
+    酒庄介绍: |
+    
+    
+  gift-box-04:
+    name: 欧美风皮盒
+    sold_out: false
+
+    title: 欧美风皮盒
+    subtitle: gift-box-04
+    shopid: GB04
+    keywords: 欧美风皮盒
+    description: 欧美风皮盒
+    original_price: 38
+    price: 38
+    filter: # 多个使用“、”分隔
+      国家: 
+      含糖量: 
+      价格: 
+      用途: 
+	  
+    recommendations:
+      - /wine/gift-box-01
+      - /wine/gift-box-02
+      - /wine/gift-box-03
+
+    商品描述: |
+
+    酒庄介绍: |
+
