@@ -5,9 +5,10 @@
       - if (product.filter)
         - each value, filter in product.filter
           - filters[filter] = filters[filter] || []
-          - each item in value.split('、')
-            - if (filters[filter].indexOf(item) === -1)
-              - filters[filter].push(item)
+          - if (value)
+            - each item in value.split('、')
+              - if (filters[filter].indexOf(item) === -1)
+                - filters[filter].push(item)
   table.filtertable
     - count = 0
     - each values, item in filters
@@ -40,7 +41,8 @@
       - filter = ''
       - if (product.filter)
         - each value, item in product.filter
-          - filter+=item + '不限 ' + value.replace(/、/g, ' ') + ' '
+          - if (value)
+            - filter+=item + '不限 ' + value.replace(/、/g, ' ') + ' '
       .pfitem.filtered_item(class=filter)
         a(href=product.path)
           .pfimg
