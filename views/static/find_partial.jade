@@ -43,20 +43,20 @@
         - each value, item in product.filter
           - if (value)
             - filter+=item + '不限 ' + value.replace(/、/g, ' ') + ' '
-      .pfitem.filtered_item(class=filter)
-        a(href=product.path)
-          .pfimg
-            img(alt=product.name, data-src=product.image)
-          .pfname=product.name
-          .pfprices
-            - if (product.original_price && product.original_price > product.price)
-              em.pforigprice.toCurrency= product.original_price
-            em.pfprice.toCurrency= product.price
-          .pfmask
-            .pfdesc
-              =product.title
-              br
-              =product.subtitle
-              br
-              =product.description
+        .pfitem.filtered_item(class=filter)
+          a(href=product.path)
+            .pfimg
+              img(alt=product.name, data-src=product.image)
+            .pfname=product.name
+            .pfprices
+              - if (product.original_price && product.original_price > product.price)
+                em.pforigprice.toCurrency= product.original_price
+              em.pfprice.toCurrency= product.price
+            .pfmask
+              .pfdesc
+                =product.title
+                br
+                =product.subtitle
+                br
+                =product.description
   .clearfix

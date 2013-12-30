@@ -15,7 +15,7 @@ wine:
       含糖量: 半干型
       价格: 101～200
       用途: 聚会、婚庆、送礼
-	  
+
     recommendations:
       - /wine/antano-08
       - /wine/chateau-pied-d-argent
@@ -61,7 +61,7 @@ wine:
       含糖量: 半干型
       价格: 101～200
       用途: 聚会、送礼、品酒
-	  
+
     recommendations:
       - /wine/chateau-lamothe-castera
       - /wine/douglass-hill
@@ -107,7 +107,7 @@ wine:
       含糖量: 干型
       价格: 201～500
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/stone-hedge-reserve-b
       - /wine/ph-gran-reserva
@@ -184,8 +184,8 @@ wine:
       重量: 1.33
       最佳享用期: 2012-2017年
       最佳品尝温度: 16-18℃
-      
-      
+
+
   eagle-ridge:
     name: 鹰谷半干红葡萄酒
     sold_out: false
@@ -275,7 +275,7 @@ wine:
       最佳享用期: 2012-2015年
       最佳品尝温度: 16-18℃
 
-	  
+
   don-maueo:
     name: 多玛罗干红葡萄酒
     sold_out: false
@@ -297,8 +297,8 @@ wine:
       - /wine/douglass-hill
       - /wine/antano-08
       - /wine/santiago
-      - /wine/chateau-soubiran	  
-	  
+      - /wine/chateau-soubiran
+
     商品描述: |
 
     酒庄介绍: |
@@ -318,7 +318,7 @@ wine:
       香味: 果香浓郁
       重量: 1.8
       最佳享用期: 2012-2015年
-      最佳品尝温度: 16-18℃	  
+      最佳品尝温度: 16-18℃
 
 
   reillys-shiraz:
@@ -346,9 +346,9 @@ wine:
 
     商品描述: |
       呈黑加仑和樱桃红色，入口西拉特点明显，成熟的果香和胡椒味道，单宁充足平衡，有余韵。
-	  
+
     酒庄介绍: |
-	  
+
 
     规格:
       葡萄酒类型: 红葡萄酒
@@ -475,7 +475,7 @@ wine:
       含糖量: 半干型
       价格: 100以下
       用途: 婚庆
-	  
+
     recommendations:
       - /wine/l-aura-b
       - /wine/el-brusco
@@ -530,9 +530,9 @@ wine:
 
     商品描述: |
       采用高品质的西拉葡萄，低温控制浸皮发酵，得到分红且透彻的好酒。香气优雅，有覆盘子、玫瑰、樱桃的香味，还有一点薄荷味。口感充满活力，酸度适宜，回味充满水果香气。
-	  
+
     酒庄介绍: |
-	  
+
 
     规格:
       葡萄酒类型: 桃红葡萄酒
@@ -797,7 +797,7 @@ wine:
       含糖量: 干型
       价格: 101～200
       用途: 聚会、送礼、品酒
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/chateau-lamothe-castera
@@ -842,7 +842,7 @@ wine:
       含糖量: 干型
       价格: 500以上
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/ph-gran-reserva
       - /wine/stone-hedge-reserve-b
@@ -887,7 +887,7 @@ wine:
       含糖量: 干型
       价格: 500以上
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/ph-gran-reserva
       - /wine/stone-hedge-reserve-b
@@ -914,8 +914,8 @@ wine:
       重量: 1.32
       最佳享用期: 2015-2020
       最佳品尝温度: 16-18℃
-      
-      
+
+
   alter-ego:
     name: 宝马副牌
     sold_out: false
@@ -932,7 +932,7 @@ wine:
       含糖量: 干型
       价格: 500以上
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/ph-gran-reserva
       - /wine/stone-hedge-reserve-b
@@ -1004,8 +1004,8 @@ wine:
       重量: 1.33
       最佳享用期: 2012-2020
       最佳品尝温度: 16-18℃
-      
-      
+
+
   chateau-de-pressac:
     name: 比萨城堡
     sold_out: false
@@ -1022,7 +1022,7 @@ wine:
       含糖量: 干型
       价格: 500以上
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/ph-gran-reserva
       - /wine/stone-hedge-reserve-b
@@ -1050,7 +1050,7 @@ wine:
       最佳享用期: 2015-2020
       最佳品尝温度: 16-18℃
 
-	  
+
   chateau-soubiran:
     name: 苏比昂城堡
     sold_out: false
@@ -1067,7 +1067,7 @@ wine:
       含糖量: 干型
       价格: 500以上
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/amberhill
@@ -1094,8 +1094,8 @@ wine:
       重量: 1.33
       最佳享用期: 2015-2020
       最佳品尝温度: 16-18℃
-      
-      
+
+
   chateau-les-conseillans:
     name: 乐斯城堡
     sold_out: false
@@ -1112,7 +1112,7 @@ wine:
       含糖量: 干型
       价格: 201～500
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/chateau-soubiran
@@ -1163,7 +1163,7 @@ wine:
       - /wine/antano-05
       - /wine/jaume-serra
       - /wine/stone-hedge-reserve-b
-	  
+
     商品描述: |
 
     酒庄介绍: |
@@ -1184,7 +1184,7 @@ wine:
       重量: 1.33
       最佳享用期: 2015-2020
       最佳品尝温度: 16-18℃
-	  
+
 
   el-brusco:
     name: 意大利魔帽气泡酒
@@ -1229,8 +1229,8 @@ wine:
       重量: 1.33
       最佳享用期: 2012-2015
       最佳品尝温度: 7-10℃
-      
-      
+
+
   tierrallana:
     name: 大丰收干红葡萄酒
     sold_out: false
@@ -1247,7 +1247,7 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 聚会、婚庆、送礼
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/l-aura-a
@@ -1292,7 +1292,7 @@ wine:
       含糖量: 干型
       价格: 101～200
       用途: 聚会、婚庆
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/el-brusco
@@ -1337,7 +1337,7 @@ wine:
       含糖量: 干型
       价格: 101～200
       用途: 聚会、送礼
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/el-brusco
@@ -1364,8 +1364,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2016
       最佳品尝温度: 16-18℃
-      
-      
+
+
   antano-05:
     name: 第一庄05
     sold_out: true
@@ -1382,7 +1382,7 @@ wine:
       含糖量: 干型
       价格: 201～500
       用途: 送礼、品酒
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/chateau-soubiran
@@ -1409,8 +1409,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2015
       最佳品尝温度: 16-18℃
-      
-      
+
+
   sierra-de-viento:
     name: 风神干红葡萄酒
     sold_out: true
@@ -1427,7 +1427,7 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/el-brusco
@@ -1454,8 +1454,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2015
       最佳品尝温度: 16-18℃
-      
-      
+
+
   el-sotillo:
     name: 苏提乐干红葡萄酒
     sold_out: true
@@ -1472,7 +1472,7 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
-	  
+
     recommendations:
       - /wine/l-aura-b
       - /wine/el-brusco
@@ -1499,8 +1499,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2015
       最佳品尝温度: 16-18℃
-      
-      
+
+
   vin-a-buron-rueda-2010:
     name: 白鹭150干白葡萄酒
     sold_out: true
@@ -1517,7 +1517,7 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 聚会、送礼
-	  
+
     recommendations:
       - /wine/l-aura-b
       - /wine/el-brusco
@@ -1544,8 +1544,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2013
       最佳品尝温度: 7-10℃
-      
-      
+
+
   marques-de-la-gruh:
     name: 马鲁克斯白起泡酒
     sold_out: false
@@ -1562,7 +1562,7 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 聚会、送礼
-	  
+
     recommendations:
       - /wine/l-aura-b
       - /wine/el-brusco
@@ -1589,8 +1589,8 @@ wine:
       重量: 1.30
       最佳享用期: 2013-2016
       最佳品尝温度: 7-10℃
-      
-      
+
+
   jaume-serra:
     name: 佐米cava气泡酒
     sold_out: false
@@ -1607,7 +1607,7 @@ wine:
       含糖量: 干型
       价格: 101～200
       用途: 聚会、婚庆、送礼
-	  
+
     recommendations:
       - /wine/l-aura-b
       - /wine/el-brusco
@@ -1634,8 +1634,8 @@ wine:
       重量: 1.33
       最佳享用期: 2012-2016
       最佳品尝温度: 7-10℃
-      
-      
+
+
   l-aura-a:
     name: 海湾之树桃红葡萄酒
     sold_out: false
@@ -1652,7 +1652,7 @@ wine:
       含糖量: 甜型
       价格: 100以下
       用途: 聚会、送礼
-	  
+
     recommendations:
       - /wine/l-aura-b
       - /wine/el-brusco
@@ -1679,8 +1679,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2015
       最佳品尝温度: 7-10℃
-      
-      
+
+
   ph-gran-reserva:
     name: 百高珍藏干红葡萄酒
     sold_out: false
@@ -1697,7 +1697,7 @@ wine:
       含糖量: 干型
       价格: 201～500
       用途: 聚会、送礼、品酒
-	  
+
     recommendations:
       - /wine/stone-hedge-reserve-a
       - /wine/stone-hedge-reserve-b
@@ -1725,7 +1725,7 @@ wine:
       最佳享用期: 2015-2020
       最佳品尝温度: 16-18℃
 
-	  
+
   l-aura-b:
     name: 海湾之树甜白葡萄酒
     sold_out: false
@@ -1742,7 +1742,7 @@ wine:
       含糖量: 甜型
       价格: 100以下
       用途: 聚会、送礼
-	  
+
     recommendations:
       - /wine/l-aura-a
       - /wine/el-brusco
@@ -1769,8 +1769,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2015
       最佳品尝温度: 7-10℃
-	  
-	  
+
+
   santiago:
     name: 圣地亚哥干红葡萄酒
     sold_out: false
@@ -1787,7 +1787,7 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/santa-alba-carmenere
@@ -1814,8 +1814,8 @@ wine:
       重量: 1.30
       最佳享用期: 2012-2015
       最佳品尝温度: 12-16℃
-      
-      
+
+
   saludas:
     name: 沙露达干红葡萄酒（6瓶）
     sold_out: false
@@ -1832,7 +1832,7 @@ wine:
       含糖量: 干型
       价格: 100以下
       用途: 婚庆
-	  
+
     recommendations:
       - /wine/douglass-hill
       - /wine/santiago
@@ -1871,12 +1871,7 @@ wine:
     description: 时尚单支木盒
     original_price: 18
     price: 18
-    filter: # 多个使用“、”分隔
-      国家: 
-      含糖量: 
-      价格: 
-      用途: 
-	  
+
     recommendations:
       - /wine/gift-box-02
       - /wine/gift-box-03
@@ -1898,12 +1893,7 @@ wine:
     description: 时尚双支木盒
     original_price: 28
     price: 28
-    filter: # 多个使用“、”分隔
-      国家: 
-      含糖量: 
-      价格: 
-      用途: 
-	  
+
     recommendations:
       - /wine/gift-box-01
       - /wine/gift-box-03
@@ -1925,12 +1915,7 @@ wine:
     description: 复古双支木盒
     original_price: 35
     price: 35
-    filter: # 多个使用“、”分隔
-      国家: 
-      含糖量: 
-      价格: 
-      用途: 
-	  
+
     recommendations:
       - /wine/gift-box-01
       - /wine/gift-box-02
@@ -1952,12 +1937,7 @@ wine:
     description: 欧美风皮盒
     original_price: 38
     price: 38
-    filter: # 多个使用“、”分隔
-      国家: 
-      含糖量: 
-      价格: 
-      用途: 
-	  
+
     recommendations:
       - /wine/gift-box-01
       - /wine/gift-box-02
