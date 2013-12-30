@@ -1817,7 +1817,7 @@ wine:
       
       
   saludas:
-    name: 沙露达干红葡萄酒
+    name: 沙露达干红葡萄酒（6瓶）
     sold_out: false
 
     title: 沙露达干红葡萄酒
@@ -1825,8 +1825,8 @@ wine:
     shopid: SP0016
     keywords: 沙露达干红葡萄酒
     description: 成熟红色水果气味，入口清新宜人 
-    original_price: 85
-    price: 80
+    original_price: 480
+    price: 238
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
