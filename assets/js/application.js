@@ -211,6 +211,10 @@ $(function(){
         };
         if (Modernizr.csstransforms) {
           var active_image = $('.pphoto img:first');
+          if (active_image.length !== 1) {
+            success();
+            return;
+          }
           var image = active_image.clone();
           image.width(active_image.width()).height(active_image.height());
           image.css({ position: 'absolute', 'z-index': 9999 });

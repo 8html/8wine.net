@@ -152,6 +152,30 @@
   }
 }
 
+.smallerpf {
+  .pfitem {
+    @width: 148px;
+    @height: 200px;
+    width: @width;
+    height: @height;
+    margin: 5px 5px 5px;
+    a {
+      width: @width;
+      height: @height;
+      .pfimg {
+        img {
+          width: 130px;
+          height: 130px;
+        }
+      }
+      .pfmask {
+        width: @width;
+        height: @height;
+      }
+    }
+  }
+}
+
 .filtertable {
   border: 1px solid #880500;
   width: 98%;

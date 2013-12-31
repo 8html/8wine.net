@@ -1863,6 +1863,7 @@ wine:
   gift-box-01:
     name: 时尚单支木盒
     sold_out: false
+    show_in_cart: true
 
     title: 时尚单支木盒
     subtitle: gift-box-01
@@ -1885,6 +1886,7 @@ wine:
   gift-box-02:
     name: 时尚双支木盒
     sold_out: false
+    show_in_cart: true
 
     title: 时尚双支木盒
     subtitle: gift-box-02
@@ -1907,6 +1909,7 @@ wine:
   gift-box-03:
     name: 复古双支木盒
     sold_out: false
+    show_in_cart: true
 
     title: 复古双支木盒
     subtitle: gift-box-03
@@ -1929,6 +1932,7 @@ wine:
   gift-box-04:
     name: 欧美风皮盒
     sold_out: false
+    show_in_cart: true
 
     title: 欧美风皮盒
     subtitle: gift-box-04
