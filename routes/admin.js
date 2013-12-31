@@ -230,6 +230,10 @@ module.exports = function(app, products, configs) {
       var forcedRowHeight = [];
 
       var data = [[
+        { value: '', colSpan: 4, borders: { } },
+        { value: '▼退换凭标△', colSpan: 3, vAlign: 'center', hAlign: 'center', fontSize: 16 },
+        { value: '此处请勿涂画', colSpan: 2, vAlign: 'center', hAlign: 'center', borders: { } }
+      ],[
         { value: "红酒室", colSpan: 2, vAlign: 'bottom', hAlign: 'center', fontSize: 17, fontName: '黑体', bold: true, fontColor: '601B00', borders: { } },
         { value: "销售单", colSpan: 4, rowSpan: 2, hAlign: 'center', fontSize: 18, bold: true, borders: { } },
         { value: "NO.：" + order._id, colSpan: 3, colWidth: 13, vAlign: 'bottom', hAlign: 'center', fontSize: 10, borders: { } }
@@ -244,9 +248,10 @@ module.exports = function(app, products, configs) {
         { hAlign: 'center', value: "数量" },
         { hAlign: 'center', value: "单价" },
         { hAlign: 'center', value: "金额（元）" },
-        { hAlign: 'center', value: "备注" }
+        { hAlign: 'center', value: "备注" },
+        { hAlign: 'center', vAlign: 'center', value: '①存根（白）②客户（红）③财务（蓝）④部门（黄）', rowSpan: 13, textRotation: 180, fontSize: 9 }
       ]];
-      forcedRowHeight.push(30, 30, 20);
+      forcedRowHeight.push(30, 30, 30, 20);
 
       for (var i = 0; i < order.products.length; i++) {
         var product = order.products[i];
@@ -269,7 +274,7 @@ module.exports = function(app, products, configs) {
         }
         data.push([
           { value: i + 1, hAlign: 'center' },
-          { value: title, colSpan: 2 },
+          { value: '　' + title, colSpan: 2 },
           { value: shopid, hAlign: 'center' },
           { value: unit, hAlign: 'center' },
           { value: product.quantity, hAlign: 'center' },
@@ -288,8 +293,8 @@ module.exports = function(app, products, configs) {
       }
       data.push([
         { value: '　　配送区域', colSpan: 2 },
-        { value: order.districts ? order.districts[order.districts.length-1] : '---', hAlign: 'center' },
-        { value: '价格调整', hAlign: 'center', colSpan: 4 },
+        { value: order.districts ? '　' + order.districts.join(' ') : '---', colSpan: 4 },
+        { value: '价格调整', hAlign: 'center' },
         { value: diff, formatCode: currency_format, hAlign: 'center' },
         { value: '' }
       ],[
@@ -299,18 +304,18 @@ module.exports = function(app, products, configs) {
         { value: '' }
       ],[
         { value: '　　客户姓名', colSpan: 2 },
-        { value: '　' + order.username, hAlign: 'left', colSpan: 3 },
-        { value: '联系电话', hAlign: 'center', colSpan: 2 },
+        { value: '　' + order.username, hAlign: 'left', colSpan: 4 },
+        { value: '联系电话', hAlign: 'center' },
         { value: order.phone, hAlign: 'center', colSpan: 2 }
       ],[
         { value: '　　地址', colSpan: 2 },
-        { value: '　' + order.address, hAlign: 'left', colSpan: 5 },
+        { value: '　' + order.address, hAlign: 'left', colSpan: 4 },
         { value: '付款方式', hAlign: 'center' },
-        { value: order.payment, hAlign: 'center' }
+        { value: order.payment, hAlign: 'center', colSpan: 2 }
       ],[
         { value: '备注', rowSpan: 4, hAlign: 'center' },
         { value: '①本商城暂提供货到付款支付方式，货物现钞签收前请当面点清。', colSpan: 5 },
-        { value: '签收日期', rowSpan: 4, hAlign: 'center' },
+        { value: '客户签收', rowSpan: 4, hAlign: 'center' },
         { value: '', rowSpan: 4, colSpan: 2, hAlign: 'center' }
       ],[
         { value: '②在未付清货款前，以上货物仍属红酒室所有。', colSpan: 5 }
@@ -319,7 +324,7 @@ module.exports = function(app, products, configs) {
       ],[
         { value: '更多服务详情请浏览官方商城：www.8wine.net', colSpan: 5 }
       ],[
-        { value: '经手人：黄俊彬　　　　　客服：　　　　　　　　客户签收：　　　　　　　　', colSpan: 9, hAlign: 'center' }
+        { value: '经手人：黄俊彬　　　　　客服：　　　　　　　　签收日期：　　　　　　　　', colSpan: 9, hAlign: 'center' }
       ],[
         { value: '红酒室——专属顺德人的葡萄酒商城', colSpan: 9, hAlign: 'center', bold: true }
       ]);
@@ -341,7 +346,7 @@ module.exports = function(app, products, configs) {
           orientation: 'portrait'
         },
         forcedRowHeight: forcedRowHeight,
-        forcedColWidth: [ 5, 24, 22, 11, 5, 5, 10, 14, 10 ]
+        forcedColWidth: [ 5, 24, 22, 11, 5, 5, 10, 14, 8, 2.2 ]
       });
       res.set('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
       res.set('Content-Disposition', 'attachment; filename=' + encodeURIComponent('销售单-') + order_id + '.xlsx');
