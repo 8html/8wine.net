@@ -333,7 +333,8 @@ module.exports = function(app, products, configs) {
       var xlsx = require('node-xlsx');
       var buffer = xlsx.build({ worksheets: [{
         name: "销售单", 
-        data: data
+        data: data,
+        view: 'pageBreakPreview'
       }] }, {
         defaultFontName: '宋体',
         defaultFontSize: 10,
@@ -341,9 +342,10 @@ module.exports = function(app, products, configs) {
         defaultRowHeight: 20,
         defaultCellBorders: { left: '000', right: '000', top: '000', bottom: '000' },
         page: {
-          margins: { left: 0.4, right: 0.4, top: 0.5, bottom: 0.5, header: 0.2, footer: 0.2 },
+          margins: { left: 1, right: 0.3, top: 0.8, bottom: 0.5, header: 0.2, footer: 0.2 },
           paper_size: 9, // A4
-          orientation: 'portrait'
+          orientation: 'portrait',
+          page_scale: 91
         },
         forcedRowHeight: forcedRowHeight,
         forcedColWidth: [ 5, 24, 22, 11, 5, 5, 10, 14, 8, 2.2 ]
