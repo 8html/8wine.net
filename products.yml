@@ -1939,8 +1939,8 @@ wine:
     shopid: GB04
     keywords: 欧美风皮盒
     description: 欧美风皮盒
-    original_price: 38
-    price: 38
+    original_price: 88
+    price: 88
 
     recommendations:
       - /wine/gift-box-01
