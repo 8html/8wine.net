@@ -6,8 +6,8 @@ wine:
     title: 道格拉斯山半干红葡萄酒
     subtitle: Douglass Hill
     shopid: AM0001
-    keywords:
-    description: 道格拉斯山半干红葡萄酒
+    keywords: 道格拉斯山半干红葡萄酒
+    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
     original_price: 160
     price: 88
     filter: # 多个使用“、”分隔
@@ -53,7 +53,7 @@ wine:
     subtitle: Amberhill
     shopid: AM0002
     keywords:
-    description: 琥珀山半干红葡萄酒
+    description: 一款为专女士而作的红葡萄酒，2012年洛杉矶国际葡萄酒大赛——金奖（2010年份），2012河滨国际葡萄酒大赛——银奖（2010年份），2012年美国葡萄酒大赛——银奖（2010年份），2012年圣安东尼奥葡萄酒大赛——金奖（2010年份），2011休斯顿葡萄酒大赛——银奖（2010年份）
     original_price: 280
     price: 160
     filter: # 多个使用“、”分隔
