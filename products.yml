@@ -1780,8 +1780,8 @@ wine:
     shopid: SP0013
     keywords: 圣地亚哥干红葡萄酒
     description: 成熟红色水果气味，入口清新宜人 
-    original_price: 85
-    price: 85
+    original_price: 130
+    price: 130
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
