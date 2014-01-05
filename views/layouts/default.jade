@@ -52,9 +52,11 @@ html
         li
           a(href='/', class=belongs_to=='/'?'active':'') 首页
         li.none_if_mobile
-          a() 超值组合
+          a(href='/assortment', class=belongs_to=='assortment'?'active':'') 超值组合
         li.none_if_mobile
           a(href='/grand-cru', class=belongs_to=='grand-cru'?'active':'') 波尔多列级名庄
+        li.none_if_mobile
+          a(href='/gift', class=belongs_to=='gift'?'active':'') 送礼专区
         li.none_if_mobile
           a() 培训班
         li
