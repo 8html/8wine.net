@@ -54,7 +54,7 @@ block content
     .form
       .form-group
         label(for='shipping_user_name')
-          | 收货人
+          | 收货人（请填写真实姓名，我们发货时以订单上收货人姓名为准）
           span.important *
         input.form-input#shipping_user_name(type='text', name='shipping_user_name', value=current_user ? current_user.defaults.name : '')
         .labeldesc
