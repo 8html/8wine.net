@@ -4,8 +4,8 @@ module.exports = function(app, products, configs) {
     res.render('static/' + req.params.static, { belongs_to: req.params.static });
   });
 
-  app.get('/wine', function(req, res) {
-    res.render('static/find_wine', { products: products, belongs_to: 'wine' });
+  app.get('/:find(wine|assortment|gift)', function(req, res) {
+    res.render('static/find_' + req.params.find, { products: products, belongs_to: req.params.find });
   });
 
   app.get('/:list(grand-cru)', function(req, res) {

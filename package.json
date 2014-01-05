@@ -25,7 +25,8 @@
     "connect-assets": "2.5.x",
     "marked": "0.2.10",
     "node-xlsx": "git://github.com/caiguanhao/node-xlsx.git",
-    "pinyin_index": "0.0.1"
+    "pinyin_index": "0.0.1",
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "nodemon": "*"

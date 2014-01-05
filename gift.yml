@@ -11,6 +11,11 @@ gift:
     description: 时尚单支木盒
     original_price: 18
     price: 18
+    filter: # 多个使用“、”分隔
+      国家: 美国
+      含糖量: 半干型
+      价格: 101～200
+      用途: 聚会、婚庆、送礼
 
     recommendations:
       - /gift/gift-box-02
@@ -34,6 +39,11 @@ gift:
     description: 时尚双支木盒
     original_price: 28
     price: 28
+    filter: # 多个使用“、”分隔
+      国家: 美国
+      含糖量: 半干型
+      价格: 101～200
+      用途: 聚会、婚庆、送礼
 
     recommendations:
       - /gift/gift-box-01
@@ -57,6 +67,11 @@ gift:
     description: 复古双支木盒
     original_price: 35
     price: 35
+    filter: # 多个使用“、”分隔
+      国家: 美国
+      含糖量: 半干型
+      价格: 101～200
+      用途: 聚会、婚庆、送礼
 
     recommendations:
       - /gift/gift-box-01
@@ -80,6 +95,11 @@ gift:
     description: 欧美风皮盒
     original_price: 88
     price: 88
+    filter: # 多个使用“、”分隔
+      国家: 美国
+      含糖量: 半干型
+      价格: 101～200
+      用途: 聚会、婚庆、送礼
 
     recommendations:
       - /gift/gift-box-01

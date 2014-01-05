@@ -28,7 +28,14 @@ app.configure('production', function(){
 });
 
 require('js-yaml');
-var products = require('./products');
+
+var _ = require('lodash');
+
+var products = _.merge(
+  require('./products'),
+  require('./assortment'),
+  require('./gift')
+);
 for (var category in products) {
   for (var model in products[category]) {
     products[category][model]['category'] = category;
