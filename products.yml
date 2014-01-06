@@ -69,7 +69,7 @@ wine:
       - /wine/el-brusco
 
     商品描述: |
-      浓郁的冰樱桃以及草莓的果香无缝地融合，带给鼻子沁人心脾的冲击，同事还可以辨析到清幽的雪松，青椒以及特浓咖啡豆的怡人香气。口感如天鹅绒般顺滑。非常合适搭配烤肉，完全地释放出这款葡萄酒应有的魅力。
+      来自世界三大名酒产区——纳帕谷，008年美国女士葡萄酒大赛——银奖，2008年杰瑞，米德新世界国际葡萄酒大赛——银奖。浓郁的冰樱桃以及草莓的果香无缝地融合，带给鼻子沁人心脾的冲击，同事还可以辨析到清幽的雪松，青椒以及特浓咖啡豆的怡人香气。口感如天鹅绒般顺滑。非常合适搭配烤肉，完全地释放出这款葡萄酒应有的魅力。
 	
     酒庄介绍: |
 
@@ -99,7 +99,7 @@ wine:
     subtitle: Stone Hedge Reserve
     shopid: AM0003
     keywords:
-    description: 宝石篱赤霞珠珍藏
+    description: 来自世界三大名酒产区——纳帕谷,2008年圣地亚哥国际葡萄酒大赛——金奖,2008年加州洲际展会葡萄酒大赛——最高荣誉奖,《KEN'S WINE GUIDE》——94分
     original_price: 550
     price: 358
     filter: # 多个使用“、”分隔
@@ -147,7 +147,7 @@ wine:
     subtitle: Stone Hedge Reserve
     shopid: AM0004
     keywords:
-    description: 宝石篱梅乐珍藏
+    description: 来自世界三大名酒产区——纳帕谷,2008年美国女士葡萄酒大赛——银奖,2008年杰瑞.米德新世界国际葡萄酒大赛——银奖
     original_price: 550
     price: 358
     filter: # 多个使用“、”分隔
@@ -194,7 +194,7 @@ wine:
     subtitle: Eagle Ridge
     shopid: AM0005
     keywords:
-    description: 鹰谷半干红葡萄酒
+    description: 入口柔和舒适，果香宜人
     original_price: 210
     price: 120
     filter: # 多个使用“、”分隔
@@ -238,7 +238,7 @@ wine:
     subtitle: Wild Hare
     shopid: AM0006
     keywords:
-    description: 野兔干红葡萄酒
+    description: 黑胡椒以及巧克力的迷人气息，入口后，感受到青椒，辛辣以及橡木桶的口味
     original_price: 230
     price: 130
     filter: # 多个使用“、”分隔
@@ -284,7 +284,7 @@ wine:
     subtitle: Don Maueo
     shopid: AR0001
     keywords:
-    description: 多玛罗干红葡萄酒
+    description: 1.25L容量，极高性价比，口感甜而不腻，散发黑加仑子和黑樱桃果味，单宁柔顺
     original_price: 280
     price: 138
     filter: # 多个使用“、”分隔
@@ -329,7 +329,7 @@ wine:
     subtitle: Reillys Shiraz
     shopid: AU0001
     keywords:
-    description: 拉利精选干红葡萄酒
+    description: 人工精选采摘的西拉干红，限量99瓶
     original_price: 230
     price: 99
     filter: # 多个使用“、”分隔
@@ -375,7 +375,7 @@ wine:
     subtitle: Ryder Shiraz
     shopid: AU0002
     keywords:
-    description: 莱德西拉干红葡萄酒
+    description: 售罄
     original_price: 230
     price: 230
     filter: # 多个使用“、”分隔
@@ -421,7 +421,7 @@ wine:
     subtitle: Angel Love
     shopid: CH0001
     keywords:
-    description: 天使之爱半干红葡萄酒
+    description: 情人节精选
     original_price: 130
     price: 80
     filter: # 多个使用“、”分隔
@@ -467,7 +467,7 @@ wine:
     subtitle: Angel Love
     shopid: CH0002
     keywords:
-    description: 天使之爱半干白葡萄酒
+    description: 情人节精选酒
     original_price: 130
     price: 80
     filter: # 多个使用“、”分隔
@@ -513,7 +513,7 @@ wine:
     subtitle: Angel Love
     shopid: CH0003
     keywords:
-    description: 天使之爱桃红葡萄酒
+    description: 情人节精选
     original_price: 130
     price: 80
     filter: # 多个使用“、”分隔
@@ -559,7 +559,7 @@ wine:
     subtitle: Santa Alba Cabernet Sauvignon
     shopid: CH0004
     keywords:
-    description: 圣达艾贝赤霞珠干红葡萄酒
+    description: 鲜宝石红色，强烈的草莓，覆盘子的香气，还有由橡木桶带来的可可的气味
     original_price: 120
     price: 120
     filter: # 多个使用“、”分隔
@@ -605,7 +605,7 @@ wine:
     subtitle: Santa Alba Carmenere
     shopid: CH0005
     keywords:
-    description: 圣达艾贝曼纳干红葡萄酒
+    description: 鲜宝石红，强烈的黑莓香气，略带微辣的感觉
     original_price: 120
     price: 120
     filter: # 多个使用“、”分隔
@@ -651,7 +651,7 @@ wine:
     subtitle: Santa Blan  Alba Sauvignon
     shopid: CH0006
     keywords:
-    description: 圣达艾贝长思干白葡萄酒
+    description: 售罄
     original_price: 120
     price: 120
     filter: # 多个使用“、”分隔
@@ -697,7 +697,7 @@ wine:
     subtitle: CHATEAU PIED D’ARGENT
     shopid: FR0001
     keywords: 银基城堡干红葡萄酒
-    description: 法国波尔多AOC、25年树龄葡萄
+    description: 波尔多AOC，8-10个月橡木桶陈酿
     original_price: 128
     price: 69
     filter: # 多个使用“、”分隔
@@ -743,7 +743,7 @@ wine:
     subtitle: CHATEAU LAMOTHE CASTERA
     shopid: FR0002
     keywords: 拉蒙特城堡干红葡萄酒
-    description: 超级波尔多
+    description: 超级波尔多，12个月橡木桶陈酿
     original_price: 240
     price: 138
     filter: # 多个使用“、”分隔
@@ -789,7 +789,7 @@ wine:
     subtitle: CHATEAU MOULIN DU PEYRAT
     shopid: FR0003
     keywords: 墨林城堡干红葡萄酒
-    description: 人工采摘、12个月橡木桶陈酿
+    description: 2009年目前二十一世纪波尔多最好的年份，人工及机器采摘，12个月橡木桶熟成
     original_price: 250
     price: 148
     filter: # 多个使用“、”分隔
@@ -1014,7 +1014,7 @@ wine:
     subtitle: CHATEAU DE PRESSAC
     shopid: FR0008
     keywords: 比萨城堡
-    description: 圣爱美隆列级，高品质的右岸酒
+    description: 波尔多 圣爱美隆 GRAND CRU CLASSE（列级庄）
     original_price: 900
     price: 680
     filter: # 多个使用“、”分隔
@@ -1104,7 +1104,7 @@ wine:
     subtitle: Chateau Les Conseillans
     shopid: FR0010
     keywords: 乐斯城堡
-    description: 原装木箱，法国权威荐酒指南法国哈切特(Hachette Guide)指南评为一星级美酒
+    description: 原装木箱该，年产量80000瓶2006/2008年份被法国哈切特(Hachette Guide)指南评为一星级美酒
     original_price: 498
     price: 450
     filter: # 多个使用“、”分隔
@@ -1194,7 +1194,7 @@ wine:
     subtitle: EL Brusco
     shopid: IT0001
     keywords: 意大利魔帽气泡酒
-    description: 顺德最受欢迎的起泡酒 
+    description: 顺德最受欢迎的起泡酒，入口清新怡人，气泡持久有力，果味浓郁 
     original_price: 130
     price: 78
     filter: # 多个使用“、”分隔
@@ -1239,7 +1239,7 @@ wine:
     subtitle: Tierrallana
     shopid: SP0001
     keywords: 大丰收干红葡萄酒
-    description: 喜庆节日专用
+    description: 喜庆节日专用，浓郁坚果和成熟果实香气的佐餐酒
     original_price: 75
     price: 75
     filter: # 多个使用“、”分隔
@@ -1284,7 +1284,7 @@ wine:
     subtitle: Principe Lucas
     shopid: SP0002
     keywords: 卢卡斯王子半干红葡萄酒
-    description: 果香宜人，入口复杂变化
+    description: 售罄
     original_price: 118
     price: 118
     filter: # 多个使用“、”分隔
@@ -1374,7 +1374,7 @@ wine:
     subtitle: Antano
     shopid: SP0004
     keywords: 第一庄05
-    description: 张伟赠与那英的金奖美酒
+    description: 售罄
     original_price: 320
     price: 320
     filter: # 多个使用“、”分隔
@@ -1419,7 +1419,7 @@ wine:
     subtitle: Sierra de Viento
     shopid: SP0005
     keywords: 风神干红葡萄酒
-    description: 
+    description: 售罄
     original_price: 150
     price: 150
     filter: # 多个使用“、”分隔
@@ -1463,7 +1463,7 @@ wine:
     title: 苏提乐干红葡萄酒
     subtitle: EL Sotillo
     shopid: SP0006
-    keywords: 苏提乐干红葡萄酒
+    keywords: 售罄
     description: 
     original_price: 68
     price: 68
@@ -1509,7 +1509,7 @@ wine:
     subtitle: Vin A Buron Rueda 2010
     shopid: SP0007
     keywords: 白鹭150干白葡萄酒
-    description: 
+    description: 售罄
     original_price: 110
     price: 110
     filter: # 多个使用“、”分隔
@@ -1554,7 +1554,7 @@ wine:
     subtitle: Marques de la Gruh
     shopid: SP0008
     keywords: 马鲁克斯白起泡酒
-    description: 
+    description: 传统工艺酿造，口感复杂
     original_price: 120
     price: 80
     filter: # 多个使用“、”分隔
@@ -1599,7 +1599,7 @@ wine:
     subtitle: Jaume Serra
     shopid: SP0009
     keywords: 佐米cava气泡酒
-    description: 能与香槟媲美的起泡酒 
+    description: 全球唯一媲美香槟的起泡酒
     original_price: 160
     price: 120
     filter: # 多个使用“、”分隔
@@ -1644,7 +1644,7 @@ wine:
     subtitle: L'Aura
     shopid: SP0010
     keywords: 海湾之树桃红葡萄酒
-    description: 性感瓶身、甜美口感 
+    description: 成熟的红色水果香并带有薄荷的气味，口味清新怡人，约会的必备品 
     original_price: 120
     price: 73
     filter: # 多个使用“、”分隔
@@ -1689,7 +1689,7 @@ wine:
     subtitle: PH Gran Reserva
     shopid: SP0011
     keywords: 百高珍藏干红葡萄酒
-    description: “主动”申请降级的珍藏美酒，口感复杂、变化，回味持久
+    description: 18个月 以上的橡木桶陈酿，酿酒师不拘于年份及酿酒法规的束缚，大胆混合年份只为做好酒
     original_price: 580
     price: 388
     filter: # 多个使用“、”分隔
@@ -1734,7 +1734,7 @@ wine:
     subtitle: L'Aura
     shopid: SP0012
     keywords: 海湾之树甜白葡萄酒
-    description: 性感瓶身、甜美口感 
+    description: 清新的青草气及水梨及野果味，口感清爽甜美，约会的必备品 
     original_price: 120
     price: 73
     filter: # 多个使用“、”分隔
