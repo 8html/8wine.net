@@ -1288,8 +1288,8 @@ wine:
     shopid: SP0001
     keywords: 大丰收干红葡萄酒（6瓶）
     description: 喜庆节日专用，浓郁坚果和成熟果实香气的佐餐酒
-    original_price: 75
-    price: 75
+    original_price: 239
+    price: 239
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型

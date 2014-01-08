@@ -21,6 +21,7 @@ gift:
       - /gift/gift-box-02
       - /gift/gift-box-03
       - /gift/gift-box-04
+      - /gift/gift-box-05
 
     商品描述: |
 
@@ -49,6 +50,7 @@ gift:
       - /gift/gift-box-01
       - /gift/gift-box-03
       - /gift/gift-box-04
+      - /gift/gift-box-05
 
     商品描述: |
 
@@ -77,6 +79,7 @@ gift:
       - /gift/gift-box-01
       - /gift/gift-box-02
       - /gift/gift-box-04
+      - /gift/gift-box-05
 
     商品描述: |
 
@@ -105,7 +108,38 @@ gift:
       - /gift/gift-box-01
       - /gift/gift-box-02
       - /gift/gift-box-03
+      - /gift/gift-box-05
 
     商品描述: |
 
     酒庄介绍: |
+
+
+  gift-box-05:
+    name: 商务手提皮盒
+    sold_out: false
+    show_in_cart: true
+
+    title: 商务手提皮盒
+    subtitle: gift-box-05
+    shopid: GB01
+    keywords: 商务手提皮盒
+    description: 商务手提皮盒
+    original_price: 128
+    price: 128
+    filter: # 多个使用“、”分隔
+      国家: 美国
+      含糖量: 半干型
+      价格: 101～200
+      用途: 聚会、婚庆、送礼
+
+    recommendations:
+      - /gift/gift-box-01
+      - /gift/gift-box-02
+      - /gift/gift-box-03
+      - /gift/gift-box-04
+
+    商品描述: |
+
+    酒庄介绍: |
+    
