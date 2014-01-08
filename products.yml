@@ -1279,6 +1279,51 @@ wine:
       最佳品尝温度: 16-18℃
 
 
+  tierrallana-s:
+    name: 大丰收干红葡萄酒（6瓶）
+    sold_out: false
+
+    title: 大丰收干红葡萄酒（6瓶）
+    subtitle: Tierrallana
+    shopid: SP0001
+    keywords: 大丰收干红葡萄酒（6瓶）
+    description: 喜庆节日专用，浓郁坚果和成熟果实香气的佐餐酒
+    original_price: 75
+    price: 75
+    filter: # 多个使用“、”分隔
+      国家: 西班牙
+      含糖量: 干型
+      价格: 100以下
+      用途: 聚会、婚庆、送礼
+
+    recommendations:
+      - /wine/douglass-hill
+      - /wine/l-aura-a
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
+
+    商品描述: |
+
+    酒庄介绍: |
+
+
+    规格:
+      葡萄酒类型: 红葡萄酒
+      葡萄品种: 添帕尼优
+      国家: 西班牙
+      产地: 卡斯蒂利亚-拉曼查
+      含糖量: "< 4g/L(干型)"
+      酒精度: 13%
+      参考年份: 2011
+      规格: 750ml
+      色泽: 深紫红
+      口感: 入口圆滑
+      香味: 果香浓郁
+      重量: 1.30
+      最佳享用期: 2012-2015
+      最佳品尝温度: 16-18℃	  
+
+
   principe-lucas:
     name: 卢卡斯王子半干红葡萄酒
     sold_out: true
@@ -1826,6 +1871,50 @@ wine:
 
 
   saludas:
+    name: 沙露达干红葡萄酒
+    sold_out: false
+
+    title: 沙露达干红葡萄酒
+    subtitle: Saludas
+    shopid: SP0016
+    keywords: 沙露达干红葡萄酒
+    description: 成熟红色水果气味，入口清新宜人 
+    original_price: 39
+    price: 39
+    filter: # 多个使用“、”分隔
+      国家: 西班牙
+      含糖量: 干型
+      价格: 100以下
+      用途: 婚庆
+
+    recommendations:
+      - /wine/douglass-hill
+      - /wine/santiago
+      - /wine/l-aura-a
+
+    商品描述: |
+
+    酒庄介绍: |
+
+
+    规格:
+      葡萄酒类型: 红葡萄酒
+      葡萄品种: 添帕尼优
+      国家: 西班牙
+      产地: 卡斯蒂利亚-拉曼查
+      含糖量: "< 4g/L(干型)"
+      酒精度: 12.5%
+      参考年份: 2011
+      规格: 750ml
+      色泽: 深紫红色
+      口感: 入口轻盈，酒体中等
+      香味: 果香浓郁
+      重量: 1.30
+      最佳享用期: 2012-2015
+      最佳品尝温度: 12-16℃
+	  
+	  
+  saludas-s:
     name: 沙露达干红葡萄酒（6瓶）
     sold_out: false
 
