@@ -1,1301 +1,278 @@
 assortment:
-  assortment-01:
-    name: 组合01
+  l-aura-b:
+    name: 海湾之树甜白葡萄酒
     sold_out: false
 
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
+    title: 海湾之树甜白葡萄酒
+    subtitle: L'Aura
+    shopid: SP0012
+    keywords: 海湾之树甜白葡萄酒
+    description: 清新的青草气及水梨及野果味，口感清爽甜美，约会的必备品 
+    original_price: 120
+    price: 73
     filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
+      国家: 西班牙
+      含糖量: 甜型
+      价格: 100以下
+      用途: 聚会、送礼
 
     recommendations:
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
+      - /wine/l-aura-a
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/marques-de-la-gruh
 
     商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-	
+
     酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
+
+
+    规格:
+      葡萄酒类型: 白葡萄酒
+      葡萄品种: 霞多丽
+      国家: 霞多丽
+      产地: 卡斯蒂利亚-拉曼查
+      含糖量: "> 12g/L(甜型)"
+      酒精度: 7%
+      参考年份: NA
+      规格: 750ml
+      色泽: 浅黄色
+      口感: 入口清新
+      香味: 果香浓郁
+      重量: 1.30
+      最佳享用期: 2012-2015
+      最佳品尝温度: 7-10℃
+
+
+  l-aura-a:
+    name: 海湾之树桃红葡萄酒
+    sold_out: false
+
+    title: 海湾之树桃红葡萄酒
+    subtitle: L'Aura
+    shopid: SP0010
+    keywords: 海湾之树桃红葡萄酒
+    description: 成熟的红色水果香并带有薄荷的气味，口味清新怡人，约会的必备品 
+    original_price: 120
+    price: 73
+    filter: # 多个使用“、”分隔
+      国家: 西班牙
+      含糖量: 甜型
+      价格: 100以下
+      用途: 聚会、送礼
+
+    recommendations:
+      - /wine/l-aura-b
+      - /wine/el-brusco
+      - /wine/douglass-hill
+      - /wine/marques-de-la-gruh
+
+    商品描述: |
+      娇艳的淡红色泽，带着清新怡人的成熟水果香气和滑翔，酒体机构精致，富有活力。平衡感恰到好处，回味悠久而清新，让您邂逅一场完美的味觉体验。
+
+    酒庄介绍: |
+      拉曼查产区位于阿尔瓦塞特（Albacete）、雷阿尔（Ciudad Real）、昆卡（Cuenca）和托莱多（Toledo）省的南部高原，是西班牙乃至全世界最大的葡萄酒产区。虽然拉曼查产区于1976年才正式成为DO产区，但它其实是西班牙最古老的葡萄酒产区之一。据相关记载，该产区早在12世纪就已经在种植葡萄，古罗马人引进了第一批葡萄树。葡萄酒的生产则始于20世纪40年代，那时当地酒农建立了很多酿酒合作社。葡萄种植业是该产区内多个自治市政区的经济支柱。
+
+
+    规格:
+      葡萄酒类型: 桃红葡萄酒
+      葡萄品种: 西拉
+      国家: 西班牙
+      产地: 卡斯蒂利亚-拉曼查
+      含糖量: "> 12g/L(甜型)"
+      酒精度: 7%
+      参考年份: NA
+      规格: 750ml
+      色泽: 鲜艳淡红色
+      口感: 平衡感恰到好处，回味悠久而清新
+      香味: 成熟的红色水果气味
+      重量: 1.30
+      最佳享用期: 2012-2015
+      最佳品尝温度: 7-10℃
+
+
+  antano-08:
+    name: 第一庄08
+    sold_out: false
+
+    title: 第一庄08
+    subtitle: Antano
+    shopid: SP0003
+    keywords: 第一庄08
+    description: 张伟赠与那英的金奖美酒系列
+    original_price: 200
+    price: 128
+    filter: # 多个使用“、”分隔
+      国家: 西班牙
+      含糖量: 干型
+      价格: 101～200
+      用途: 聚会、送礼
+
+    recommendations:
+      - /wine/douglass-hill
+      - /wine/el-brusco
+      - /wine/santa-alba-carmenere
+      - /wine/santiago
+
+    商品描述: |
+      气味浓郁，有橡木、烤玉米及松木味，特别的陈皮香，还有黑色水果的香气。入口酸度适中，单宁紧密平滑、结构更平衡。
+
+    酒庄介绍: |
+      该酒庄酒庄位于里奥哈三大产区中的阿拉瓦里奥哈（Rioja Alavesa）,坎塔布里亚山脉旁，沿埃布罗河，距离哈罗(Haro)4公里。酒庄重视传统与前卫艺术的契合。国际知名艺术家朱尔•迪萨克（Jull Dziamski）所建立的“幻想博物馆”，收藏了最具代表性的作品包括雕塑、绘画以及第一庄的红酒等等。 除了在幻想博物馆永久展出的作品外，酒庄还定期主办文化活动如绘画、食品与品酒艺术。
+
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
+      葡萄品种: 混合品种
+      国家: 西班牙
+      产地: 里奥哈
+      含糖量: "< 4g/L(干型)"
+      酒精度: 13.5%
+      参考年份: 2008
       规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
+      色泽: 宝石红
+      口感: 单宁紧密平滑、结构更平衡
+      香味: 气味浓郁，有橡木、烤玉米及松木味，特别的陈皮香
       重量: 1.30
-      最佳享用期: 2013-2015年
+      最佳享用期: 2012-2016
       最佳品尝温度: 16-18℃
 
 
-  assortment-02:
-    name: 组合01
+  amberhill:
+    name: 琥珀山半干红葡萄酒
     sold_out: false
 
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
+    title: 琥珀山半干红葡萄酒
+    subtitle: Amberhill
+    shopid: AM0002
+    keywords:
+    description: 一款为专女士而作的红葡萄酒,2012年洛杉矶国际葡萄酒大赛-金奖(2010年份),2012河滨国际葡萄酒大赛-银奖(2010年份),2012年美国葡萄酒大赛-银奖(2010年份),2012年圣安东尼奥葡萄酒大赛-金奖(2010年份),2011休斯顿葡萄酒大赛-银奖(2010年份)
+    original_price: 280
+    price: 160
     filter: # 多个使用“、”分隔
       国家: 美国
       含糖量: 半干型
       价格: 101～200
-      用途: 聚会、婚庆、送礼
+      用途: 聚会、送礼、品酒
 
     recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
+      - /wine/chateau-lamothe-castera
+      - /wine/douglass-hill
+      - /wine/l-aura-a
+      - /wine/el-brusco
 
     商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
+      来自世界三大名酒产区——纳帕谷，008年美国女士葡萄酒大赛——银奖，2008年杰瑞，米德新世界国际葡萄酒大赛——银奖。浓郁的冰樱桃以及草莓的果香无缝地融合，带给鼻子沁人心脾的冲击，同事还可以辨析到清幽的雪松，青椒以及特浓咖啡豆的怡人香气。口感如天鹅绒般顺滑。非常合适搭配烤肉，完全地释放出这款葡萄酒应有的魅力。
   
     酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
+
 
     规格:
       葡萄酒类型: 红葡萄酒
       葡萄品种: 赤霞珠
       国家: 美国
       产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
+      含糖量: "4-12g/L(半干型) "
+      酒精度: 12%vol
       参考年份: 2011年
       规格: 750ml
       色泽: 深紫红
-      口感: 口感平和、单宁适中
+      口感: 入口圆滑、平和
       香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
+      重量: 1.32
+      最佳享用期: 2013-2016年
       最佳品尝温度: 16-18℃
 
 
-  assortment-03:
-    name: 组合01
+  wild-hare:
+    name: 野兔干红葡萄酒
     sold_out: false
 
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
+    title: 野兔干红葡萄酒
+    subtitle: Wild Hare
+    shopid: AM0006
+    keywords:
+    description: 黑胡椒以及巧克力的迷人气息，入口后，感受到青椒，辛辣以及橡木桶的口味
+    original_price: 230
+    price: 130
     filter: # 多个使用“、”分隔
       国家: 美国
-      含糖量: 半干型
+      含糖量: 干型
       价格: 101～200
-      用途: 聚会、婚庆、送礼
+      用途: 聚会、品酒
 
     recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
+      - /wine/douglass-hill
+      - /wine/chateau-soubiran
+      - /wine/eagle-ridge
+      - /wine/reillys-shiraz
 
     商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
+      野兔赤霞珠展现出浆果，黑胡椒以及巧克力的迷人气息。入口后，感受到青椒，辛辣以及橡木桶的口味，余味舒服自然。这款酒适合与牛肉，牛肋骨，铁板猪排以及黑巧克力甜点搭配。
 
+    酒庄介绍: |
+      几千年以来，兔子一直与葡萄园有着不解之缘。一方面，当然兔子能够在葡萄园找到鲜嫩多汁的葡萄嫩芽，但是传说似乎赋予了兔子更多的传奇色彩。传说葡萄农一直在葡萄园工作到深夜，发现了一只兔子正奔跑在葡萄藤中，兔子跑过后的葡萄藤马上挂满了累累的葡萄果实。精灵？对，他们就是这么认为的。葡萄园是一个充满葡萄精灵的地方，谁知道他们会以怎样的形式出现呢？看到了野兔，就意味着今天的葡萄收成会是大丰收以及高品质。请和家人朋友享受我们的手工酿制葡萄酒，感受一下野兔的魔法力量。
+  
     规格:
       葡萄酒类型: 红葡萄酒
       葡萄品种: 赤霞珠
       国家: 美国
       产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
+      含糖量: "4=12g/L(半干型)"
+      酒精度: 13.5%vol
+      参考年份: 2012年
       规格: 750ml
       色泽: 深紫红
-      口感: 口感平和、单宁适中
+      口感: 入口柔和、单宁适中
       香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
+      重量: 1.31
+      最佳享用期: 2012-2015年
       最佳品尝温度: 16-18℃
 
 
-  assortment-04:
-    name: 组合01
+  chateau-soubiran:
+    name: 苏比昂城堡
     sold_out: false
 
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
+    title: 苏比昂城堡
+    subtitle: Chateau Soubiran
+    shopid: FR0009
+    keywords: 苏比昂城堡
+    description: 法国南部出产的超高性价比AOC
+    original_price: 250
+    price: 138
     filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
+      国家: 法国
+      含糖量: 干型
+      价格: 500以上
+      用途: 送礼、品酒
 
     recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
+      - /wine/douglass-hill
+      - /wine/amberhill
+      - /wine/chateau-les-conseillans
+      - /wine/chateau-lamothe-castera
 
     商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
+
     酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
+
 
     规格:
       葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
+      葡萄品种: 80%梅洛 20%马尔贝克种
+      国家: 法国
+      产地: 法国-玛芒德
+      含糖量: "< 4g/L(干型)"
+      酒精度: 14%
+      参考年份: 2010
       规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
+      色泽: 石榴红
+      口感: 入口柔和，单宁平衡柔顺，收尾带有明显的烤面包的香气
+      香味: 橡木，烤面包，果浆
+      重量: 1.33
+      最佳享用期: 2015-2020
       最佳品尝温度: 16-18℃
 
 
-  assortment-05:
-    name: 组合01
-    sold_out: false
 
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-06:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-07:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-08:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-09:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-10:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-11:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-12:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-13:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-14:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-15:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-16:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-17:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-18:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-19:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-20
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-20:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-21
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃
-
-
-  assortment-21:
-    name: 组合01
-    sold_out: false
-
-    title: 道组合01
-    subtitle: Douglass Hill
-    shopid: AM0001
-    keywords: 道格拉斯山半干红葡萄酒
-    description: 美国加州销量NO.1，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气
-    original_price: 160
-    price: 88
-    filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、婚庆、送礼
-
-    recommendations:
-      - /assortment/assortment-01
-      - /assortment/assortment-02
-      - /assortment/assortment-03
-      - /assortment/assortment-04
-      - /assortment/assortment-05
-      - /assortment/assortment-06
-      - /assortment/assortment-07
-      - /assortment/assortment-08
-      - /assortment/assortment-09
-      - /assortment/assortment-10
-      - /assortment/assortment-11
-      - /assortment/assortment-12
-      - /assortment/assortment-13
-      - /assortment/assortment-14
-      - /assortment/assortment-15
-      - /assortment/assortment-16
-      - /assortment/assortment-17
-      - /assortment/assortment-18
-      - /assortment/assortment-19
-      - /assortment/assortment-20
-
-    商品描述: |
-      这款酒选用优质的梅乐葡萄，酒液深红浓稠，单宁强健，口感醇厚，散发黑莓和李子的香气。一口饮下，树莓的气息、香草的味道、巧克力的甜蜜与酒中的辛辣浑然一体，完美契合。悠远绵长的回味，好像葡萄生长时的喜悦也溶进了手中的佳酿。
-  
-    酒庄介绍: |
-      道格拉斯山葡萄酒Douglass Hill是Bronco葡萄酒集团的最畅销葡萄酒品牌。Bronco葡萄酒集团是美国第三大的葡萄酒品牌运营商，拥有一系列美国加州的著名品牌，而豆蔻山以其高性价比成为野马葡萄酒集团最畅销的加州餐酒!  
-
-    规格:
-      葡萄酒类型: 红葡萄酒
-      葡萄品种: 赤霞珠
-      国家: 美国
-      产地: 加州AVA产区
-      含糖量: "4-12g/L(半干型)"
-      酒精度: 12.5%vol
-      参考年份: 2011年
-      规格: 750ml
-      色泽: 深紫红
-      口感: 口感平和、单宁适中
-      香味: 果香浓郁
-      重量: 1.30
-      最佳享用期: 2013-2015年
-      最佳品尝温度: 16-18℃

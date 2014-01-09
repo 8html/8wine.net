@@ -1879,8 +1879,8 @@ wine:
     shopid: SP0016
     keywords: 沙露达干红葡萄酒
     description: 成熟红色水果气味，入口清新宜人 
-    original_price: 39
-    price: 39
+    original_price: 80
+    price: 80
     filter: # 多个使用“、”分隔
       国家: 西班牙
       含糖量: 干型
