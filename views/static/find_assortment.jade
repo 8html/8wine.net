@@ -4,8 +4,6 @@ block variables
 extends ../layouts/default
 
 block content
-  - show_only_category = "assortment"
-  include find_partial
   #main-slider.sliderkit.none_if_mobile
     .sliderkit-panels
       .sliderkit-btn.sliderkit-go-btn.sliderkit-go-prev
@@ -16,4 +14,6 @@ block content
           span Next
       .sliderkit-panel
         a()
-          img.lazy(data-src='/images/assortment/billboard-01.jpg', alt='超值组合任意2款立减8元')
+          img.lazy(data-src='/images/assortment/billboard-01.jpg', alt='超值组合任意2款立减8元')  
+  - show_only_category = "assortment"
+  include find_partial
