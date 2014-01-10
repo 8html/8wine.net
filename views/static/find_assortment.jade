@@ -4,9 +4,8 @@ block variables
 extends ../layouts/default
 
 block content
-  .find.show_only_if_mobile
-    - show_only_category = "assortment"
-    include find_partial
+  - show_only_category = "assortment"
+  include find_partial
   #main-slider.sliderkit.none_if_mobile
     .sliderkit-panels
       .sliderkit-btn.sliderkit-go-btn.sliderkit-go-prev
