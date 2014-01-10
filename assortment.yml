@@ -11,10 +11,7 @@ assortment:
     original_price: 120
     price: 73
     filter: # 多个使用“、”分隔
-      国家: 西班牙
-      含糖量: 甜型
-      价格: 100以下
-      用途: 聚会、送礼
+      超值组合: 任意2款组合立减8元
 
     recommendations:
       - /wine/l-aura-a
@@ -56,10 +53,7 @@ assortment:
     original_price: 120
     price: 73
     filter: # 多个使用“、”分隔
-      国家: 西班牙
-      含糖量: 甜型
-      价格: 100以下
-      用途: 聚会、送礼
+      超值组合: 任意2款组合立减8元
 
     recommendations:
       - /wine/l-aura-b
@@ -150,10 +144,7 @@ assortment:
     original_price: 280
     price: 160
     filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 半干型
-      价格: 101～200
-      用途: 聚会、送礼、品酒
+      超值组合: 任意2款组合立减8元
 
     recommendations:
       - /wine/chateau-lamothe-castera
@@ -196,10 +187,7 @@ assortment:
     original_price: 230
     price: 130
     filter: # 多个使用“、”分隔
-      国家: 美国
-      含糖量: 干型
-      价格: 101～200
-      用途: 聚会、品酒
+     超值组合: 任意2款组合立减8元
 
     recommendations:
       - /wine/douglass-hill
@@ -287,10 +275,7 @@ assortment:
     original_price: 130
     price: 78
     filter: # 多个使用“、”分隔
-      国家: 意大利
-      含糖量: 半甜型
-      价格: 100以下
-      用途: 聚会、送礼
+      超值组合: 任意2款组合立减8元
 
     recommendations:
       - /wine/l-aura-b
