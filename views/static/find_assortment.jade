@@ -4,5 +4,17 @@ block variables
 extends ../layouts/default
 
 block content
-  - show_only_category = "assortment"
-  include find_partial
+  .find.show_only_if_mobile
+    - show_only_category = "assortment"
+    include find_partial
+  #main-slider.sliderkit.none_if_mobile
+    .sliderkit-panels
+      .sliderkit-btn.sliderkit-go-btn.sliderkit-go-prev
+        a(href='#', title='Previous')
+          span Previous
+      .sliderkit-btn.sliderkit-go-btn.sliderkit-go-next
+        a(href='#', title='Next')
+          span Next
+      .sliderkit-panel
+        a()
+          img.lazy(data-src='/images/assortment/billboard-01.jpg', alt='超值组合任意2款立减8元')
