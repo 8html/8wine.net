@@ -97,10 +97,7 @@ assortment:
     original_price: 200
     price: 128
     filter: # 多个使用“、”分隔
-      国家: 西班牙
-      含糖量: 干型
-      价格: 101～200
-      用途: 聚会、送礼
+      超值组合: 任意2款组合立减8元
 
     recommendations:
       - /wine/douglass-hill
@@ -230,10 +227,7 @@ assortment:
     original_price: 250
     price: 138
     filter: # 多个使用“、”分隔
-      国家: 法国
-      含糖量: 干型
-      价格: 500以上
-      用途: 送礼、品酒
+      超值组合: 任意2款组合立减8元
 
     recommendations:
       - /wine/douglass-hill
