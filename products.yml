@@ -93,7 +93,7 @@ wine:
 
   stone-hedge-reserve-a:
     name: 宝石篱赤霞珠珍藏
-    sold_out: false
+    sold_out: ture
 
     title: 宝石篱赤霞珠珍藏
     subtitle: Stone Hedge Reserve
@@ -140,7 +140,7 @@ wine:
 
   stone-hedge-reserve-b:
     name: 宝石篱梅乐珍藏
-    sold_out: false
+    sold_out: ture
 
     title: 宝石篱梅乐珍藏
 	
