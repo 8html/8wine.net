@@ -47,7 +47,7 @@ wine:
  
   amberhill:
     name: 琥珀山半干红葡萄酒
-    sold_out: false
+    sold_out: ture
 
     title: 琥珀山半干红葡萄酒
     subtitle: Amberhill
@@ -188,7 +188,7 @@ wine:
 
   eagle-ridge:
     name: 鹰谷半干红葡萄酒
-    sold_out: false
+    sold_out: ture
 
     title: 鹰谷半干红葡萄酒
     subtitle: Eagle Ridge
@@ -324,7 +324,7 @@ wine:
 
   reillys-shiraz:
     name: 拉利精选干红葡萄酒
-    sold_out: false
+    sold_out: ture
 
     title: 拉利精选干红葡萄酒
     subtitle: Reillys Shiraz
@@ -370,7 +370,7 @@ wine:
 
   ryder-shiraz:
     name: 莱德西拉干红葡萄酒
-    sold_out: true
+    sold_out: ture
 
     title: 莱德西拉干红葡萄酒
     subtitle: Ryder Shiraz
